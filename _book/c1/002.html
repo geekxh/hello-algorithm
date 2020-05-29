@@ -1,0 +1,379 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>02.最长公共前缀(14) · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="003.html" />
+    
+    
+    <link rel="prev" href="001.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+          
+<li class="chapter " data-level="1.1" data-path="../" >
+    
+    <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>  
+</li>
+   
+    <li class="divider"></li>
+      
+<li class="chapter " data-level="2.1" >
+    
+                <span>
+            
+                    
+                    PART I
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="2.1.1" data-path="001.html" >
+    
+    <a href="001.html">
+            
+                    
+                    01.两个数组的交集(350)
+            
+                </a>  
+</li>
+
+<li class="chapter active" data-level="2.1.2" data-path="002.html" >
+    
+    <a href="002.html">
+            
+                    
+                    02.最长公共前缀(14)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="2.1.3" data-path="003.html" >
+    
+    <a href="003.html">
+            
+                    
+                    03.买卖股票的最佳时机(122)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="2.2" >
+    
+                <span>
+            
+                    
+                    PART II
+            
+    </span>
+     
+</li>
+  
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="http://www.geekxh.com/">
+
+        </a>
+    </li>
+</ul>
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >02.最长公共前缀(14)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6700;&#x957F;&#x516C;&#x5171;&#x524D;&#x7F00;">&#x6700;&#x957F;&#x516C;&#x5171;&#x524D;&#x7F00;</h1>
+<h3 id="&#x9898;&#x76EE;&#x5206;&#x6790;">&#x9898;&#x76EE;&#x5206;&#x6790;</h3>
+<table>
+<thead>
+<tr>
+<th>&#x9898;&#x76EE;14: &#x6700;&#x957F;&#x516C;&#x5171;&#x524D;&#x7F00;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x6765;&#x67E5;&#x627E;&#x5B57;&#x7B26;&#x4E32;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x6700;&#x957F;&#x516C;&#x5171;&#x524D;&#x7F00;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x5B58;&#x5728;&#x516C;&#x5171;&#x524D;&#x7F00;&#xFF0C;&#x5219;&#x8FD4;&#x56DE;&quot;&quot;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x793A;&#x4F8B;1:</strong></p>
+<pre class="language-"><code>&#x8F93;&#x5165;: [&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]
+&#x8F93;&#x51FA;: &quot;fl&quot;
+</code></pre><p><strong>&#x793A;&#x4F8B; 2:</strong></p>
+<pre class="language-"><code>&#x8F93;&#x5165;: [&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]
+&#x8F93;&#x51FA;: &quot;&quot;
+</code></pre><p>&#x89E3;&#x91CA;: </p>
+<ul>
+<li>&#x8F93;&#x5165;&#x4E0D;&#x5B58;&#x5728;&#x516C;&#x5171;&#x524D;&#x7F00;&#x3002;</li>
+</ul>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>&#x6240;&#x6709;&#x8F93;&#x5165;&#x53EA;&#x5305;&#x542B;&#x5C0F;&#x5199;&#x5B57;&#x6BCD; a-z </li>
+</ul>
+<blockquote>
+<p>&#x6211;&#x4EEC;&#x8981;&#x60F3;&#x5BFB;&#x627E;&#x6700;&#x957F;&#x516C;&#x5171;&#x524D;&#x7F00;&#xFF0C;&#x90A3;&#x4E48;<strong>&#x9996;&#x5148;&#x8FD9;&#x4E2A;&#x524D;&#x7F00;&#x662F;&#x516C;&#x5171;&#x7684;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4ECE;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x4E2D;&#x627E;&#x5230;&#x5B83;</strong>&#x3002;&#x5047;&#x5B9A;&#x6211;&#x4EEC;&#x73B0;&#x5728;&#x5C31;&#x4ECE;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x4E2D;&#x5BFB;&#x627E;&#x6700;&#x957F;&#x516C;&#x5171;&#x524D;&#x7F00;&#xFF0C;&#x90A3;&#x4E48;&#x9996;&#x5148;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5C06;&#x7B2C;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x8BBE;&#x7F6E;&#x4E3A;&#x57FA;&#x51C6;&#x5143;&#x7D20;x0&#x3002;&#x5047;&#x5982;&#x6570;&#x7EC4;&#x4E3A;[&quot;flow&quot;,&quot;flower&quot;,&quot;flight&quot;]&#xFF0C;flow&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x7684;&#x57FA;&#x51C6;&#x5143;&#x7D20;x0&#x3002;</p>
+</blockquote>
+<p>&#x7136;&#x540E;&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;<strong>&#x4F9D;&#x6B21;&#x5C06;&#x57FA;&#x51C6;&#x5143;&#x7D20;&#x548C;&#x540E;&#x9762;&#x7684;&#x5143;&#x7D20;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;</strong>&#xFF08;&#x5047;&#x5B9A;&#x540E;&#x9762;&#x7684;&#x5143;&#x7D20;&#x4F9D;&#x6B21;&#x4E3A;x1,x2,x3....&#xFF09;&#xFF0C;<strong>&#x4E0D;&#x65AD;&#x66F4;&#x65B0;&#x57FA;&#x51C6;&#x5143;&#x7D20;&#xFF0C;&#x76F4;&#x5230;&#x57FA;&#x51C6;&#x5143;&#x7D20;&#x548C;&#x6240;&#x6709;&#x5143;&#x7D20;&#x90FD;&#x6EE1;&#x8DB3;&#x6700;&#x957F;&#x516C;&#x5171;&#x524D;&#x7F00;&#x7684;&#x6761;&#x4EF6;</strong>&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x6700;&#x957F;&#x516C;&#x5171;&#x524D;&#x7F00;&#x3002;</p>
+<p>&#x5177;&#x4F53;&#x6BD4;&#x5BF9;&#x8FC7;&#x7A0B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ul>
+<li>&#x5982;&#x679C;strings.Index(x1,x) == 0&#xFF0C;&#x5219;&#x76F4;&#x63A5;&#x8DF3;&#x8FC7;&#xFF08;&#x56E0;&#x4E3A;&#x6B64;&#x65F6;x&#x5C31;&#x662F;x1&#x7684;&#x6700;&#x957F;&#x516C;&#x5171;&#x524D;&#x7F00;&#xFF09;&#xFF0C;&#x5BF9;&#x6BD4;&#x4E0B;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x3002;&#xFF08;&#x5982;flower&#x548C;flow&#x8FDB;&#x884C;&#x6BD4;&#x8F83;&#xFF09;</li>
+<li>&#x5982;&#x679C;strings.Index(x1,x) != 0, &#x5219;&#x622A;&#x53D6;&#x6389;&#x57FA;&#x51C6;&#x5143;&#x7D20;x&#x7684;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x518D;&#x6B21;&#x548C;x1&#x8FDB;&#x884C;&#x6BD4;&#x8F83;&#xFF0C;&#x76F4;&#x81F3;&#x6EE1;&#x8DB3;string.Index(x1,x) == 0&#xFF0C;&#x6B64;&#x65F6;&#x622A;&#x53D6;&#x540E;&#x7684;x&#x4E3A;x&#x548C;x1&#x7684;&#x6700;&#x957F;&#x516C;&#x5171;&#x524D;&#x7F00;&#x3002;&#xFF08;&#x5982;flight&#x548C;flow&#x8FDB;&#x884C;&#x6BD4;&#x8F83;&#xFF0C;&#x4F9D;&#x6B21;&#x622A;&#x53D6;&#x51FA;flow-flo-fl&#xFF0C;&#x76F4;&#x5230;fl&#x88AB;&#x622A;&#x53D6;&#x51FA;&#xFF0C;&#x6B64;&#x65F6;fl&#x4E3A;flight&#x548C;flow&#x7684;&#x6700;&#x957F;&#x516C;&#x5171;&#x524D;&#x7F00;&#xFF09;</li>
+</ul>
+<p>&#x5177;&#x4F53;&#x8FC7;&#x7A0B;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF1A;</p>
+<p><img src="002/1.png" alt="PNG" style="zoom: 50%;"></p>
+<blockquote>
+<p>&#x6211;&#x4EEC;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x5728;&#x5904;&#x7406;&#x57FA;&#x51C6;&#x5143;&#x7D20;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;<strong>&#x5982;&#x679C;&#x57FA;&#x51C6;&#x5143;&#x7D20;&#x548C;&#x4EFB;&#x4E00;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x65E0;&#x6CD5;&#x5339;&#x914D;&#xFF0C;&#x5219;&#x8BF4;&#x660E;&#x4E0D;&#x5B58;&#x5728;&#x6700;&#x957F;&#x516C;&#x5171;&#x5143;&#x7D20;&#x3002;</strong></p>
+</blockquote>
+<p>&#x6700;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x8BB0;&#x5F97;&#x5904;&#x7406;&#x4E00;&#x4E0B;&#x4E34;&#x754C;&#x6761;&#x4EF6;&#x3002;&#x5982;&#x679C;&#x7ED9;&#x5B9A;&#x6570;&#x7EC4;&#x662F;&#x7A7A;&#xFF0C;&#x4E5F;&#x8BF4;&#x660E;&#x6CA1;&#x6709;&#x6700;&#x957F;&#x516C;&#x5171;&#x5143;&#x7D20;&#x3002;</p>
+<p>&#x7136;&#x540E;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x5F00;&#x59CB;&#x5199;&#x6211;&#x4EEC;&#x7684;&#x4EE3;&#x7801;&#x4E86;&#x3002;</p>
+<h3 id="02&#x3001;&#x9898;&#x76EE;&#x89E3;&#x7B54;">02&#x3001;&#x9898;&#x76EE;&#x89E3;&#x7B54;</h3>
+<p>&#x6839;&#x636E;&#x5206;&#x6790;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5BB9;&#x6613;&#x5F97;&#x5230;&#x4E0B;&#x9762;&#x7684;&#x9898;&#x89E3;&#xFF1A;</p>
+<pre class="language-"><code class="lang-go"><span class="token keyword">func</span> <span class="token function">longestCommonPrefix</span><span class="token punctuation">(</span>strs <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token builtin">string</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token function">len</span><span class="token punctuation">(</span>strs<span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">1</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token string">&quot;&quot;</span>
+    <span class="token punctuation">}</span>
+    prefix <span class="token operator">:=</span> strs<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+    <span class="token keyword">for</span> <span class="token boolean">_</span><span class="token punctuation">,</span>k <span class="token operator">:=</span> <span class="token keyword">range</span> strs <span class="token punctuation">{</span>
+        <span class="token keyword">for</span> strings<span class="token punctuation">.</span><span class="token function">Index</span><span class="token punctuation">(</span>k<span class="token punctuation">,</span>prefix<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token number">0</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token function">len</span><span class="token punctuation">(</span>prefix<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span> <span class="token punctuation">{</span>
+                <span class="token keyword">return</span> <span class="token string">&quot;&quot;</span>
+            <span class="token punctuation">}</span>
+            prefix <span class="token operator">=</span> prefix<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token function">len</span><span class="token punctuation">(</span>prefix<span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> prefix
+<span class="token punctuation">}</span>
+</code></pre>
+<p>&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#xFF1A;</p>
+<p><img src="002/2.jpg" alt="PNG" style="zoom: 50%;"></p>
+<p>&#x5F53;&#x7136;&#xFF0C;&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x5206;&#x6CBB;&#x6CD5;&#x6216;&#x8005;&#x5176;&#x4ED6;&#x65B9;&#x6CD5;&#x6765;&#x89E3;&#x7B54;&#x8FD9;&#x9053;&#x9898;&#x76EE;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x5C1D;&#x8BD5;&#x5C1D;&#x8BD5;&#x54C8;&#x3002;&#x6211;&#x4EEC;&#x4E0B;&#x671F;&#x89C1;&#xFF01;</p>
+<hr>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="001.html" class="navigation navigation-prev " aria-label="Previous page: 01.两个数组的交集(350)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="003.html" class="navigation navigation-next " aria-label="Next page: 03.买卖股票的最佳时机(122)">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"02.最长公共前缀(14)","level":"2.1.2","depth":2,"next":{"title":"03.买卖股票的最佳时机(122)","level":"2.1.3","depth":2,"path":"c1/003.md","ref":"c1/003.md","articles":[]},"previous":{"title":"01.两个数组的交集(350)","level":"2.1.1","depth":2,"path":"c1/001.md","ref":"c1/001.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","toc","disqus","github","prism","-highlight","baidu","splitter","sitemap","livereload"],"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"webpack-handbook"},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"livereload":{},"splitter":{},"toc":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhaoda.net/"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"c1/002.md","mtime":"2020-05-29T16:04:08.548Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-29T16:18:54.382Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-baidu/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
