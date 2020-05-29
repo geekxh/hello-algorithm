@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 'lts/*'
+before_install:
+  - npm install -g npm
+cache:
+  directories:
+    - node_modules
+script:
+  - npm test

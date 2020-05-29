@@ -1,0 +1,21 @@
+{
+  "name": "sitemap.js",
+  "main": "index.js",
+  "version": "1.5.0",
+  "dependencies": {
+    "url-join": "^0.0.1",
+    "underscore": "1.7.0"
+  },
+  "devDependencies": {
+    "expresso": "^0.9.2"
+  },
+  "homepage": "https://github.com/ekalinin/sitemap.js",
+  "authors": [
+    "Eugene Kalinin <e.v.kalinin@gmail.com>"
+  ],
+  "description": "Sitemap-generating framework",
+  "keywords": [
+    "sitemap"
+  ],
+  "license": "MIT"
+}

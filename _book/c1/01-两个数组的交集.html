@@ -1,0 +1,505 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>01.两个数组的交集(题号：350) · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="01-两个数组的交集.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    PART I
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1.1" data-path="01-两个数组的交集.html">
+            
+                <a href="01-两个数组的交集.html">
+            
+                    
+                    01.两个数组的交集(题号：350)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.2" data-path="01-两个数组的交集.html">
+            
+                <a href="01-两个数组的交集.html">
+            
+                    
+                    01.两个数组的交集(题号：350)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.3" data-path="01-两个数组的交集.html">
+            
+                <a href="01-两个数组的交集.html">
+            
+                    
+                    01.两个数组的交集(题号：350)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.4" data-path="01-两个数组的交集.html">
+            
+                <a href="01-两个数组的交集.html">
+            
+                    
+                    01.两个数组的交集(题号：350)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" >
+            
+                <span>
+            
+                    
+                    PART II
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.2.1" data-path="01-两个数组的交集.html">
+            
+                <a href="01-两个数组的交集.html">
+            
+                    
+                    01.两个数组的交集(题号：350)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2.2" data-path="01-两个数组的交集.html">
+            
+                <a href="01-两个数组的交集.html">
+            
+                    
+                    01.两个数组的交集(题号：350)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2.3" data-path="01-两个数组的交集.html">
+            
+                <a href="01-两个数组的交集.html">
+            
+                    
+                    01.两个数组的交集(题号：350)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2.4" data-path="01-两个数组的交集.html">
+            
+                <a href="01-两个数组的交集.html">
+            
+                    
+                    01.两个数组的交集(题号：350)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >01.两个数组的交集(题号：350)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x4EA4;&#x96C6;">&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x4EA4;&#x96C6;</h1>
+<h3 id="01&#x3001;&#x9898;&#x76EE;&#x5206;&#x6790;">01&#x3001;&#x9898;&#x76EE;&#x5206;&#x6790;</h3>
+<p>&#x6211;&#x4EEC;&#x5148;&#x6765;&#x770B;&#x4E00;&#x9053;&#x9898;&#x76EE;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x7B2C;350&#x9898;&#xFF1A;&#x7ED9;&#x5B9A;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#xFF0C;&#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x6765;&#x8BA1;&#x7B97;&#x5B83;&#x4EEC;&#x7684;&#x4EA4;&#x96C6;&#x3002;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x793A;&#x4F8B; 1:</strong></p>
+<pre class="language-"><code>&#x8F93;&#x5165;: nums1 = [1,2,2,1], nums2 = [2,2]
+
+&#x8F93;&#x51FA;: [2,2]
+</code></pre><p><strong>&#x793A;&#x4F8B; 2:</strong></p>
+<pre class="language-"><code>&#x8F93;&#x5165;: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+
+&#x8F93;&#x51FA;: [4,9]
+</code></pre><p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<ul>
+<li>&#x8F93;&#x51FA;&#x7ED3;&#x679C;&#x4E2D;&#x6BCF;&#x4E2A;&#x5143;&#x7D20;&#x51FA;&#x73B0;&#x7684;&#x6B21;&#x6570;&#xFF0C;&#x5E94;&#x4E0E;&#x5143;&#x7D20;&#x5728;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x6B21;&#x6570;&#x4E00;&#x81F4;&#x3002;</li>
+<li>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4E0D;&#x8003;&#x8651;&#x8F93;&#x51FA;&#x7ED3;&#x679C;&#x7684;&#x987A;&#x5E8F;&#x3002;</li>
+</ul>
+<p>&#x8FDB;&#x9636;:  </p>
+<ul>
+<li>&#x5982;&#x679C;&#x7ED9;&#x5B9A;&#x7684;&#x6570;&#x7EC4;&#x5DF2;&#x7ECF;&#x6392;&#x597D;&#x5E8F;&#x5462;&#xFF1F;&#x5C06;&#x5982;&#x4F55;&#x4F18;&#x5316;&#x4F60;&#x7684;&#x7B97;&#x6CD5;&#x5462;&#xFF1F;</li>
+</ul>
+<p>&#x601D;&#x8DEF;&#xFF1A;&#x8BBE;&#x5B9A;&#x4E24;&#x4E2A;&#x4E3A;0&#x7684;&#x6307;&#x9488;&#xFF0C;&#x6BD4;&#x8F83;&#x4E24;&#x4E2A;&#x6307;&#x9488;&#x7684;&#x5143;&#x7D20;&#x662F;&#x5426;&#x76F8;&#x7B49;&#x3002;&#x5982;&#x679C;&#x6307;&#x9488;&#x7684;&#x5143;&#x7D20;&#x76F8;&#x7B49;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x4E24;&#x4E2A;&#x6307;&#x9488;&#x4E00;&#x8D77;&#x5411;&#x540E;&#x79FB;&#x52A8;&#xFF0C;&#x5E76;&#x4E14;&#x5C06;&#x76F8;&#x7B49;&#x7684;&#x5143;&#x7D20;&#x653E;&#x5165;&#x7A7A;&#x767D;&#x6570;&#x7EC4;&#x3002;</p>
+<blockquote>
+<p>&#x9996;&#x5148;&#x62FF;&#x5230;&#x8FD9;&#x9053;&#x9898;&#xFF0C;&#x6211;&#x4EEC;&#x57FA;&#x672C;&#x9A6C;&#x4E0A;&#x53EF;&#x4EE5;&#x60F3;&#x5230;&#xFF0C;&#x6B64;&#x9898;&#x53EF;&#x4EE5;&#x770B;&#x6210;&#x662F;&#x4E00;&#x9053;&#x4F20;&#x7EDF;&#x7684;<strong>&#x6620;&#x5C04;&#x9898;&#xFF08;map&#x6620;&#x5C04;&#xFF09;</strong>&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x53EF;&#x4EE5;&#x8FD9;&#x6837;&#x770B;&#x5462;&#xFF0C;&#x56E0;&#x4E3A;<strong>&#x6211;&#x4EEC;&#x9700;&#x627E;&#x51FA;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x4EA4;&#x96C6;&#x5143;&#x7D20;&#xFF0C;&#x540C;&#x65F6;&#x5E94;&#x4E0E;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x6B21;&#x6570;&#x4E00;&#x81F4;&#x3002;&#x8FD9;&#x6837;&#x5C31;&#x5BFC;&#x81F4;&#x4E86;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x77E5;&#x9053;&#x6BCF;&#x4E2A;&#x503C;&#x51FA;&#x73B0;&#x7684;&#x6B21;&#x6570;&#xFF0C;&#x6240;&#x4EE5;&#x6620;&#x5C04;&#x5173;&#x7CFB;&#x5C31;&#x6210;&#x4E86;&lt;&#x5143;&#x7D20;,&#x51FA;&#x73B0;&#x6B21;&#x6570;&gt;</strong>&#x3002;&#x5269;&#x4E0B;&#x7684;&#x5C31;&#x662F;&#x987A;&#x5229;&#x6210;&#x7AE0;&#x7684;&#x89E3;&#x9898;&#x3002;</p>
+</blockquote>
+<p>&#x7531;&#x4E8E;&#x8BE5;&#x79CD;&#x89E3;&#x6CD5;&#x8FC7;&#x4E8E;&#x7B80;&#x5355;&#xFF0C;&#x6211;&#x4EEC;&#x4E0D;&#x505A;&#x8FDB;&#x4E00;&#x6B65;&#x5206;&#x6790;&#xFF0C;&#x76F4;&#x63A5;&#x7ED9;&#x51FA;&#x9898;&#x89E3;&#xFF1A;</p>
+<pre class="language-"><code class="lang-go"><span class="token keyword">func</span> <span class="token function">intersect</span><span class="token punctuation">(</span>nums1 <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">,</span> nums2 <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span> <span class="token punctuation">{</span>
+    m0 <span class="token operator">:=</span> <span class="token keyword">map</span><span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token keyword">for</span> <span class="token boolean">_</span><span class="token punctuation">,</span> v <span class="token operator">:=</span> <span class="token keyword">range</span> nums1 <span class="token punctuation">{</span>
+        <span class="token comment">//&#x904D;&#x5386;nums1&#xFF0C;&#x521D;&#x59CB;&#x5316;map</span>
+        m0<span class="token punctuation">[</span>v<span class="token punctuation">]</span> <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token punctuation">}</span>
+    k <span class="token operator">:=</span> <span class="token number">0</span>
+    <span class="token keyword">for</span> <span class="token boolean">_</span><span class="token punctuation">,</span> v <span class="token operator">:=</span> <span class="token keyword">range</span> nums2 <span class="token punctuation">{</span>
+        <span class="token comment">//&#x5982;&#x679C;&#x5143;&#x7D20;&#x76F8;&#x540C;&#xFF0C;&#x5C06;&#x5176;&#x5B58;&#x5165;nums2&#x4E2D;&#xFF0C;&#x5E76;&#x5C06;&#x51FA;&#x73B0;&#x6B21;&#x6570;&#x51CF;1</span>
+        <span class="token keyword">if</span> m0<span class="token punctuation">[</span>v<span class="token punctuation">]</span> <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token punctuation">{</span>
+            m0<span class="token punctuation">[</span>v<span class="token punctuation">]</span> <span class="token operator">-=</span><span class="token number">1</span>
+            nums2<span class="token punctuation">[</span>k<span class="token punctuation">]</span> <span class="token operator">=</span> v
+            k<span class="token operator">++</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> nums2<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">:</span>k<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#xFF0C;&#x76F8;&#x4FE1;&#x5927;&#x5BB6;&#x90FD;&#x80FD;&#x770B;&#x7684;&#x61C2;&#xFF01;</p>
+<h3 id="02&#x3001;&#x9898;&#x76EE;&#x8FDB;&#x9636;">02&#x3001;&#x9898;&#x76EE;&#x8FDB;&#x9636;</h3>
+<blockquote>
+<p>&#x9898;&#x76EE;&#x5728;&#x8FDB;&#x9636;&#x95EE;&#x9898;&#x4E2D;&#x95EE;&#x9053;&#xFF1A;&#x5982;&#x679C;&#x7ED9;&#x5B9A;&#x7684;&#x6570;&#x7EC4;&#x5DF2;&#x7ECF;&#x6392;&#x597D;&#x5E8F;&#x5462;&#xFF1F;&#x4F60;&#x5C06;&#x5982;&#x4F55;&#x4F18;&#x5316;&#x4F60;&#x7684;&#x7B97;&#x6CD5;&#xFF1F;&#x6211;&#x4EEC;&#x5206;&#x6790;&#x4E00;&#x4E0B;&#xFF0C;&#x5047;&#x5982;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x90FD;&#x662F;&#x6709;&#x5E8F;&#x7684;&#xFF0C;&#x5206;&#x522B;&#x4E3A;&#xFF1A;arr1 = [1,2,3,4,4,13]&#xFF0C;arr2 = [1,2,3,9,10]</p>
+</blockquote>
+<p><img src="01-&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x4EA4;&#x96C6;/1-1.jpg" alt="PNG"></p>
+<p>&#x5BF9;&#x4E8E;&#x4E24;&#x4E2A;&#x5DF2;&#x7ECF;&#x6392;&#x5E8F;&#x597D;&#x6570;&#x7EC4;&#x7684;&#x9898;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5F88;&#x5BB9;&#x6613;&#x60F3;&#x5230;&#x4F7F;&#x7528;&#x53CC;&#x6307;&#x9488;&#x7684;&#x89E3;&#x6CD5;~</p>
+<p>&#x89E3;&#x9898;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><1>&#x8BBE;&#x5B9A;&#x4E24;&#x4E2A;&#x4E3A;0&#x7684;&#x6307;&#x9488;&#xFF0C;<strong>&#x6BD4;&#x8F83;&#x4E24;&#x4E2A;&#x6307;&#x9488;&#x7684;&#x5143;&#x7D20;&#x662F;&#x5426;&#x76F8;&#x7B49;&#x3002;</strong>&#x5982;&#x679C;&#x6307;&#x9488;&#x7684;&#x5143;&#x7D20;&#x76F8;&#x7B49;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x4E24;&#x4E2A;&#x6307;&#x9488;&#x4E00;&#x8D77;&#x5411;&#x540E;&#x79FB;&#x52A8;&#xFF0C;&#x5E76;&#x4E14;&#x5C06;&#x76F8;&#x7B49;&#x7684;&#x5143;&#x7D20;&#x653E;&#x5165;&#x7A7A;&#x767D;&#x6570;&#x7EC4;&#x3002;&#x4E0B;&#x56FE;&#x4E2D;&#x6211;&#x4EEC;&#x7684;&#x6307;&#x9488;&#x5206;&#x522B;&#x6307;&#x5411;&#x7B2C;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x5224;&#x65AD;&#x5143;&#x7D20;&#x76F8;&#x7B49;&#x4E4B;&#x540E;&#xFF0C;&#x5C06;&#x76F8;&#x540C;&#x5143;&#x7D20;&#x653E;&#x5230;&#x7A7A;&#x767D;&#x7684;&#x6570;&#x7EC4;&#x3002;</1></p>
+<p><img src="01-&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x4EA4;&#x96C6;/1-2.png" alt="PNG"></p>
+<p><2>&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x6307;&#x9488;&#x7684;&#x5143;&#x7D20;&#x4E0D;&#x76F8;&#x7B49;&#xFF0C;<strong>&#x6211;&#x4EEC;&#x5C06;&#x5C0F;&#x7684;&#x4E00;&#x4E2A;&#x6307;&#x9488;&#x540E;&#x79FB;&#x3002;</strong>&#x56FE;&#x4E2D;&#x6211;&#x4EEC;&#x6307;&#x9488;&#x79FB;&#x5230;&#x4E0B;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x5224;&#x65AD;&#x4E0D;&#x76F8;&#x7B49;&#x4E4B;&#x540E;&#xFF0C;&#x5C06;&#x5143;&#x7D20;&#x5C0F;&#x7684;&#x6307;&#x9488;&#x5411;&#x540E;&#x79FB;&#x52A8;&#xFF0C;&#x7EE7;&#x7EED;&#x8FDB;&#x884C;&#x5224;&#x65AD;&#x3002;</2></p>
+<p><img src="01-&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x4EA4;&#x96C6;/1-3.png" alt="PNG"></p>
+<p><3>&#x53CD;&#x590D;&#x4EE5;&#x4E0A;&#x6B65;&#x9AA4;&#x3002;</3></p>
+<p><img src="01-&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x4EA4;&#x96C6;/1-4.png" alt="PNG"></p>
+<p><4>&#x76F4;&#x5230;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x7EC8;&#x6B62;&#x3002;</4></p>
+<p><img src="01-&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x4EA4;&#x96C6;/1-5.png" alt="PNG"></p>
+<h3 id="03&#x3001;&#x9898;&#x76EE;&#x89E3;&#x7B54;">03&#x3001;&#x9898;&#x76EE;&#x89E3;&#x7B54;</h3>
+<p>&#x6839;&#x636E;&#x5206;&#x6790;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5BB9;&#x6613;&#x5F97;&#x5230;&#x4E0B;&#x9762;&#x7684;&#x9898;&#x89E3;&#xFF1A;</p>
+<pre class="language-"><code class="lang-go"><span class="token keyword">func</span> <span class="token function">intersect</span><span class="token punctuation">(</span>nums1 <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">,</span> nums2 <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span> <span class="token punctuation">{</span>
+    i<span class="token punctuation">,</span> j<span class="token punctuation">,</span> k <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span>
+    sort<span class="token punctuation">.</span><span class="token function">Ints</span><span class="token punctuation">(</span>nums1<span class="token punctuation">)</span>
+    sort<span class="token punctuation">.</span><span class="token function">Ints</span><span class="token punctuation">(</span>nums2<span class="token punctuation">)</span>
+    <span class="token keyword">for</span> i <span class="token operator">&lt;</span> <span class="token function">len</span><span class="token punctuation">(</span>nums1<span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> j <span class="token operator">&lt;</span> <span class="token function">len</span><span class="token punctuation">(</span>nums2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> nums1<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&gt;</span> nums2<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token punctuation">{</span>
+            j<span class="token operator">++</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> nums1<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&lt;</span> nums2<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token punctuation">{</span>
+            i<span class="token operator">++</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+            nums1<span class="token punctuation">[</span>k<span class="token punctuation">]</span> <span class="token operator">=</span> nums1<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+            i<span class="token operator">++</span>
+            j<span class="token operator">++</span>
+            k<span class="token operator">++</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> nums1<span class="token punctuation">[</span><span class="token punctuation">:</span>k<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<blockquote>
+<p>&#x63D0;&#x793A;&#xFF1A;&#x89E3;&#x7B54;&#x4E2D;&#x6211;&#x4EEC;&#x5E76;&#x6CA1;&#x6709;&#x521B;&#x5EFA;&#x7A7A;&#x767D;&#x6570;&#x7EC4;&#xFF0C;&#x56E0;&#x4E3A;&#x904D;&#x5386;&#x540E;&#x7684;&#x6570;&#x7EC4;&#x5176;&#x5B9E;&#x5C31;&#x6CA1;&#x7528;&#x4E86;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;<strong>&#x5C06;&#x76F8;&#x7B49;&#x7684;&#x5143;&#x7D20;&#x653E;&#x5165;&#x7528;&#x8FC7;&#x7684;&#x6570;&#x7EC4;&#x4E2D;&#xFF0C;&#x5C31;&#x4E3A;&#x6211;&#x4EEC;&#x8282;&#x7701;&#x4E0B;&#x4E86;&#x7A7A;&#x95F4;</strong>&#x3002;</p>
+</blockquote>
+<hr>
+<p>&#x6CE8;&#xFF1A;&#x672C;&#x7CFB;&#x5217;&#x6240;&#x6709;&#x6559;&#x7A0B;&#x4E2D;&#x90FD;&#x4E0D;&#x4F1A;&#x7528;&#x5230;&#x590D;&#x6742;&#x7684;&#x8BED;&#x8A00;&#x7279;&#x6027;&#xFF0C;&#x5927;&#x5BB6;&#x4E0D;&#x9700;&#x8981;&#x62C5;&#x5FC3;&#x6CA1;&#x6709;&#x5B66;&#x8FC7;go&#x3002;&#x7B97;&#x6CD5;&#x601D;&#x60F3;&#x6700;&#x91CD;&#x8981;&#xFF0C;&#x4F7F;&#x7528;go&#x7EAF;&#x5C5E;&#x672C;&#x4EBA;&#x7231;&#x597D;&#x3002;&#x540C;&#x65F6;&#xFF0C;&#x672C;&#x7CFB;&#x5217;&#x6240;&#x6709;&#x4EE3;&#x7801;&#x5747;&#x5728;leetcode&#x4E0A;&#x8FDB;&#x884C;&#x8FC7;&#x6D4B;&#x8BD5;&#x8FD0;&#x884C;&#xFF0C;&#x4FDD;&#x8BC1;&#x5176;&#x4E25;&#x8C28;&#x6027;&#xFF01;&#x153;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="01-两个数组的交集.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 01.两个数组的交集(题号：350)">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"01.两个数组的交集(题号：350)","level":"2.1.1","depth":2,"next":{"title":"01.两个数组的交集(题号：350)","level":"2.1.2","depth":2,"path":"c1/01-两个数组的交集.md","ref":"c1/01-两个数组的交集.md","articles":[]},"previous":{"title":"PART I","level":"2.1","depth":1,"ref":"","articles":[{"title":"01.两个数组的交集(题号：350)","level":"2.1.1","depth":2,"path":"c1/01-两个数组的交集.md","ref":"c1/01-两个数组的交集.md","articles":[]},{"title":"01.两个数组的交集(题号：350)","level":"2.1.2","depth":2,"path":"c1/01-两个数组的交集.md","ref":"c1/01-两个数组的交集.md","articles":[]},{"title":"01.两个数组的交集(题号：350)","level":"2.1.3","depth":2,"path":"c1/01-两个数组的交集.md","ref":"c1/01-两个数组的交集.md","articles":[]},{"title":"01.两个数组的交集(题号：350)","level":"2.1.4","depth":2,"path":"c1/01-两个数组的交集.md","ref":"c1/01-两个数组的交集.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toc","disqus","github","editlink","prism","-highlight","baidu","splitter","sitemap","livereload"],"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"webpack-handbook"},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://github.com/zhaoda/webpack-handbook/blob/master/content"},"livereload":{},"splitter":{},"toc":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhaoda.net/"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"c1/01-两个数组的交集.md","mtime":"2020-05-29T07:02:17.070Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-29T07:22:33.139Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-baidu/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
