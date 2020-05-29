@@ -2,18 +2,14 @@
     "plugins": [
         "expandable-chapters",
         "toc",
-        "disqus",
         "github",
         "prism",
         "-highlight",
-        "baidu",
         "splitter",
-        "sitemap"
+        "sitemap",
+        "code"
     ],
     "pluginsConfig": {
-        "disqus": {
-            "shortName": "webpack-handbook"
-        },
         "github": {
             "url": "https://github.com/zhaoda/webpack-handbook"
         },

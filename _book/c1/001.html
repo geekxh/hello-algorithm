@@ -21,15 +21,15 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
                 
             
                 
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
                 
             
                 
@@ -163,9 +163,7 @@
     <li class="divider"></li>
 
     <li>
-        <a href="http://www.geekxh.com/">
-
-        </a>
+        <!-- <img src="./avatar.jpeg"  width="200" height="200"/> -->
     </li>
 </ul>
 
@@ -238,7 +236,8 @@
 <p>&#x9996;&#x5148;&#x62FF;&#x5230;&#x8FD9;&#x9053;&#x9898;&#xFF0C;&#x6211;&#x4EEC;&#x57FA;&#x672C;&#x9A6C;&#x4E0A;&#x53EF;&#x4EE5;&#x60F3;&#x5230;&#xFF0C;&#x6B64;&#x9898;&#x53EF;&#x4EE5;&#x770B;&#x6210;&#x662F;&#x4E00;&#x9053;&#x4F20;&#x7EDF;&#x7684;<strong>&#x6620;&#x5C04;&#x9898;&#xFF08;map&#x6620;&#x5C04;&#xFF09;</strong>&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x53EF;&#x4EE5;&#x8FD9;&#x6837;&#x770B;&#x5462;&#xFF0C;&#x56E0;&#x4E3A;<strong>&#x6211;&#x4EEC;&#x9700;&#x627E;&#x51FA;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x4EA4;&#x96C6;&#x5143;&#x7D20;&#xFF0C;&#x540C;&#x65F6;&#x5E94;&#x4E0E;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x6B21;&#x6570;&#x4E00;&#x81F4;&#x3002;&#x8FD9;&#x6837;&#x5C31;&#x5BFC;&#x81F4;&#x4E86;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x77E5;&#x9053;&#x6BCF;&#x4E2A;&#x503C;&#x51FA;&#x73B0;&#x7684;&#x6B21;&#x6570;&#xFF0C;&#x6240;&#x4EE5;&#x6620;&#x5C04;&#x5173;&#x7CFB;&#x5C31;&#x6210;&#x4E86;&lt;&#x5143;&#x7D20;,&#x51FA;&#x73B0;&#x6B21;&#x6570;&gt;</strong>&#x3002;&#x5269;&#x4E0B;&#x7684;&#x5C31;&#x662F;&#x987A;&#x5229;&#x6210;&#x7AE0;&#x7684;&#x89E3;&#x9898;&#x3002;</p>
 </blockquote>
 <p>&#x7531;&#x4E8E;&#x8BE5;&#x79CD;&#x89E3;&#x6CD5;&#x8FC7;&#x4E8E;&#x7B80;&#x5355;&#xFF0C;&#x6211;&#x4EEC;&#x4E0D;&#x505A;&#x8FDB;&#x4E00;&#x6B65;&#x5206;&#x6790;&#xFF0C;&#x76F4;&#x63A5;&#x7ED9;&#x51FA;&#x9898;&#x89E3;&#xFF1A;</p>
-<pre class="language-"><code class="lang-go"><span class="token keyword">func</span> <span class="token function">intersect</span><span class="token punctuation">(</span>nums1 <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">,</span> nums2 <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span> <span class="token punctuation">{</span>
+<pre class="language-"><code class="lang-go"><span class="token comment">//GO</span>
+<span class="token keyword">func</span> <span class="token function">intersect</span><span class="token punctuation">(</span>nums1 <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">,</span> nums2 <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span> <span class="token punctuation">{</span>
     m0 <span class="token operator">:=</span> <span class="token keyword">map</span><span class="token punctuation">[</span><span class="token builtin">int</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
     <span class="token keyword">for</span> <span class="token boolean">_</span><span class="token punctuation">,</span> v <span class="token operator">:=</span> <span class="token keyword">range</span> nums1 <span class="token punctuation">{</span>
         <span class="token comment">//&#x904D;&#x5386;nums1&#xFF0C;&#x521D;&#x59CB;&#x5316;map</span>
@@ -297,7 +296,6 @@
 <p>&#x63D0;&#x793A;&#xFF1A;&#x89E3;&#x7B54;&#x4E2D;&#x6211;&#x4EEC;&#x5E76;&#x6CA1;&#x6709;&#x521B;&#x5EFA;&#x7A7A;&#x767D;&#x6570;&#x7EC4;&#xFF0C;&#x56E0;&#x4E3A;&#x904D;&#x5386;&#x540E;&#x7684;&#x6570;&#x7EC4;&#x5176;&#x5B9E;&#x5C31;&#x6CA1;&#x7528;&#x4E86;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;<strong>&#x5C06;&#x76F8;&#x7B49;&#x7684;&#x5143;&#x7D20;&#x653E;&#x5165;&#x7528;&#x8FC7;&#x7684;&#x6570;&#x7EC4;&#x4E2D;&#xFF0C;&#x5C31;&#x4E3A;&#x6211;&#x4EEC;&#x8282;&#x7701;&#x4E0B;&#x4E86;&#x7A7A;&#x95F4;</strong>&#x3002;</p>
 </blockquote>
 <hr>
-<hr>
 <p>&#x6CE8;&#xFF1A;&#x672C;&#x7CFB;&#x5217;&#x6240;&#x6709;&#x6559;&#x7A0B;&#x4E2D;&#x90FD;&#x4E0D;&#x4F1A;&#x7528;&#x5230;&#x590D;&#x6742;&#x7684;&#x8BED;&#x8A00;&#x7279;&#x6027;&#xFF0C;&#x5927;&#x5BB6;&#x4E0D;&#x9700;&#x8981;&#x62C5;&#x5FC3;&#x6CA1;&#x6709;&#x5B66;&#x8FC7;go&#x3002;&#x7B97;&#x6CD5;&#x601D;&#x60F3;&#x6700;&#x91CD;&#x8981;&#xFF0C;&#x4F7F;&#x7528;go&#x7EAF;&#x5C5E;&#x672C;&#x4EBA;&#x7231;&#x597D;&#x3002;&#x540C;&#x65F6;&#xFF0C;&#x672C;&#x7CFB;&#x5217;&#x6240;&#x6709;&#x4EE3;&#x7801;&#x5747;&#x5728;leetcode&#x4E0A;&#x8FDB;&#x884C;&#x8FC7;&#x6D4B;&#x8BD5;&#x8FD0;&#x884C;&#xFF0C;&#x4FDD;&#x8BC1;&#x5176;&#x4E25;&#x8C28;&#x6027;&#xFF01;</p>
 
                                 
@@ -338,7 +336,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"01.两个数组的交集(350)","level":"2.1.1","depth":2,"next":{"title":"02.最长公共前缀(14)","level":"2.1.2","depth":2,"path":"c1/002.md","ref":"c1/002.md","articles":[]},"previous":{"title":"PART I","level":"2.1","depth":1,"ref":"","articles":[{"title":"01.两个数组的交集(350)","level":"2.1.1","depth":2,"path":"c1/001.md","ref":"c1/001.md","articles":[]},{"title":"02.最长公共前缀(14)","level":"2.1.2","depth":2,"path":"c1/002.md","ref":"c1/002.md","articles":[]},{"title":"03.买卖股票的最佳时机(122)","level":"2.1.3","depth":2,"path":"c1/003.md","ref":"c1/003.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","toc","disqus","github","prism","-highlight","baidu","splitter","sitemap","livereload"],"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"webpack-handbook"},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"livereload":{},"splitter":{},"toc":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhaoda.net/"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"c1/001.md","mtime":"2020-05-29T16:04:08.545Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-29T16:18:54.382Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"01.两个数组的交集(350)","level":"2.1.1","depth":2,"next":{"title":"02.最长公共前缀(14)","level":"2.1.2","depth":2,"path":"c1/002.md","ref":"c1/002.md","articles":[]},"previous":{"title":"PART I","level":"2.1","depth":1,"ref":"","articles":[{"title":"01.两个数组的交集(350)","level":"2.1.1","depth":2,"path":"c1/001.md","ref":"c1/001.md","articles":[]},{"title":"02.最长公共前缀(14)","level":"2.1.2","depth":2,"path":"c1/002.md","ref":"c1/002.md","articles":[]},{"title":"03.买卖股票的最佳时机(122)","level":"2.1.3","depth":2,"path":"c1/003.md","ref":"c1/003.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","toc","github","prism","-highlight","splitter","sitemap","code","livereload"],"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"livereload":{},"splitter":{},"toc":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhaoda.net/"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"c1/001.md","mtime":"2020-05-29T16:41:53.953Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-29T17:22:20.976Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -352,23 +350,15 @@
         
     
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
-        
-    
-        
         <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-baidu/plugin.js"></script>
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
         
     
         
