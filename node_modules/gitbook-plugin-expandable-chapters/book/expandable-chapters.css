@@ -1,0 +1,29 @@
+.book .book-summary .chapter > .articles {
+	overflow: hidden;
+	max-height: 0px;
+}
+
+.book .book-summary .chapter.expanded > .articles {
+	max-height: 9999px;
+}
+
+.book .book-summary .exc-trigger {
+	position: absolute;
+  	left: 12px;
+  	top: 12px;
+}
+
+.book .book-summary ul.summary li a,
+.book .book-summary ul.summary li span {
+	padding-left: 30px;
+	cursor: pointer;
+}
+
+.book .book-summary .exc-trigger:before {
+  	content: "\f054";
+}
+
+.book .book-summary .expanded > a .exc-trigger:before,
+.book .book-summary .expanded > span .exc-trigger:before {
+	content: "\f078";
+}
