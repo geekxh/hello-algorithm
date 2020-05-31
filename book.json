@@ -7,7 +7,10 @@
         "-highlight",
         "splitter",
         "sitemap",
-        "code"
+        "code",
+        "-lunr",
+        "-search",
+        "search-pro"
     ],
     "pluginsConfig": {
         "github": {
