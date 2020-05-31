@@ -4,12 +4,6 @@
 <url> <loc>http://zhaoda.net/c1/001.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://zhaoda.net/c1/002.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>http://zhaoda.net/c1/003.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://zhaoda.net/./</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://zhaoda.net/c1/001.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://zhaoda.net/c1/002.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://zhaoda.net/c1/003.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://zhaoda.net/./</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://zhaoda.net/c1/001.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://zhaoda.net/c1/002.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
-<url> <loc>http://zhaoda.net/c1/003.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://zhaoda.net/c1/004.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>http://zhaoda.net/c1/005.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>
