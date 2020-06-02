@@ -1,0 +1,8 @@
+.page-view-wrapper .btn{
+  display: inline-block;
+}
+.page-view-counter{
+  margin-left: -14px;
+  font-size: 15px;
+  display:inline-block;
+}
