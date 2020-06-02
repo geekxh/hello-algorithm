@@ -1,5 +1,5 @@
 {
-    "title": "小浩の算法书",
+    "title": "《小浩算法》",
     "plugins": [
         "theme-fexa",
         "expandable-chapters",
@@ -32,7 +32,8 @@
             "alipayText": "扫码回复【进群】可进万人刷题群"
         },
         "theme-fexa": {
-            "search-placeholder": "题目搜索..."
+            "search-placeholder": "题目搜索...",
+            "logo": "./source/logo.jpg"
         }
     }
 }
