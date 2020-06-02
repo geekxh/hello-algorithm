@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>01.第一讲(70) · GitBook</title>
+        <title>01.爬楼梯(70) · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -181,22 +181,14 @@
             
                 </a>  
 </li>
-
-<li class="chapter " data-level="2.1.8" data-path="../c0/008.html" >
-    
-    <a href="../c0/008.html">
-            
-                    
-                    08.反转字符串(344)
-            
-                </a>  
-</li>
  
     </ul>
     
 </li>
-
-<li class="chapter " data-level="2.2" >
+   
+    <li class="divider"></li>
+      
+<li class="chapter " data-level="3.1" >
     
                 <span>
             
@@ -207,7 +199,7 @@
      
     <ul class="articles">
          
-<li class="chapter " data-level="2.2.1" data-path="../c1/101.html" >
+<li class="chapter " data-level="3.1.1" data-path="../c1/101.html" >
     
     <a href="../c1/101.html">
             
@@ -217,7 +209,7 @@
                 </a>  
 </li>
 
-<li class="chapter " data-level="2.2.2" data-path="../c1/102.html" >
+<li class="chapter " data-level="3.1.2" data-path="../c1/102.html" >
     
     <a href="../c1/102.html">
             
@@ -231,7 +223,7 @@
     
 </li>
 
-<li class="chapter " data-level="2.3" >
+<li class="chapter " data-level="3.2" >
     
                 <span>
             
@@ -242,12 +234,37 @@
      
     <ul class="articles">
          
-<li class="chapter active" data-level="2.3.1" data-path="201.html" >
+<li class="chapter active" data-level="3.2.1" data-path="201.html" >
     
     <a href="201.html">
             
                     
-                    01.第一讲(70)
+                    01.爬楼梯(70)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="3.3" >
+    
+                <span>
+            
+                    
+                    字符串
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="3.3.1" data-path="../c3/301.html" >
+    
+    <a href="../c3/301.html">
+            
+                    
+                    01.反转字符串(344)
             
                 </a>  
 </li>
@@ -281,7 +298,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >01.第一讲(70)</a>
+        <a href=".." >01.爬楼梯(70)</a>
     </h1>
 </div>
 
@@ -296,7 +313,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x52A8;&#x6001;&#x89C4;&#x5212;&#x7CFB;&#x5217;-&#x2014;-&#x7B2C;&#x4E00;&#x8BB2;">&#x52A8;&#x6001;&#x89C4;&#x5212;&#x7CFB;&#x5217; &#x2014; &#x7B2C;&#x4E00;&#x8BB2;</h1>
+                                <h1 id="dp-&#x7B2C;&#x4E00;&#x8BB2;---&#x722C;&#x697C;&#x68AF;">DP &#x7B2C;&#x4E00;&#x8BB2; - &#x722C;&#x697C;&#x68AF;</h1>
 <h3 id="01&#x3001;&#x6982;&#x5FF5;&#x8BB2;&#x89E3;">01&#x3001;&#x6982;&#x5FF5;&#x8BB2;&#x89E3;</h3>
 <blockquote>
 <p>&#x5173;&#x4E8E;&#x52A8;&#x6001;&#x89C4;&#x5212;&#x7684;&#x8D44;&#x6599;&#x5F88;&#x591A;&#xFF0C;&#x5B98;&#x65B9;&#x7684;&#x5B9A;&#x4E49;&#x662F;<strong>&#x6307;&#x628A;&#x591A;&#x9636;&#x6BB5;&#x8FC7;&#x7A0B;&#x8F6C;&#x5316;&#x4E3A;&#x4E00;&#x7CFB;&#x5217;&#x5355;&#x9636;&#x6BB5;&#x95EE;&#x9898;&#xFF0C;&#x5229;&#x7528;&#x5404;&#x9636;&#x6BB5;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x9010;&#x4E2A;&#x6C42;&#x89E3;</strong>&#x3002;&#x6982;&#x5FF5;&#x4E2D;&#x7684;<strong>&#x5404;&#x9636;&#x6BB5;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;</strong>&#xFF0C;&#x5176;&#x5B9E;&#x6307;&#x7684;&#x5C31;&#x662F;<strong>&#x72B6;&#x6001;&#x8F6C;&#x79FB;&#x65B9;&#x7A0B;</strong>&#x3002;&#x5F88;&#x591A;&#x4EBA;&#x89C9;&#x5F97;DP&#x96BE;&#xFF08;&#x4E0B;&#x6587;&#x7EDF;&#x79F0;&#x52A8;&#x6001;&#x89C4;&#x5212;&#x4E3A;DP&#xFF09;&#xFF0C;&#x6839;&#x672C;&#x539F;&#x56E0;&#x662F;&#x56E0;&#x4E3A;<strong>DP&#x8DDF;&#x4E00;&#x4E9B;&#x56FA;&#x5B9A;&#x5F62;&#x5F0F;&#x7684;&#x7B97;&#x6CD5;&#x4E0D;&#x540C;</strong>&#xFF08;&#x6BD4;&#x5982;DFS&#x3001;&#x4E8C;&#x5206;&#x6CD5;&#x3001;KMP&#xFF09;&#xFF0C;&#x5B83;&#x6CA1;&#x6709;&#x5B9E;&#x9645;&#x7684;&#x6B65;&#x9AA4;&#x89C4;&#x5B9A;&#x7B2C;&#x4E00;&#x6B65;&#x3001;&#x7B2C;&#x4E8C;&#x6B65;&#x6765;&#x505A;&#x4EC0;&#x4E48;&#xFF0C;&#x6240;&#x4EE5;&#x51C6;&#x786E;&#x6765;&#x8BF4;&#xFF0C;<strong>DP&#x5176;&#x5B9E;&#x662F;&#x4E00;&#x79CD;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x601D;&#x60F3;</strong>&#x3002;</p>
@@ -408,7 +425,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"01.第一讲(70)","level":"2.3.1","depth":2,"previous":{"title":"动态规划","level":"2.3","depth":1,"ref":"","articles":[{"title":"01.第一讲(70)","level":"2.3.1","depth":2,"path":"c2/201.md","ref":"c2/201.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","toc","github","prism","-highlight","splitter","sitemap","code","-lunr","-search","search-pro","livereload"],"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"livereload":{},"splitter":{},"search-pro":{},"toc":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhaoda.net/"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"c2/201.md","mtime":"2020-06-02T02:05:33.911Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-02T02:07:34.430Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"01.爬楼梯(70)","level":"3.2.1","depth":2,"next":{"title":"字符串","level":"3.3","depth":1,"ref":"","articles":[{"title":"01.反转字符串(344)","level":"3.3.1","depth":2,"path":"c3/301.md","ref":"c3/301.md","articles":[]}]},"previous":{"title":"动态规划","level":"3.2","depth":1,"ref":"","articles":[{"title":"01.爬楼梯(70)","level":"3.2.1","depth":2,"path":"c2/201.md","ref":"c2/201.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","toc","github","prism","-highlight","splitter","sitemap","code","-lunr","-search","search-pro","livereload"],"pluginsConfig":{"prism":{},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"livereload":{},"splitter":{},"search-pro":{},"toc":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhaoda.net/"},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"c2/201.md","mtime":"2020-06-02T02:17:42.118Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-02T02:16:19.646Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
