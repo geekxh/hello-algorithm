@@ -1,0 +1,556 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>03.买卖股票的最佳时机(122) · 《小浩算法》</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-fexa/fexa.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="004.html" />
+    
+    
+    <link rel="prev" href="002.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+	<div class="header-inner">
+		<!-- LOGO -->
+		<div class="logo"></div>
+		<span class="title"></span>
+
+		<!-- Search -->
+		
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+
+		<!-- Nav -->
+		<ul class="header-nav">
+			
+		</ul>
+	</div>
+
+	<div class="book-summary">
+		<div class="book-summary-title">文档目录</div>
+		
+		
+		<nav role="navigation">
+			
+
+
+<ul class="summary">
+          
+<li class="chapter " data-level="1.1" data-path="../" >
+    
+    <a href="../">
+            
+                    
+                    介绍
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.2" data-path="../c99/hello.html" >
+    
+    <a href="../c99/hello.html">
+            
+                    
+                    阅读指南
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3" >
+    
+                <span>
+            
+                    
+                    1.数组
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.3.1" data-path="001.html" >
+    
+    <a href="001.html">
+            
+                    
+                    01.两个数组的交集(350)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.2" data-path="002.html" >
+    
+    <a href="002.html">
+            
+                    
+                    02.最长公共前缀(14)
+            
+                </a>  
+</li>
+
+<li class="chapter active" data-level="1.3.3" data-path="003.html" >
+    
+    <a href="003.html">
+            
+                    
+                    03.买卖股票的最佳时机(122)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.4" data-path="004.html" >
+    
+    <a href="004.html">
+            
+                    
+                    04.旋转数组(189)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.5" data-path="005.html" >
+    
+    <a href="005.html">
+            
+                    
+                    05.原地删除(27)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.6" data-path="006.html" >
+    
+    <a href="006.html">
+            
+                    
+                    06.加一(66)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.7" data-path="007.html" >
+    
+    <a href="007.html">
+            
+                    
+                    07.两数之和(1)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="1.4" >
+    
+                <span>
+            
+                    
+                    2.链表
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.4.1" data-path="../c1/101.html" >
+    
+    <a href="../c1/101.html">
+            
+                    
+                    01.删除链表倒数第N个节点(19)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.4.2" data-path="../c1/102.html" >
+    
+    <a href="../c1/102.html">
+            
+                    
+                    02.合并两个有序链表(21)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="1.5" >
+    
+                <span>
+            
+                    
+                    3.动态规划
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.5.1" data-path="../c2/201.html" >
+    
+    <a href="../c2/201.html">
+            
+                    
+                    01.爬楼梯(70)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.5.2" data-path="../c2/202.html" >
+    
+    <a href="../c2/202.html">
+            
+                    
+                    02.最大子序和(53)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.5.3" data-path="../c2/203.html" >
+    
+    <a href="../c2/203.html">
+            
+                    
+                    03.最长上升子序列(300)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="1.6" >
+    
+                <span>
+            
+                    
+                    4.字符串
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.6.1" data-path="../c3/301.html" >
+    
+    <a href="../c3/301.html">
+            
+                    
+                    01.反转字符串(344)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+  
+
+    <li class="divider"></li>
+
+    <li>
+        <!-- <img src="./avatar.jpeg"  width="200" height="200"/> -->
+    </li>
+</ul>
+
+		</nav>
+		
+		
+	</div>
+
+	<!-- Content nav -->
+	<div class="book-anchor">
+		<div class="book-anchor-title">在这篇文章中:</div>
+		<div class="book-anchor-body">
+
+		</div>
+	</div>
+
+	<div class="book-body">
+		
+		<div class="body-inner">
+			
+			
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >03.买卖股票的最佳时机(122)</a>
+    </h1>
+</div>
+
+
+
+
+			<div class="page-wrapper" tabindex="-1" role="main">
+				<div class="page-inner">
+					
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+					<section class="normal markdown-section">
+						
+						<h1 id="&#x4E70;&#x5356;&#x80A1;&#x7968;&#x7684;&#x6700;&#x4F73;&#x65F6;&#x673A;">&#x4E70;&#x5356;&#x80A1;&#x7968;&#x7684;&#x6700;&#x4F73;&#x65F6;&#x673A;</h1>
+<h3 id="01&#x3001;&#x9898;&#x76EE;&#x5206;&#x6790;">01&#x3001;&#x9898;&#x76EE;&#x5206;&#x6790;</h3>
+<p>&#x5728;leetcode&#x4E0A;&#xFF0C;&#x80A1;&#x7968;&#x76F8;&#x5173;&#x7684;&#x9898;&#x76EE;&#x6709;8&#x9053;&#x4E4B;&#x591A;&#xFF1A;</p>
+<p><img src="003/1.jpg" alt="PNG" style="zoom:80%;"></p>
+<p>&#x800C;&#x4E14;&#x8FD9;&#x4E00;&#x7C7B;&#x578B;&#x7684;&#x9898;&#xFF0C;&#x9762;&#x8BD5;&#x65F6;&#x51FA;&#x73B0;&#x7684;&#x9891;&#x7387;&#x975E;&#x5E38;&#x7684;&#x9AD8;&#x3002;&#x7A0D;&#x5FAE;&#x6539;&#x4E00;&#x6539;&#x6761;&#x4EF6;&#xFF0C;&#x5C31;&#x8BA9;&#x6211;&#x4EEC;&#x9632;&#x4E0D;&#x80DC;&#x9632;&#x3002;&#x90A3;&#x6211;&#x4EEC;&#x5982;&#x4F55;&#x653B;&#x514B;&#x8FD9;&#x4E00;&#x7C7B;&#x9898;&#x578B;&#x5462;&#xFF1F;&#x6211;&#x4EEC;&#x4ECE;&#x6700;&#x7B80;&#x5355;&#x7684;&#x4E00;&#x9053;&#x5F00;&#x59CB;&#x770B;&#x8D77;&#xFF1A; </p>
+<table>
+<thead>
+<tr>
+<th>&#x7B2C;122&#x9898;&#xFF1A;&#x4E70;&#x5356;&#x80A1;&#x7968;&#x7684;&#x6700;&#x4F73;&#x65F6;&#x673A; II</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x7ED9;&#x5B9A;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#xFF0C;&#x5B83;&#x7684;&#x7B2C; i &#x4E2A;&#x5143;&#x7D20;&#x662F;&#x4E00;&#x652F;&#x7ED9;&#x5B9A;&#x80A1;&#x7968;&#x7B2C; i &#x5929;&#x7684;&#x4EF7;&#x683C;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x5982;&#x679C;&#x4F60;&#x6700;&#x591A;&#x53EA;&#x5141;&#x8BB8;&#x5B8C;&#x6210;&#x4E00;&#x7B14;&#x4EA4;&#x6613;&#xFF08;&#x5373;&#x4E70;&#x5165;&#x548C;&#x5356;&#x51FA;&#x4E00;&#x652F;&#x80A1;&#x7968;&#xFF09;&#xFF0C;&#x8BBE;&#x8BA1;&#x4E00;&#x4E2A;&#x7B97;&#x6CD5;&#x6765;&#x8BA1;&#x7B97;&#x4F60;&#x6240;&#x80FD;&#x83B7;&#x53D6;&#x7684;&#x6700;&#x5927;&#x5229;&#x6DA6;&#x3002;&#x6CE8;&#x610F;&#x4F60;&#x4E0D;&#x80FD;&#x5728;&#x4E70;&#x5165;&#x80A1;&#x7968;&#x524D;&#x5356;&#x51FA;&#x80A1;&#x7968;&#x3002;</p>
+<p><strong>&#x793A;&#x4F8B; 1:</strong></p>
+<pre class="language-"><code>&#x8F93;&#x5165;: [7,1,5,3,6,4]
+&#x8F93;&#x51FA;: 7
+</code></pre><p>&#x89E3;&#x91CA;: &#x5728;&#x7B2C; 2 &#x5929;&#xFF08;&#x80A1;&#x7968;&#x4EF7;&#x683C; = 1&#xFF09;&#x7684;&#x65F6;&#x5019;&#x4E70;&#x5165;&#xFF0C;&#x5728;&#x7B2C; 3 &#x5929;&#xFF08;&#x80A1;&#x7968;&#x4EF7;&#x683C; = 5&#xFF09;&#x7684;&#x65F6;&#x5019;&#x5356;&#x51FA;, &#x8FD9;&#x7B14;&#x4EA4;&#x6613;&#x6240;&#x80FD;&#x83B7;&#x5F97;&#x5229;&#x6DA6; = 5-1 = 4 &#x3002;</p>
+<p>&#x200B;          &#x968F;&#x540E;&#xFF0C;&#x5728;&#x7B2C; 4 &#x5929;&#xFF08;&#x80A1;&#x7968;&#x4EF7;&#x683C; = 3&#xFF09;&#x7684;&#x65F6;&#x5019;&#x4E70;&#x5165;&#xFF0C;&#x5728;&#x7B2C; 5 &#x5929;&#xFF08;&#x80A1;&#x7968;&#x4EF7;&#x683C; = 6&#xFF09;&#x7684;&#x65F6;&#x5019;&#x5356;&#x51FA;, &#x8FD9;&#x7B14;&#x4EA4;&#x6613;&#x6240;&#x80FD;&#x83B7;&#x5F97;&#x5229;&#x6DA6; = 6-3 = 3 &#x3002;</p>
+<p><strong>&#x793A;&#x4F8B; 2:</strong></p>
+<pre class="language-"><code>&#x8F93;&#x5165;: [1,2,3,4,5]
+&#x8F93;&#x51FA;: 4
+</code></pre><p>&#x89E3;&#x91CA;: &#x5728;&#x7B2C; 1 &#x5929;&#xFF08;&#x80A1;&#x7968;&#x4EF7;&#x683C; = 1&#xFF09;&#x7684;&#x65F6;&#x5019;&#x4E70;&#x5165;&#xFF0C;&#x5728;&#x7B2C; 5 &#x5929; &#xFF08;&#x80A1;&#x7968;&#x4EF7;&#x683C; = 5&#xFF09;&#x7684;&#x65F6;&#x5019;&#x5356;&#x51FA;, &#x8FD9;&#x7B14;&#x4EA4;&#x6613;&#x6240;&#x80FD;&#x83B7;&#x5F97;&#x5229;&#x6DA6; = 5-1 = 4 &#x3002;</p>
+<p>&#x200B;         &#x6CE8;&#x610F;&#x4F60;&#x4E0D;&#x80FD;&#x5728;&#x7B2C; 1 &#x5929;&#x548C;&#x7B2C; 2 &#x5929;&#x63A5;&#x8FDE;&#x8D2D;&#x4E70;&#x80A1;&#x7968;&#xFF0C;&#x4E4B;&#x540E;&#x518D;&#x5C06;&#x5B83;&#x4EEC;&#x5356;&#x51FA;&#x3002;</p>
+<p>&#x200B;         &#x56E0;&#x4E3A;&#x8FD9;&#x6837;&#x5C5E;&#x4E8E;&#x540C;&#x65F6;&#x53C2;&#x4E0E;&#x4E86;&#x591A;&#x7B14;&#x4EA4;&#x6613;&#xFF0C;&#x4F60;&#x5FC5;&#x987B;&#x5728;&#x518D;&#x6B21;&#x8D2D;&#x4E70;&#x524D;&#x51FA;&#x552E;&#x6389;&#x4E4B;&#x524D;&#x7684;&#x80A1;&#x7968;&#x3002;</p>
+<p><strong>&#x793A;&#x4F8B; 3:</strong></p>
+<pre class="language-"><code>&#x8F93;&#x5165;: [7,6,4,3,1]
+&#x8F93;&#x51FA;: 0
+</code></pre><p>&#x89E3;&#x91CA;: &#x5728;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;, &#x6CA1;&#x6709;&#x4EA4;&#x6613;&#x5B8C;&#x6210;, &#x6240;&#x4EE5;&#x6700;&#x5927;&#x5229;&#x6DA6;&#x4E3A; 0&#x3002;</p>
+<p>&#x9898;&#x76EE;&#x5206;&#x6790;&#xFF1A;&#x9996;&#x5148;&#x6211;&#x4EEC;&#x770B;&#x4E00;&#x4E0B;&#x9898;&#x76EE;&#x4E2D;&#x7ED9;&#x51FA;&#x7684;&#x4E24;&#x4E2A;&#x6761;&#x4EF6;&#xFF1A;</p>
+<p>1&#x3001;<strong>&#x4E0D;&#x80FD;&#x53C2;&#x4E0E;&#x591A;&#x7B14;&#x4EA4;&#x6613;</strong>&#x3002;&#x6362;&#x53E5;&#x8BDD;&#x8BB2;&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x80FD;&#x5728;&#x624B;&#x4E0A;&#x6CA1;&#x6709;&#x80A1;&#x7968;&#x7684;&#x65F6;&#x5019;&#x4E70;&#x5165;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;<strong>&#x5FC5;&#x987B;&#x5728;&#x518D;&#x6B21;&#x8D2D;&#x4E70;&#x524D;&#x51FA;&#x552E;&#x6389;&#x4E4B;&#x524D;&#x7684;&#x80A1;&#x7968;</strong>&#x3002;&#x50CF;&#x6211;&#x4EEC;&#x5E73;&#x65F6;&#x4E70;&#x80A1;&#x7968;&#x65F6;&#x7684;&#x8FFD;&#x6DA8;&#x6740;&#x8DCC;&#x662F;&#x4E0D;&#x53EF;&#x4EE5;&#x7684;&#x3002;</p>
+<p>2&#x3001;<strong>&#x5C3D;&#x53EF;&#x80FD;&#x5730;&#x591A;&#x8FDB;&#x884C;&#x4EA4;&#x6613;</strong>&#x3002;&#x8FD9;&#x4E2A;&#x975E;&#x5E38;&#x597D;&#x7406;&#x89E3;&#x3002;&#x50CF;&#x662F;&#x9EC4;&#x91D1;&#xFF0C;&#x4E00;&#x5E74;&#x57FA;&#x672C;&#x4E0A;&#x90FD;&#x6709;2-3&#x6B21;&#x6DA8;&#x8DCC;&#x3002;&#x6211;&#x4EEC;&#x53EA;&#x8981;&#x628A;&#x63E1;&#x4F4F;&#x673A;&#x4F1A;&#xFF0C;&#x5728;&#x6BCF;&#x4E00;&#x6B21;&#x6DA8;&#x8DCC;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F4E;&#x4EF7;&#x5356;&#x5165;&#x9AD8;&#x4EF7;&#x5356;&#x51FA;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x5229;&#x76CA;&#x8FBE;&#x5230;&#x6700;&#x5927;&#x5316;&#x3002;&#x8FD9;&#x4E2A;&#x6761;&#x4EF6;&#x4E5F;&#x662F;&#x76F8;&#x5F53;&#x91CD;&#x8981;&#x7684;&#xFF0C;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x628A;&#x8FD9;&#x91CC;&#x53D8;&#x6210;&#xFF0C;&#x6700;&#x591A;&#x5B8C;&#x6210;&#x4E24;&#x7B14;&#x4EA4;&#x6613;&#xFF0C;&#x5C31;&#x53D8;&#x6210;&#x53E6;&#x4E00;&#x9053;&#x9898;&#x3002;</p>
+<p>&#x73B0;&#x5728;&#x9898;&#x76EE;&#x641E;&#x6E05;&#x695A;&#x4E86;&#xFF0C;&#x6211;&#x4EEC;&#x6765;&#x601D;&#x8003;&#x4E00;&#x4E0B;&#x3002;</p>
+<h3 id="02&#x3001;&#x9898;&#x89E3;&#x5206;&#x6790;">02&#x3001;&#x9898;&#x89E3;&#x5206;&#x6790;</h3>
+<p>&#x5047;&#x8BBE;&#x7ED9;&#x5B9A;&#x7684;&#x6570;&#x7EC4;&#x4E3A;&#xFF1A;[7, 1, 5, 3, 6, 4]   &#x6211;&#x4EEC;&#x5C06;&#x5176;&#x7ED8;&#x5236;&#x6210;&#x6298;&#x7EBF;&#x56FE;&#xFF0C;&#x5927;&#x6982;&#x662F;&#x4E0B;&#x9762;&#x8FD9;&#x6837;&#xFF1A;</p>
+<p><img src="003/2.png" alt="PNG" style="zoom:80%;"></p>
+<p>&#x5982;&#x6211;&#x4EEC;&#x4E0A;&#x9762;&#x5206;&#x6790;&#xFF0C;&#x6211;&#x4EEC;&#x8981;&#x5728;&#x6EE1;&#x8DB3;1&#x548C;2&#x7684;&#x6761;&#x4EF6;&#x4E0B;&#x83B7;&#x53D6;&#x6700;&#x5927;&#x5229;&#x76CA;&#xFF0C;&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x5C3D;&#x53EF;&#x80FD;&#x591A;&#x7684;&#x4F4E;&#x4EF7;&#x4E70;&#x5165;&#x9AD8;&#x4EF7;&#x5356;&#x51FA;&#x3002;&#x800C;<strong>&#x6BCF;&#x4E00;&#x6B21;&#x4E0A;&#x5347;&#x6CE2;&#x6BB5;&#xFF0C;&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x4E00;&#x6B21;&#x4F4E;&#x4EF7;&#x4E70;&#x5165;&#x9AD8;&#x4EF7;&#x5356;&#x51FA;</strong>&#x3002;&#x800C;&#x6211;&#x4EEC;&#x6CA1;&#x6709;&#x9650;&#x5236;&#x4EA4;&#x6613;&#x6B21;&#x6570;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x9700;&#x8981;<strong>&#x6C42;&#x51FA;&#x6240;&#x6709;&#x7684;&#x4E0A;&#x5347;&#x6CE2;&#x6BB5;&#x7684;&#x548C;</strong>&#x3002;&#x4E0A;&#x56FE;&#x91CC;&#x5C31;&#x662F;A+B&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#xFF08;5-1&#xFF09;+&#xFF08;6-3&#xFF09; = 7&#xFF0C;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x80FD;&#x83B7;&#x53D6;&#x5230;&#x7684;&#x6700;&#x5927;&#x5229;&#x76CA;&#x3002;</p>
+<p>&#x5176;&#x5B9E;&#x4E5F;&#x5C31;&#x662F;&#x5C3D;&#x53EF;&#x80FD;&#x591A;&#x7684;&#x4F4E;&#x4EF7;&#x4E70;&#x5165;&#xFF0C;&#x9AD8;&#x4EF7;&#x5356;&#x51FA;&#x5566;&#x3002;</p>
+<h3 id="03&#x3001;&#x4EE3;&#x7801;&#x5206;&#x6790;">03&#x3001;&#x4EE3;&#x7801;&#x5206;&#x6790;</h3>
+<p>&#x6839;&#x636E;&#x4EE5;&#x4E0A;&#x5206;&#x6790;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5BB9;&#x6613;&#x5F97;&#x5230;&#x4E0B;&#x9762;&#x7684;&#x9898;&#x89E3;&#xFF1A;</p>
+<pre class="language-"><code class="lang-go"><span class="token comment">//GO</span>
+<span class="token keyword">func</span> <span class="token function">maxProfit</span><span class="token punctuation">(</span>prices <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token builtin">int</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token function">len</span><span class="token punctuation">(</span>prices<span class="token punctuation">)</span> <span class="token operator">&lt;</span> <span class="token number">2</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token number">0</span>
+    <span class="token punctuation">}</span>
+    dp <span class="token operator">:=</span> <span class="token function">make</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">,</span> <span class="token function">len</span><span class="token punctuation">(</span>prices<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    dp<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span>
+    dp<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token operator">-</span>prices<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+    <span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token function">len</span><span class="token punctuation">(</span>prices<span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+        dp<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">max</span><span class="token punctuation">(</span>dp<span class="token punctuation">[</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>dp<span class="token punctuation">[</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">+</span>prices<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span>
+        dp<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">max</span><span class="token punctuation">(</span>dp<span class="token punctuation">[</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">-</span>prices<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>dp<span class="token punctuation">[</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> dp<span class="token punctuation">[</span><span class="token function">len</span><span class="token punctuation">(</span>prices<span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">max</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token builtin">int</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> a <span class="token operator">&gt;</span> b <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> b
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="04&#x3001;&#x9898;&#x76EE;&#x6269;&#x5C55;">04&#x3001;&#x9898;&#x76EE;&#x6269;&#x5C55;</h3>
+<p>&#x56FE;&#x89E3;&#x7684;&#x65B9;&#x5F0F;&#x5176;&#x5B9E;&#x5728;&#x5404;&#x79CD;&#x7B97;&#x6CD5;&#x9898;&#x4E2D;&#xFF0C;&#x5C61;&#x89C1;&#x4E0D;&#x9C9C;&#x3002;&#x800C;&#x6211;&#x4EEC;&#x901A;&#x8FC7;&#x56FE;&#x89E3;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x62BD;&#x4E1D;&#x5265;&#x8327;&#x4E00;&#x6837;&#xFF0C;&#x4E00;&#x5C42;&#x4E00;&#x5C42;&#x5265;&#x6389;&#x7B97;&#x6CD5;&#x9898;&#x76EE;&#x7684;&#x5916;&#x58F3;&#xFF0C;&#x5BFB;&#x627E;&#x5230;&#x6700;&#x76F4;&#x89C2;&#x7684;&#x89E3;&#x9898;&#x601D;&#x8DEF;&#xFF0C;&#x76F4;&#x6363;&#x9EC4;....&#x54B3;&#x54B3;&#xFF0C;&#x76F4;&#x5954;&#x6838;&#x5FC3;&#x3002;&#x90A3;&#x6211;&#x4EEC;&#x53C8;&#x5982;&#x4F55;&#x7528;&#x56FE;&#x89E3;&#x7684;&#x89C2;&#x5BDF;&#x65B9;&#x5F0F;&#xFF0C;&#x6765;&#x5BF9;&#x672C;&#x7CFB;&#x5217;&#x7684;&#x5176;&#x4ED6;&#x9898;&#x76EE;&#x5BFB;&#x627E;&#x5230;&#x4E00;&#x79CD;&#x901A;&#x7528;&#x89E3;&#x6CD5;&#xFF0C;&#x6765;&#x89C4;&#x907F;&#x9898;&#x76EE;&#x4E2D;&#x7684;&#x9677;&#x9631;&#x5462;&#xFF1F;&#x6D69;&#x4ED4;&#x8BB2;&#x7B97;&#x6CD5;&#xFF0C;&#x6211;&#x4EEC;&#x4E0B;&#x671F;&#x518D;&#x89C1;&#x55BD;&#xFF01;</p>
+<footer class="page-footer"><span class="copyright">&#x672C;&#x6587;&#x51FA;&#x73B0;&#x6240;&#x6709;&#x4EE3;&#x7801;&#x5747;&#x7ECF; leetcode &#x6D4B;&#x8BD5;&#x901A;&#x8FC7;&#xFF0C;&#x6709;&#x5174;&#x8DA3;&#x53EF;&#x8FDB;&#x4E0B;&#x65B9;&#x5237;&#x9898;&#x7FA4;&#x4E00;&#x8D77;&#x4EA4;&#x6D41;&#xFF01;&#x7FA4;&#x91CC;&#x53EF;BAT&#x5185;&#x63A8;&#xFF01; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">File Modify: 
+2020-06-03 00:33:23
+</span></footer>
+						
+					</section>
+					
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+				</div>
+			</div>
+			
+		</div>
+
+		
+		
+		<a href="002.html" class="navigation navigation-prev " aria-label="Previous page: 02.最长公共前缀(14)">
+			<i class="fa fa-angle-left"></i>
+		</a>
+		
+		
+		<a href="004.html" class="navigation navigation-next " aria-label="Next page: 04.旋转数组(189)">
+			<i class="fa fa-angle-right"></i>
+		</a>
+		
+		
+		
+	</div>
+	<script>
+		var gitbook = gitbook || [];
+		gitbook.push(function() {
+			gitbook.page.hasChanged({"page":{"title":"03.买卖股票的最佳时机(122)","level":"1.3.3","depth":2,"next":{"title":"04.旋转数组(189)","level":"1.3.4","depth":2,"path":"c0/004.md","ref":"c0/004.md","articles":[]},"previous":{"title":"02.最长公共前缀(14)","level":"1.3.2","depth":2,"path":"c0/002.md","ref":"c0/002.md","articles":[]},"dir":"ltr"},"config":{"plugins":["pageview-count","tbfed-pagefooter","theme-fexa","expandable-chapters","toc","github","prism","-highlight","splitter","sitemap","donate","code","-lunr","-search","search-pro","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"本文出现所有代码均经 leetcode 测试通过，有兴趣可进下方刷题群一起交流！群里可BAT内推！"},"prism":{},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"livereload":{},"splitter":{},"search-pro":{},"toc":{},"theme-fexa":{"search-placeholder":"题目搜索...","logo":"./source/logo.jpg"},"code":{"copyButtons":true},"donate":{"alipay":"/source/avatar.jpeg","alipayText":"扫码回复【进群】可进万人刷题群","button":"刷题群","title":"","wechat":"","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhaoda.net/"},"pageview-count":{},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"《小浩算法》","gitbook":"*"},"file":{"path":"c0/003.md","mtime":"2020-06-02T16:33:23.151Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-02T16:35:30.134Z"},"basePath":"..","book":{"language":""}});
+		});
+	</script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-fexa/fexa.js"></script>
+        
+    
+
+    </body>
+</html>
+

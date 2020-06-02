@@ -1,0 +1,550 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>02.合并两个有序链表(21) · 《小浩算法》</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-fexa/fexa.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="101.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+	<div class="header-inner">
+		<!-- LOGO -->
+		<div class="logo"></div>
+		<span class="title"></span>
+
+		<!-- Search -->
+		
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+
+		<!-- Nav -->
+		<ul class="header-nav">
+			
+		</ul>
+	</div>
+
+	<div class="book-summary">
+		<div class="book-summary-title">文档目录</div>
+		
+		
+		<nav role="navigation">
+			
+
+
+<ul class="summary">
+          
+<li class="chapter " data-level="1.1" data-path="../" >
+    
+    <a href="../">
+            
+                    
+                    介绍
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.2" data-path="../c99/hello.html" >
+    
+    <a href="../c99/hello.html">
+            
+                    
+                    阅读指南
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3" >
+    
+                <span>
+            
+                    
+                    1.数组
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.3.1" data-path="../c0/001.html" >
+    
+    <a href="../c0/001.html">
+            
+                    
+                    01.两个数组的交集(350)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.2" data-path="../c0/002.html" >
+    
+    <a href="../c0/002.html">
+            
+                    
+                    02.最长公共前缀(14)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.3" data-path="../c0/003.html" >
+    
+    <a href="../c0/003.html">
+            
+                    
+                    03.买卖股票的最佳时机(122)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.4" data-path="../c0/004.html" >
+    
+    <a href="../c0/004.html">
+            
+                    
+                    04.旋转数组(189)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.5" data-path="../c0/005.html" >
+    
+    <a href="../c0/005.html">
+            
+                    
+                    05.原地删除(27)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.6" data-path="../c0/006.html" >
+    
+    <a href="../c0/006.html">
+            
+                    
+                    06.加一(66)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.7" data-path="../c0/007.html" >
+    
+    <a href="../c0/007.html">
+            
+                    
+                    07.两数之和(1)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="1.4" >
+    
+                <span>
+            
+                    
+                    2.链表
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.4.1" data-path="101.html" >
+    
+    <a href="101.html">
+            
+                    
+                    01.删除链表倒数第N个节点(19)
+            
+                </a>  
+</li>
+
+<li class="chapter active" data-level="1.4.2" data-path="102.html" >
+    
+    <a href="102.html">
+            
+                    
+                    02.合并两个有序链表(21)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="1.5" >
+    
+                <span>
+            
+                    
+                    3.动态规划
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.5.1" data-path="../c2/201.html" >
+    
+    <a href="../c2/201.html">
+            
+                    
+                    01.爬楼梯(70)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.5.2" data-path="../c2/202.html" >
+    
+    <a href="../c2/202.html">
+            
+                    
+                    02.最大子序和(53)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.5.3" data-path="../c2/203.html" >
+    
+    <a href="../c2/203.html">
+            
+                    
+                    03.最长上升子序列(300)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="1.6" >
+    
+                <span>
+            
+                    
+                    4.字符串
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.6.1" data-path="../c3/301.html" >
+    
+    <a href="../c3/301.html">
+            
+                    
+                    01.反转字符串(344)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+  
+
+    <li class="divider"></li>
+
+    <li>
+        <!-- <img src="./avatar.jpeg"  width="200" height="200"/> -->
+    </li>
+</ul>
+
+		</nav>
+		
+		
+	</div>
+
+	<!-- Content nav -->
+	<div class="book-anchor">
+		<div class="book-anchor-title">在这篇文章中:</div>
+		<div class="book-anchor-body">
+
+		</div>
+	</div>
+
+	<div class="book-body">
+		
+		<div class="body-inner">
+			
+			
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >02.合并两个有序链表(21)</a>
+    </h1>
+</div>
+
+
+
+
+			<div class="page-wrapper" tabindex="-1" role="main">
+				<div class="page-inner">
+					
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+					<section class="normal markdown-section">
+						
+						<h1 id="&#x5408;&#x5E76;&#x4E24;&#x4E2A;&#x6709;&#x5E8F;&#x94FE;&#x8868;">&#x5408;&#x5E76;&#x4E24;&#x4E2A;&#x6709;&#x5E8F;&#x94FE;&#x8868;</h1>
+<h3 id="01&#x3001;&#x9898;&#x76EE;&#x5206;&#x6790;">01&#x3001;&#x9898;&#x76EE;&#x5206;&#x6790;</h3>
+<table>
+<thead>
+<tr>
+<th>&#x7B2C;21&#x9898;&#xFF1A;&#x5408;&#x5E76;&#x4E24;&#x4E2A;&#x6709;&#x5E8F;&#x94FE;&#x8868;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x5C06;&#x4E24;&#x4E2A;&#x6709;&#x5E8F;&#x94FE;&#x8868;&#x5408;&#x5E76;&#x4E3A;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x6709;&#x5E8F;&#x94FE;&#x8868;&#x5E76;&#x8FD4;&#x56DE;&#x3002;&#x65B0;&#x94FE;&#x8868;&#x662F;&#x901A;&#x8FC7;&#x62FC;&#x63A5;&#x7ED9;&#x5B9A;&#x7684;&#x4E24;&#x4E2A;&#x94FE;&#x8868;&#x7684;&#x6240;&#x6709;&#x8282;&#x70B9;&#x7EC4;&#x6210;&#x7684;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&#x793A;&#x4F8B;&#xFF1A;</strong></p>
+<pre class="language-"><code>&#x8F93;&#x5165;&#xFF1A;1-&gt;2-&gt;4, 1-&gt;3-&gt;4
+&#x8F93;&#x51FA;&#xFF1A;1-&gt;1-&gt;2-&gt;3-&gt;4-&gt;4
+</code></pre><bra>
+
+<p>&#x9996;&#x5148;&#x6211;&#x4EEC;&#x62FF;&#x5230;&#x9898;&#x76EE;&#x4E4D;&#x773C;&#x4E00;&#x770B;&#xFF0C;&#x7C7B;&#x4F3C;&#x8FD9;&#x79CD;<strong>&#x94FE;&#x8868;&#x7684;&#x5408;&#x5E76;&#x95EE;&#x9898;</strong>&#x3002;&#x57FA;&#x672C;&#x4E0A;&#x9A6C;&#x4E0A;&#x53EF;&#x4EE5;&#x60F3;&#x5230;<strong>&#x9700;&#x8981;&#x8BBE;&#x7F6E;&#x4E00;&#x4E2A;&#x54E8;&#x5175;&#x8282;&#x70B9;&#xFF0C;&#x8FD9;&#x53EF;&#x4EE5;&#x5728;&#x6700;&#x540E;&#x8BA9;&#x6211;&#x4EEC;&#x6BD4;&#x8F83;&#x5BB9;&#x6613;&#x5730;&#x8FD4;&#x56DE;&#x5408;&#x5E76;&#x540E;&#x7684;&#x94FE;&#x8868;&#x3002;</strong>&#xFF08;&#x4E0D;&#x61C2;&#x54E8;&#x5175;&#x8282;&#x70B9;&#x7684;&#x540C;&#x5B66;&#xFF0C;&#x53EF;&#x4EE5;&#x5148;&#x79FB;&#x9A7E;&#x5230;  <a href="c1/006.md">06.&#x5220;&#x9664;&#x94FE;&#x8868;&#x5012;&#x6570;&#x7B2C;N&#x4E2A;&#x8282;&#x70B9;(19)</a>  &#x8FDB;&#x884C;&#x5B66;&#x4E60;&#xFF09;</p>
+<bra>
+
+<p>&#x5047;&#x8BBE;&#x6211;&#x4EEC;&#x7684;&#x94FE;&#x8868;&#x5206;&#x522B;&#x4E3A;:</p>
+<p>l1 = [1,2,4] </p>
+<p>l2 = [1,3,4]</p>
+<p>&#x540C;&#x65F6;&#x6211;&#x4EEC;&#x8BBE;&#x5B9A;&#x4E00;&#x4E2A;&quot;prehead&quot;&#x7684;&#x54E8;&#x5175;&#x8282;&#x70B9;,&#x5927;&#x6982;&#x662F;&#x4E0B;&#x9762;&#x8FD9;&#x6837;&#xFF1A;</p>
+<p><img src="102/1.png" alt="PNG" style="zoom: 50%;"></p>
+<h3 id="02&#x3001;&#x9898;&#x76EE;&#x56FE;&#x89E3;">02&#x3001;&#x9898;&#x76EE;&#x56FE;&#x89E3;</h3>
+<p>&#x5982;&#x4E0A;&#x56FE;&#x6240;&#x793A;&#xFF0C;&#x9996;&#x5148;&#x6211;&#x4EEC;<strong>&#x7EF4;&#x62A4;&#x4E00;&#x4E2A; prehead &#x7684;&#x54E8;&#x5175;&#x8282;&#x70B9;</strong>&#x3002;&#x6211;&#x4EEC;&#x5176;&#x5B9E;<strong>&#x53EA;&#x9700;&#x8981;&#x8C03;&#x6574;&#x5B83;&#x7684; next &#x6307;&#x9488;</strong>&#x3002;&#x8BA9;&#x5B83;&#x603B;&#x662F;<strong>&#x6307;&#x5411;l1&#x6216;&#x8005;l2&#x4E2D;&#x8F83;&#x5C0F;&#x7684;&#x4E00;&#x4E2A;&#xFF0C;&#x76F4;&#x5230;l1&#x6216;&#x8005;l2&#x4EFB;&#x4E00;&#x6307;&#x5411;null</strong>&#x3002;&#x8FD9;&#x6837;&#x5230;&#x4E86;&#x6700;&#x540E;&#xFF0C;&#x5982;&#x679C;l1&#x8FD8;&#x662F;l2&#x4E2D;&#x4EFB;&#x610F;&#x4E00;&#x65B9;&#x8FD8;&#x6709;&#x4F59;&#x4E0B;&#x5143;&#x7D20;&#x6CA1;&#x6709;&#x7528;&#x5230;&#xFF0C;&#x90A3;<strong>&#x4F59;&#x4E0B;&#x7684;&#x8FD9;&#x4E9B;&#x5143;&#x7D20;&#x4E00;&#x5B9A;&#x5927;&#x4E8E;prehead&#x5DF2;&#x7ECF;&#x5408;&#x5E76;&#x5B8C;&#x7684;&#x94FE;&#x8868;&#xFF08;&#x56E0;&#x4E3A;&#x662F;&#x6709;&#x5E8F;&#x94FE;&#x8868;&#xFF09;</strong>&#x3002;&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;&#x5C06;&#x8FD9;&#x4E9B;&#x5143;&#x7D20;&#x5168;&#x90E8;&#x8FFD;&#x52A0;&#x5230;prehead&#x5408;&#x5E76;&#x5B8C;&#x7684;&#x94FE;&#x8868;&#x540E;&#xFF0C;&#x6700;&#x7EC8;&#x5C31;&#x5F97;&#x5230;&#x4E86;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x7684;&#x94FE;&#x8868;&#x3002;&#x5927;&#x6982;&#x6D41;&#x7A0B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ol>
+<li><p>&#x9996;&#x5148;&#x6211;&#x4EEC;&#x5C06;prehead&#x6307;&#x5411;l1&#x6216;&#x8005;l2&#x4E2D;&#x6BD4;&#x8F83;&#x5C0F;&#x7684;&#x4E00;&#x4E2A;&#x3002;&#x5982;&#x679C;&#x76F8;&#x7B49;&#xFF0C;&#x5219;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x90FD;&#x53EF;&#x4EE5;&#x3002;&#x6B64;&#x65F6;&#x7684;l1&#x4F4D;[2,4]&#xFF0C;l2&#x4F4D;[1,3,4]</p>
+<p><img src="102/2.png" alt="PNG" style="zoom: 50%;"></p>
+</li>
+<li><p>&#x6211;&#x4EEC;&#x7EE7;&#x7EED;&#x4E0A;&#x9762;&#x7684;&#x6B65;&#x9AA4;&#x3002;&#x5C06;prehead&#x7684;&#x94FE;&#x8868;&#x6307;&#x5411;l1&#x548C;l2&#x4E2D;&#x8F83;&#x5C0F;&#x7684;&#x4E00;&#x4E2A;&#x3002;&#x73B0;&#x5728;&#x8FD9;&#x91CC;&#x5C31;&#x662F;&#x6307;&#x5411;1&#x3002;</p>
+<p><img src="102/3.jpg" alt="PNG" style="zoom:50%;"></p>
+</li>
+<li><p>&#x53CD;&#x590D;&#x4E0A;&#x56FE;&#x6B65;&#x9AA4;&#x3002;</p>
+<p><img src="102/4.jpg" alt="PNG" style="zoom:50%;"></p>
+</li>
+<li><p>&#x73B0;&#x5728;prehead.Next&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x7684;&#x94FE;&#x8868;&#x3002;</p>
+<bra>
+
+</bra></li>
+</ol>
+<h3 id="03&#x3001;go&#x8BED;&#x8A00;&#x793A;&#x4F8B;">03&#x3001;Go&#x8BED;&#x8A00;&#x793A;&#x4F8B;</h3>
+<p>&#x6839;&#x636E;&#x4EE5;&#x4E0A;&#x5206;&#x6790;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x4E0B;&#x9762;&#x7684;&#x9898;&#x89E3;&#xFF1A;</p>
+<pre class="language-"><code class="lang-go"><span class="token keyword">func</span> <span class="token function">mergeTwoLists</span><span class="token punctuation">(</span>l1 <span class="token operator">*</span>ListNode<span class="token punctuation">,</span> l2 <span class="token operator">*</span>ListNode<span class="token punctuation">)</span> <span class="token operator">*</span>ListNode <span class="token punctuation">{</span>
+    prehead <span class="token operator">:=</span> <span class="token operator">&amp;</span>ListNode<span class="token punctuation">{</span><span class="token punctuation">}</span>
+    result <span class="token operator">:=</span> prehead
+    <span class="token keyword">for</span> l1 <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token operator">&amp;&amp;</span> l2 <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> l1<span class="token punctuation">.</span>Val <span class="token operator">&lt;</span> l2<span class="token punctuation">.</span>Val <span class="token punctuation">{</span>
+            prehead<span class="token punctuation">.</span>Next <span class="token operator">=</span> l1
+            l1 <span class="token operator">=</span> l1<span class="token punctuation">.</span>Next
+        <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+            prehead<span class="token punctuation">.</span>Next <span class="token operator">=</span> l2
+            l2 <span class="token operator">=</span> l2<span class="token punctuation">.</span>Next
+        <span class="token punctuation">}</span>
+        prehead <span class="token operator">=</span> prehead<span class="token punctuation">.</span>Next
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> l1 <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+        prehead<span class="token punctuation">.</span>Next <span class="token operator">=</span> l1
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> l2 <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+        prehead<span class="token punctuation">.</span>Next <span class="token operator">=</span> l2
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> result<span class="token punctuation">.</span>Next
+<span class="token punctuation">}</span>
+</code></pre>
+<footer class="page-footer"><span class="copyright">&#x672C;&#x6587;&#x51FA;&#x73B0;&#x6240;&#x6709;&#x4EE3;&#x7801;&#x5747;&#x7ECF; leetcode &#x6D4B;&#x8BD5;&#x901A;&#x8FC7;&#xFF0C;&#x6709;&#x5174;&#x8DA3;&#x53EF;&#x8FDB;&#x4E0B;&#x65B9;&#x5237;&#x9898;&#x7FA4;&#x4E00;&#x8D77;&#x4EA4;&#x6D41;&#xFF01;&#x7FA4;&#x91CC;&#x53EF;BAT&#x5185;&#x63A8;&#xFF01; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">File Modify: 
+2020-06-03 00:33:38
+</span></footer></bra></bra>
+						
+					</section>
+					
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+				</div>
+			</div>
+			
+		</div>
+
+		
+		
+		<a href="101.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 01.删除链表倒数第N个节点(19)">
+			<i class="fa fa-angle-left"></i>
+		</a>
+		
+		
+		
+		
+	</div>
+	<script>
+		var gitbook = gitbook || [];
+		gitbook.push(function() {
+			gitbook.page.hasChanged({"page":{"title":"02.合并两个有序链表(21)","level":"1.4.2","depth":2,"next":{"title":"3.动态规划","level":"1.5","depth":1,"ref":"","articles":[{"title":"01.爬楼梯(70)","level":"1.5.1","depth":2,"path":"c2/201.md","ref":"c2/201.md","articles":[]},{"title":"02.最大子序和(53)","level":"1.5.2","depth":2,"path":"c2/202.md","ref":"c2/202.md","articles":[]},{"title":"03.最长上升子序列(300)","level":"1.5.3","depth":2,"path":"c2/203.md","ref":"c2/203.md","articles":[]}]},"previous":{"title":"01.删除链表倒数第N个节点(19)","level":"1.4.1","depth":2,"path":"c1/101.md","ref":"c1/101.md","articles":[]},"dir":"ltr"},"config":{"plugins":["pageview-count","tbfed-pagefooter","theme-fexa","expandable-chapters","toc","github","prism","-highlight","splitter","sitemap","donate","code","-lunr","-search","search-pro","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"本文出现所有代码均经 leetcode 测试通过，有兴趣可进下方刷题群一起交流！群里可BAT内推！"},"prism":{},"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"livereload":{},"splitter":{},"search-pro":{},"toc":{},"theme-fexa":{"search-placeholder":"题目搜索...","logo":"./source/logo.jpg"},"code":{"copyButtons":true},"donate":{"alipay":"/source/avatar.jpeg","alipayText":"扫码回复【进群】可进万人刷题群","button":"刷题群","title":"","wechat":"","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhaoda.net/"},"pageview-count":{},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"《小浩算法》","gitbook":"*"},"file":{"path":"c1/102.md","mtime":"2020-06-02T16:33:38.178Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-02T16:35:30.134Z"},"basePath":"..","book":{"language":""}});
+		});
+	</script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-fexa/fexa.js"></script>
+        
+    
+
+    </body>
+</html>
+

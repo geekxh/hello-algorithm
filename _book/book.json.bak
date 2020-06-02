@@ -1,8 +1,6 @@
 {
-    "title": "《小浩算法》",
+    "title": "小浩算法",
     "plugins": [
-        "pageview-count",
-        "tbfed-pagefooter",
         "theme-fexa",
         "expandable-chapters",
         "toc",
@@ -31,14 +29,17 @@
             "alipay": "/source/avatar.jpeg",
             "title": "",
             "button": "刷题群",
-            "alipayText": "扫码回复【进群】可进万人刷题群"
+            "alipayText": "扫码回复【进群】即可"
         },
         "theme-fexa": {
             "search-placeholder": "题目搜索...",
-            "logo": "./source/logo.jpg"
-        },
-        "tbfed-pagefooter": {
-            "copyright": "本文出现所有代码均经 leetcode 测试通过，有兴趣可进下方刷题群一起交流！群里可BAT内推！"
+            "logo": "./source/logo.png",
+            "favicon": "./favicon.ico"
         }
     }
+    // "links": {
+    //     "sidebar": {
+    //         // "我的狗窝": "http://www.geekxh.com"
+    //     }
+    // }
 }
