@@ -29,10 +29,17 @@
             "alipay": "/source/avatar.jpeg",
             "title": "",
             "button": "刷题群",
-            "alipayText": "扫码回复【进群】可进万人刷题群"
+            "alipayText": "扫码回复【进群】即可"
         },
         "theme-fexa": {
-            "search-placeholder": "题目搜索..."
+            "search-placeholder": "题目搜索...",
+            "logo": "./source/logo.png",
+            "favicon": "./favicon.ico"
         }
     }
+    // "links": {
+    //     "sidebar": {
+    //         // "我的狗窝": "http://www.geekxh.com"
+    //     }
+    // }
 }
