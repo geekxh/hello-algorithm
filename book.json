@@ -1,5 +1,5 @@
 {
-    "title": "《小浩算法》",
+    "title": "小浩算法",
     "plugins": [
         "pageview-count",
         "tbfed-pagefooter",
@@ -35,10 +35,10 @@
         },
         "theme-fexa": {
             "search-placeholder": "题目搜索...",
-            "logo": "./source/logo.jpg"
+            "logo": "./source/logo.png"
         },
         "tbfed-pagefooter": {
-            "copyright": "本文出现所有代码均经 leetcode 测试通过，有兴趣可进下方刷题群一起交流！群里可BAT内推！"
+            "copyright": "<li>本文出现所有代码均在 leetcode 测试通过!</li><li>有兴趣可进下方刷题群一起交流！群里可BAT内推！</li>"
         }
     }
 }
