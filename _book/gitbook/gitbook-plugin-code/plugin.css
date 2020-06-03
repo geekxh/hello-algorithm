@@ -1,0 +1,37 @@
+#code-textarea {
+  height: 0;
+  position: fixed;
+  top: -1000px;
+  width: 0;
+}
+
+.code-wrapper {
+  position: relative;
+}
+
+.code-wrapper i {
+  color: #c1c7cd;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}
+
+.code-wrapper pre {
+  background: #f7f8f9;
+  border-radius: 3px;
+  counter-reset: line;
+  font-size: 15px;
+}
+
+.code-wrapper pre > code > span.code-line:before {
+  counter-increment: line;
+  color: #c1c7cd;
+  content: counter(line);
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 1.5em;
+  width: 1em;
+}
