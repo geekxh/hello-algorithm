@@ -1,0 +1,901 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>堆排序 · 小浩算法</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-fexa/fexa.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="8.countingSort.html" />
+    
+    
+    <link rel="prev" href="6.quickSort.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+	<div class="header-inner">
+		<!-- LOGO -->
+		<div class="logo"></div>
+		<span class="title"></span>
+
+		<!-- Search -->
+		
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+
+		<!-- Nav -->
+		<ul class="header-nav">
+			
+		</ul>
+	</div>
+
+	<div class="book-summary">
+		<div class="book-summary-title">文档目录</div>
+		
+		
+		<nav role="navigation">
+			
+
+
+<ul class="summary">
+          
+<li class="chapter " data-level="1.1" data-path="../" >
+    
+    <a href="../">
+            
+                    
+                    介绍
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.2" data-path="../c99/hello.html" >
+    
+    <a href="../c99/hello.html">
+            
+                    
+                    阅读指南
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3" >
+    
+                <span>
+            
+                    
+                    1.数组
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.3.1" data-path="../c0/001.html" >
+    
+    <a href="../c0/001.html">
+            
+                    
+                    01.两个数组的交集(350)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.2" data-path="../c0/002.html" >
+    
+    <a href="../c0/002.html">
+            
+                    
+                    02.最长公共前缀(14)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.3" data-path="../c0/003.html" >
+    
+    <a href="../c0/003.html">
+            
+                    
+                    03.买卖股票的最佳时机(122)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.4" data-path="../c0/004.html" >
+    
+    <a href="../c0/004.html">
+            
+                    
+                    04.旋转数组(189)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.5" data-path="../c0/005.html" >
+    
+    <a href="../c0/005.html">
+            
+                    
+                    05.原地删除(27)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.6" data-path="../c0/006.html" >
+    
+    <a href="../c0/006.html">
+            
+                    
+                    06.加一(66)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.3.7" data-path="../c0/007.html" >
+    
+    <a href="../c0/007.html">
+            
+                    
+                    07.两数之和(1)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="1.4" >
+    
+                <span>
+            
+                    
+                    2.链表
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.4.1" data-path="../c1/101.html" >
+    
+    <a href="../c1/101.html">
+            
+                    
+                    01.删除链表倒数第N个节点(19)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.4.2" data-path="../c1/102.html" >
+    
+    <a href="../c1/102.html">
+            
+                    
+                    02.合并两个有序链表(21)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.4.3" data-path="../c1/103.html" >
+    
+    <a href="../c1/103.html">
+            
+                    
+                    03.环形链表(21)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="1.5" >
+    
+                <span>
+            
+                    
+                    3.动态规划
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.5.1" data-path="../c2/201.html" >
+    
+    <a href="../c2/201.html">
+            
+                    
+                    01.爬楼梯(70)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.5.2" data-path="../c2/202.html" >
+    
+    <a href="../c2/202.html">
+            
+                    
+                    02.最大子序和(53)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.5.3" data-path="../c2/203.html" >
+    
+    <a href="../c2/203.html">
+            
+                    
+                    03.最长上升子序列(300)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.5.4" data-path="../c2/204.html" >
+    
+    <a href="../c2/204.html">
+            
+                    
+                    04.三角形最小路径和(120)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.5.5" data-path="../c2/205.html" >
+    
+    <a href="../c2/205.html">
+            
+                    
+                    05.最小路径和(64)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.5.6" data-path="../c2/206.html" >
+    
+    <a href="../c2/206.html">
+            
+                    
+                    06.打家劫舍(198)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="1.6" >
+    
+                <span>
+            
+                    
+                    4.字符串
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.6.1" data-path="../c3/301.html" >
+    
+    <a href="../c3/301.html">
+            
+                    
+                    01.反转字符串(344)
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.6.2" data-path="../c3/302.html" >
+    
+    <a href="../c3/302.html">
+            
+                    
+                    02.字符串中的第一个唯一字符(387)
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+
+<li class="chapter " data-level="1.7" >
+    
+                <span>
+            
+                    
+                    其他：排序专栏
+            
+    </span>
+     
+    <ul class="articles">
+         
+<li class="chapter " data-level="1.7.1" data-path="0.readme.html" >
+    
+    <a href="0.readme.html">
+            
+                    
+                    排序算法
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.7.2" data-path="1.bubbleSort.html" >
+    
+    <a href="1.bubbleSort.html">
+            
+                    
+                    冒泡排序
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.7.3" data-path="2.selectionSort.html" >
+    
+    <a href="2.selectionSort.html">
+            
+                    
+                    选择排序
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.7.4" data-path="3.insertionSort.html" >
+    
+    <a href="3.insertionSort.html">
+            
+                    
+                    插入排序
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.7.5" data-path="4.shellSort.html" >
+    
+    <a href="4.shellSort.html">
+            
+                    
+                    希尔排序
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.7.6" data-path="5.mergeSort.html" >
+    
+    <a href="5.mergeSort.html">
+            
+                    
+                    归并排序
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.7.7" data-path="6.quickSort.html" >
+    
+    <a href="6.quickSort.html">
+            
+                    
+                    快速排序
+            
+                </a>  
+</li>
+
+<li class="chapter active" data-level="1.7.8" data-path="7.heapSort.html" >
+    
+    <a href="7.heapSort.html">
+            
+                    
+                    堆排序
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.7.9" data-path="8.countingSort.html" >
+    
+    <a href="8.countingSort.html">
+            
+                    
+                    计数排序
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.7.10" data-path="9.bucketSort.html" >
+    
+    <a href="9.bucketSort.html">
+            
+                    
+                    桶排序
+            
+                </a>  
+</li>
+
+<li class="chapter " data-level="1.7.11" data-path="10.radixSort.html" >
+    
+    <a href="10.radixSort.html">
+            
+                    
+                    基数排序
+            
+                </a>  
+</li>
+ 
+    </ul>
+    
+</li>
+  
+
+    <li class="divider"></li>
+
+    <li>
+        <!-- <img src="./avatar.jpeg"  width="200" height="200"/> -->
+    </li>
+</ul>
+
+		</nav>
+		
+		
+	</div>
+
+	<!-- Content nav -->
+	<div class="book-anchor">
+		<div class="book-anchor-title">在这篇文章中:</div>
+		<div class="book-anchor-body">
+
+		</div>
+	</div>
+
+	<div class="book-body">
+		
+		<div class="body-inner">
+			
+			
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >堆排序</a>
+    </h1>
+</div>
+
+
+
+
+			<div class="page-wrapper" tabindex="-1" role="main">
+				<div class="page-inner">
+					
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+					<section class="normal markdown-section">
+						
+						<h1 id="&#x5806;&#x6392;&#x5E8F;">&#x5806;&#x6392;&#x5E8F;</h1>
+<p>&#x5806;&#x6392;&#x5E8F;&#xFF08;Heapsort&#xFF09;&#x662F;&#x6307;&#x5229;&#x7528;&#x5806;&#x8FD9;&#x79CD;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x6240;&#x8BBE;&#x8BA1;&#x7684;&#x4E00;&#x79CD;&#x6392;&#x5E8F;&#x7B97;&#x6CD5;&#x3002;&#x5806;&#x79EF;&#x662F;&#x4E00;&#x4E2A;&#x8FD1;&#x4F3C;&#x5B8C;&#x5168;&#x4E8C;&#x53C9;&#x6811;&#x7684;&#x7ED3;&#x6784;&#xFF0C;&#x5E76;&#x540C;&#x65F6;&#x6EE1;&#x8DB3;&#x5806;&#x79EF;&#x7684;&#x6027;&#x8D28;&#xFF1A;&#x5373;&#x5B50;&#x7ED3;&#x70B9;&#x7684;&#x952E;&#x503C;&#x6216;&#x7D22;&#x5F15;&#x603B;&#x662F;&#x5C0F;&#x4E8E;&#xFF08;&#x6216;&#x8005;&#x5927;&#x4E8E;&#xFF09;&#x5B83;&#x7684;&#x7236;&#x8282;&#x70B9;&#x3002;&#x5806;&#x6392;&#x5E8F;&#x53EF;&#x4EE5;&#x8BF4;&#x662F;&#x4E00;&#x79CD;&#x5229;&#x7528;&#x5806;&#x7684;&#x6982;&#x5FF5;&#x6765;&#x6392;&#x5E8F;&#x7684;&#x9009;&#x62E9;&#x6392;&#x5E8F;&#x3002;&#x5206;&#x4E3A;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#xFF1A;</p>
+<ol>
+<li>&#x5927;&#x9876;&#x5806;&#xFF1A;&#x6BCF;&#x4E2A;&#x8282;&#x70B9;&#x7684;&#x503C;&#x90FD;&#x5927;&#x4E8E;&#x6216;&#x7B49;&#x4E8E;&#x5176;&#x5B50;&#x8282;&#x70B9;&#x7684;&#x503C;&#xFF0C;&#x5728;&#x5806;&#x6392;&#x5E8F;&#x7B97;&#x6CD5;&#x4E2D;&#x7528;&#x4E8E;&#x5347;&#x5E8F;&#x6392;&#x5217;&#xFF1B;</li>
+<li>&#x5C0F;&#x9876;&#x5806;&#xFF1A;&#x6BCF;&#x4E2A;&#x8282;&#x70B9;&#x7684;&#x503C;&#x90FD;&#x5C0F;&#x4E8E;&#x6216;&#x7B49;&#x4E8E;&#x5176;&#x5B50;&#x8282;&#x70B9;&#x7684;&#x503C;&#xFF0C;&#x5728;&#x5806;&#x6392;&#x5E8F;&#x7B97;&#x6CD5;&#x4E2D;&#x7528;&#x4E8E;&#x964D;&#x5E8F;&#x6392;&#x5217;&#xFF1B;</li>
+</ol>
+<p>&#x5806;&#x6392;&#x5E8F;&#x7684;&#x5E73;&#x5747;&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x4E3A; &#x39F;(nlogn)&#x3002;</p>
+<h2 id="1-&#x7B97;&#x6CD5;&#x6B65;&#x9AA4;">1. &#x7B97;&#x6CD5;&#x6B65;&#x9AA4;</h2>
+<ol>
+<li><p>&#x5C06;&#x5F85;&#x6392;&#x5E8F;&#x5E8F;&#x5217;&#x6784;&#x5EFA;&#x6210;&#x4E00;&#x4E2A;&#x5806; H[0&#x2026;&#x2026;n-1]&#xFF0C;&#x6839;&#x636E;&#xFF08;&#x5347;&#x5E8F;&#x964D;&#x5E8F;&#x9700;&#x6C42;&#xFF09;&#x9009;&#x62E9;&#x5927;&#x9876;&#x5806;&#x6216;&#x5C0F;&#x9876;&#x5806;&#xFF1B;</p>
+</li>
+<li><p>&#x628A;&#x5806;&#x9996;&#xFF08;&#x6700;&#x5927;&#x503C;&#xFF09;&#x548C;&#x5806;&#x5C3E;&#x4E92;&#x6362;&#xFF1B;</p>
+</li>
+<li><p>&#x628A;&#x5806;&#x7684;&#x5C3A;&#x5BF8;&#x7F29;&#x5C0F; 1&#xFF0C;&#x5E76;&#x8C03;&#x7528; shift_down(0)&#xFF0C;&#x76EE;&#x7684;&#x662F;&#x628A;&#x65B0;&#x7684;&#x6570;&#x7EC4;&#x9876;&#x7AEF;&#x6570;&#x636E;&#x8C03;&#x6574;&#x5230;&#x76F8;&#x5E94;&#x4F4D;&#x7F6E;&#xFF1B;</p>
+</li>
+<li><p>&#x91CD;&#x590D;&#x6B65;&#x9AA4; 2&#xFF0C;&#x76F4;&#x5230;&#x5806;&#x7684;&#x5C3A;&#x5BF8;&#x4E3A; 1&#x3002;</p>
+</li>
+</ol>
+<h2 id="2-&#x52A8;&#x56FE;&#x6F14;&#x793A;">2. &#x52A8;&#x56FE;&#x6F14;&#x793A;</h2>
+<p><img src="res/heapSort.gif" alt="&#x52A8;&#x56FE;&#x6F14;&#x793A;"></p>
+<h2 id="3-javascript-&#x4EE3;&#x7801;&#x5B9E;&#x73B0;">3. JavaScript &#x4EE3;&#x7801;&#x5B9E;&#x73B0;</h2>
+<pre class="language-"><code class="lang-js"><span class="token keyword">var</span> len<span class="token punctuation">;</span>    <span class="token comment">// &#x56E0;&#x4E3A;&#x58F0;&#x660E;&#x7684;&#x591A;&#x4E2A;&#x51FD;&#x6570;&#x90FD;&#x9700;&#x8981;&#x6570;&#x636E;&#x957F;&#x5EA6;&#xFF0C;&#x6240;&#x4EE5;&#x628A;len&#x8BBE;&#x7F6E;&#x6210;&#x4E3A;&#x5168;&#x5C40;&#x53D8;&#x91CF;</span>
+
+<span class="token keyword">function</span> <span class="token function">buildMaxHeap</span><span class="token punctuation">(</span><span class="token parameter">arr</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>   <span class="token comment">// &#x5EFA;&#x7ACB;&#x5927;&#x9876;&#x5806;</span>
+    len <span class="token operator">=</span> arr<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token function">floor</span><span class="token punctuation">(</span>len<span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">heapify</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">heapify</span><span class="token punctuation">(</span><span class="token parameter">arr<span class="token punctuation">,</span> i</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>     <span class="token comment">// &#x5806;&#x8C03;&#x6574;</span>
+    <span class="token keyword">var</span> left <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">*</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span>
+        right <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">*</span> i <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">,</span>
+        largest <span class="token operator">=</span> i<span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>left <span class="token operator">&lt;</span> len <span class="token operator">&amp;&amp;</span> arr<span class="token punctuation">[</span>left<span class="token punctuation">]</span> <span class="token operator">&gt;</span> arr<span class="token punctuation">[</span>largest<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        largest <span class="token operator">=</span> left<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>right <span class="token operator">&lt;</span> len <span class="token operator">&amp;&amp;</span> arr<span class="token punctuation">[</span>right<span class="token punctuation">]</span> <span class="token operator">&gt;</span> arr<span class="token punctuation">[</span>largest<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        largest <span class="token operator">=</span> right<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>largest <span class="token operator">!=</span> i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">swap</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> i<span class="token punctuation">,</span> largest<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token function">heapify</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> largest<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">swap</span><span class="token punctuation">(</span><span class="token parameter">arr<span class="token punctuation">,</span> i<span class="token punctuation">,</span> j</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> temp <span class="token operator">=</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> temp<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">heapSort</span><span class="token punctuation">(</span><span class="token parameter">arr</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">buildMaxHeap</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> arr<span class="token punctuation">.</span>length<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">swap</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        len<span class="token operator">--</span><span class="token punctuation">;</span>
+        <span class="token function">heapify</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> arr<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="4-python-&#x4EE3;&#x7801;&#x5B9E;&#x73B0;">4. Python &#x4EE3;&#x7801;&#x5B9E;&#x73B0;</h2>
+<pre class="language-"><code class="lang-python"><span class="token keyword">def</span> <span class="token function">buildMaxHeap</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">import</span> math
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>math<span class="token punctuation">.</span>floor<span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        heapify<span class="token punctuation">(</span>arr<span class="token punctuation">,</span>i<span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">heapify</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    left <span class="token operator">=</span> <span class="token number">2</span><span class="token operator">*</span>i<span class="token operator">+</span><span class="token number">1</span>
+    right <span class="token operator">=</span> <span class="token number">2</span><span class="token operator">*</span>i<span class="token operator">+</span><span class="token number">2</span>
+    largest <span class="token operator">=</span> i
+    <span class="token keyword">if</span> left <span class="token operator">&lt;</span> arrLen <span class="token keyword">and</span> arr<span class="token punctuation">[</span>left<span class="token punctuation">]</span> <span class="token operator">&gt;</span> arr<span class="token punctuation">[</span>largest<span class="token punctuation">]</span><span class="token punctuation">:</span>
+        largest <span class="token operator">=</span> left
+    <span class="token keyword">if</span> right <span class="token operator">&lt;</span> arrLen <span class="token keyword">and</span> arr<span class="token punctuation">[</span>right<span class="token punctuation">]</span> <span class="token operator">&gt;</span> arr<span class="token punctuation">[</span>largest<span class="token punctuation">]</span><span class="token punctuation">:</span>
+        largest <span class="token operator">=</span> right
+
+    <span class="token keyword">if</span> largest <span class="token operator">!=</span> i<span class="token punctuation">:</span>
+        swap<span class="token punctuation">(</span>arr<span class="token punctuation">,</span> i<span class="token punctuation">,</span> largest<span class="token punctuation">)</span>
+        heapify<span class="token punctuation">(</span>arr<span class="token punctuation">,</span> largest<span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">swap</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> i<span class="token punctuation">,</span> j<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">,</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+
+<span class="token keyword">def</span> <span class="token function">heapSort</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">global</span> arrLen
+    arrLen <span class="token operator">=</span> <span class="token builtin">len</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span>
+    buildMaxHeap<span class="token punctuation">(</span>arr<span class="token punctuation">)</span>
+    <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token builtin">len</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+        swap<span class="token punctuation">(</span>arr<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span>
+        arrLen <span class="token operator">-=</span><span class="token number">1</span>
+        heapify<span class="token punctuation">(</span>arr<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span> arr
+</code></pre>
+<h2 id="5-go-&#x4EE3;&#x7801;&#x5B9E;&#x73B0;">5. Go &#x4EE3;&#x7801;&#x5B9E;&#x73B0;</h2>
+<pre class="language-"><code class="lang-go"><span class="token keyword">func</span> <span class="token function">heapSort</span><span class="token punctuation">(</span>arr <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span> <span class="token punctuation">{</span>
+    arrLen <span class="token operator">:=</span> <span class="token function">len</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span>
+    <span class="token function">buildMaxHeap</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> arrLen<span class="token punctuation">)</span>
+    <span class="token keyword">for</span> i <span class="token operator">:=</span> arrLen <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">--</span> <span class="token punctuation">{</span>
+        <span class="token function">swap</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span>
+        arrLen <span class="token operator">-=</span> <span class="token number">1</span>
+        <span class="token function">heapify</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> arrLen<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> arr
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">buildMaxHeap</span><span class="token punctuation">(</span>arr <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">,</span> arrLen <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">for</span> i <span class="token operator">:=</span> arrLen <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span> i <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">--</span> <span class="token punctuation">{</span>
+        <span class="token function">heapify</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> i<span class="token punctuation">,</span> arrLen<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">heapify</span><span class="token punctuation">(</span>arr <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">,</span> i<span class="token punctuation">,</span> arrLen <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    left <span class="token operator">:=</span> <span class="token number">2</span><span class="token operator">*</span>i <span class="token operator">+</span> <span class="token number">1</span>
+    right <span class="token operator">:=</span> <span class="token number">2</span><span class="token operator">*</span>i <span class="token operator">+</span> <span class="token number">2</span>
+    largest <span class="token operator">:=</span> i
+    <span class="token keyword">if</span> left <span class="token operator">&lt;</span> arrLen <span class="token operator">&amp;&amp;</span> arr<span class="token punctuation">[</span>left<span class="token punctuation">]</span> <span class="token operator">&gt;</span> arr<span class="token punctuation">[</span>largest<span class="token punctuation">]</span> <span class="token punctuation">{</span>
+        largest <span class="token operator">=</span> left
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> right <span class="token operator">&lt;</span> arrLen <span class="token operator">&amp;&amp;</span> arr<span class="token punctuation">[</span>right<span class="token punctuation">]</span> <span class="token operator">&gt;</span> arr<span class="token punctuation">[</span>largest<span class="token punctuation">]</span> <span class="token punctuation">{</span>
+        largest <span class="token operator">=</span> right
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span> largest <span class="token operator">!=</span> i <span class="token punctuation">{</span>
+        <span class="token function">swap</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> i<span class="token punctuation">,</span> largest<span class="token punctuation">)</span>
+        <span class="token function">heapify</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> largest<span class="token punctuation">,</span> arrLen<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">swap</span><span class="token punctuation">(</span>arr <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token builtin">int</span><span class="token punctuation">,</span> i<span class="token punctuation">,</span> j <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span> arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">,</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="6-java-&#x4EE3;&#x7801;&#x5B9E;&#x73B0;">6. Java &#x4EE3;&#x7801;&#x5B9E;&#x73B0;</h2>
+<pre class="language-"><code class="lang-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HeapSort</span> <span class="token keyword">implements</span> <span class="token class-name">IArraySort</span> <span class="token punctuation">{</span>
+
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">sort</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> sourceArray<span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">Exception</span> <span class="token punctuation">{</span>
+        <span class="token comment">// &#x5BF9; arr &#x8FDB;&#x884C;&#x62F7;&#x8D1D;&#xFF0C;&#x4E0D;&#x6539;&#x53D8;&#x53C2;&#x6570;&#x5185;&#x5BB9;</span>
+        <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">copyOf</span><span class="token punctuation">(</span>sourceArray<span class="token punctuation">,</span> sourceArray<span class="token punctuation">.</span>length<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">int</span> len <span class="token operator">=</span> arr<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+
+        <span class="token function">buildMaxHeap</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> len<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> len <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token function">swap</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            len<span class="token operator">--</span><span class="token punctuation">;</span>
+            <span class="token function">heapify</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> len<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> arr<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">buildMaxHeap</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">,</span> <span class="token keyword">int</span> len<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">)</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token function">floor</span><span class="token punctuation">(</span>len <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token function">heapify</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> i<span class="token punctuation">,</span> len<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">heapify</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">,</span> <span class="token keyword">int</span> i<span class="token punctuation">,</span> <span class="token keyword">int</span> len<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> left <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">*</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> right <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">*</span> i <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> largest <span class="token operator">=</span> i<span class="token punctuation">;</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>left <span class="token operator">&lt;</span> len <span class="token operator">&amp;&amp;</span> arr<span class="token punctuation">[</span>left<span class="token punctuation">]</span> <span class="token operator">&gt;</span> arr<span class="token punctuation">[</span>largest<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            largest <span class="token operator">=</span> left<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>right <span class="token operator">&lt;</span> len <span class="token operator">&amp;&amp;</span> arr<span class="token punctuation">[</span>right<span class="token punctuation">]</span> <span class="token operator">&gt;</span> arr<span class="token punctuation">[</span>largest<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            largest <span class="token operator">=</span> right<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>largest <span class="token operator">!=</span> i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token function">swap</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> i<span class="token punctuation">,</span> largest<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token function">heapify</span><span class="token punctuation">(</span>arr<span class="token punctuation">,</span> largest<span class="token punctuation">,</span> len<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">swap</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr<span class="token punctuation">,</span> <span class="token keyword">int</span> i<span class="token punctuation">,</span> <span class="token keyword">int</span> j<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span> temp <span class="token operator">=</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> temp<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="7-php-&#x4EE3;&#x7801;&#x5B9E;&#x73B0;">7. PHP &#x4EE3;&#x7801;&#x5B9E;&#x73B0;</h2>
+<pre class="language-"><code class="lang-php"><span class="token keyword">function</span> <span class="token function">buildMaxHeap</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token variable">$arr</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">global</span> <span class="token variable">$len</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token variable">$i</span> <span class="token operator">=</span> <span class="token function">floor</span><span class="token punctuation">(</span><span class="token variable">$len</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token variable">$i</span> <span class="token operator">&gt;=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token variable">$i</span><span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">heapify</span><span class="token punctuation">(</span><span class="token variable">$arr</span><span class="token punctuation">,</span> <span class="token variable">$i</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">heapify</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token variable">$arr</span><span class="token punctuation">,</span> <span class="token variable">$i</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">global</span> <span class="token variable">$len</span><span class="token punctuation">;</span>
+    <span class="token variable">$left</span> <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">*</span> <span class="token variable">$i</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token variable">$right</span> <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">*</span> <span class="token variable">$i</span> <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">;</span>
+    <span class="token variable">$largest</span> <span class="token operator">=</span> <span class="token variable">$i</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$left</span> <span class="token operator">&lt;</span> <span class="token variable">$len</span> <span class="token operator">&amp;&amp;</span> <span class="token variable">$arr</span><span class="token punctuation">[</span><span class="token variable">$left</span><span class="token punctuation">]</span> <span class="token operator">&gt;</span> <span class="token variable">$arr</span><span class="token punctuation">[</span><span class="token variable">$largest</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token variable">$largest</span> <span class="token operator">=</span> <span class="token variable">$left</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$right</span> <span class="token operator">&lt;</span> <span class="token variable">$len</span> <span class="token operator">&amp;&amp;</span> <span class="token variable">$arr</span><span class="token punctuation">[</span><span class="token variable">$right</span><span class="token punctuation">]</span> <span class="token operator">&gt;</span> <span class="token variable">$arr</span><span class="token punctuation">[</span><span class="token variable">$largest</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token variable">$largest</span> <span class="token operator">=</span> <span class="token variable">$right</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$largest</span> <span class="token operator">!=</span> <span class="token variable">$i</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">swap</span><span class="token punctuation">(</span><span class="token variable">$arr</span><span class="token punctuation">,</span> <span class="token variable">$i</span><span class="token punctuation">,</span> <span class="token variable">$largest</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token function">heapify</span><span class="token punctuation">(</span><span class="token variable">$arr</span><span class="token punctuation">,</span> <span class="token variable">$largest</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">swap</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token variable">$arr</span><span class="token punctuation">,</span> <span class="token variable">$i</span><span class="token punctuation">,</span> <span class="token variable">$j</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token variable">$temp</span> <span class="token operator">=</span> <span class="token variable">$arr</span><span class="token punctuation">[</span><span class="token variable">$i</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token variable">$arr</span><span class="token punctuation">[</span><span class="token variable">$i</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token variable">$arr</span><span class="token punctuation">[</span><span class="token variable">$j</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token variable">$arr</span><span class="token punctuation">[</span><span class="token variable">$j</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token variable">$temp</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">heapSort</span><span class="token punctuation">(</span><span class="token variable">$arr</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">global</span> <span class="token variable">$len</span><span class="token punctuation">;</span>
+    <span class="token variable">$len</span> <span class="token operator">=</span> <span class="token function">count</span><span class="token punctuation">(</span><span class="token variable">$arr</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">buildMaxHeap</span><span class="token punctuation">(</span><span class="token variable">$arr</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token variable">$i</span> <span class="token operator">=</span> <span class="token function">count</span><span class="token punctuation">(</span><span class="token variable">$arr</span><span class="token punctuation">)</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token variable">$i</span> <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token variable">$i</span><span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">swap</span><span class="token punctuation">(</span><span class="token variable">$arr</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token variable">$i</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token variable">$len</span><span class="token operator">--</span><span class="token punctuation">;</span>
+        <span class="token function">heapify</span><span class="token punctuation">(</span><span class="token variable">$arr</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token variable">$arr</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<footer class="page-footer"><span class="copyright"><li>&#x672C;&#x6587;&#x51FA;&#x73B0;&#x6240;&#x6709;&#x4EE3;&#x7801;&#x5747;&#x5728; leetcode &#x6D4B;&#x8BD5;&#x901A;&#x8FC7;!</li><li>&#x6709;&#x5174;&#x8DA3;&#x53EF;&#x8FDB;&#x4E0B;&#x65B9;&#x5237;&#x9898;&#x7FA4;&#x4E00;&#x8D77;&#x4EA4;&#x6D41;&#xFF01;&#x7FA4;&#x91CC;&#x53EF;BAT&#x5185;&#x63A8;</li></span><span class="footer-modification">File Modify: 
+2020-06-07 12:43:08
+</span></footer>
+						
+					</section>
+					
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+				</div>
+			</div>
+			
+		</div>
+
+		
+		
+		<a href="6.quickSort.html" class="navigation navigation-prev " aria-label="Previous page: 快速排序">
+			<i class="fa fa-angle-left"></i>
+		</a>
+		
+		
+		<a href="8.countingSort.html" class="navigation navigation-next " aria-label="Next page: 计数排序">
+			<i class="fa fa-angle-right"></i>
+		</a>
+		
+		
+		
+	</div>
+	<script>
+		var gitbook = gitbook || [];
+		gitbook.push(function() {
+			gitbook.page.hasChanged({"page":{"title":"堆排序","level":"1.7.8","depth":2,"next":{"title":"计数排序","level":"1.7.9","depth":2,"path":"sort/8.countingSort.md","ref":"sort/8.countingSort.md","articles":[]},"previous":{"title":"快速排序","level":"1.7.7","depth":2,"path":"sort/6.quickSort.md","ref":"sort/6.quickSort.md","articles":[]},"dir":"ltr"},"config":{"plugins":["pageview-count","tbfed-pagefooter","theme-fexa","expandable-chapters","toc","github","prism","-highlight","splitter","sitemap","donate","code","-lunr","-search","search-pro","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"<li>本文出现所有代码均在 leetcode 测试通过!</li><li>有兴趣可进下方刷题群一起交流！群里可BAT内推</li>"},"prism":{},"github":{"url":"https://github.com/geekxh/hello-algorithm.git"},"livereload":{},"splitter":{},"search-pro":{},"toc":{},"theme-fexa":{"search-placeholder":"题目搜索...","logo":"./source/logo.png"},"code":{"copyButtons":true},"donate":{"alipay":"/source/avatar.jpeg","alipayText":"扫码回复【进群】可进万人刷题群","button":"刷题群","title":"","wechat":"","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhaoda.net/"},"pageview-count":{},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"小浩算法","gitbook":"*"},"file":{"path":"sort/7.heapSort.md","mtime":"2020-06-07T04:43:08.306Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-07T08:49:32.471Z"},"basePath":"..","book":{"language":""}});
+		});
+	</script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-fexa/fexa.js"></script>
+        
+    
+
+    </body>
+</html>
+
