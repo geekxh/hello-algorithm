@@ -58,7 +58,7 @@
 
 * [5.二叉树]()    
     * [01.最大深度与DFS(104)](http://www.geekxh.com/c4/401.html)
-    * [02.层次遍历与BFS(102)](chttp://www.geekxh.com/c4/402.html)
+    * [02.层次遍历与BFS(102)](http://www.geekxh.com/c4/402.html)
 
 
 * [其他：排序专栏]()
