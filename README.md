@@ -13,6 +13,7 @@
 > ###### 为了大家更好的交流，我创建了<font color="red"><b>万人刷题群</b>
 >
 > ###### 下方扫码回复<font color="red" size="5"><b>【刷题】</b></font> 即可（群里无广告，不套路，不推送）
+
 <br/>
 
 <div id="main" style="width:400px; height:200px;">
@@ -21,6 +22,8 @@
 <div id="right" style="float:left ; width:50%; height:100%;">
 <img src="http://www.geekxh.com/img/suggest.jpeg" alt="JPEG" style="zoom: 67%;" width=300/> </div> 
 </div>
+
+<br/>另外我想说下的是，目前小浩算法的网站已经开源放在了 github 上，<b>如果你看到这里，我想请你帮我给这个项目点一个star</b>，满足一下我的虚荣心。当然，我认为我的文章质量绝对值你一个star。我也会更加努力的进行创作。点击右边的项目源码就可以了。 ☞☞☞ [项目源码](https://github.com/geekxh/hello-algorithm)
 
 * [开始学习](http://www.geekxh.com) 
 
