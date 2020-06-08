@@ -45,4 +45,4 @@
 
 下方扫码，加我微信，我拉你到刷题群。和大家一起交流学习！（备注：进群）
 
-<img src="../source/avatar.jpeg" alt="PNG" style="zoom: 67%;" width=300/>
+<img src="../img/avatar.jpeg" alt="PNG" style="zoom: 67%;" width=300/>

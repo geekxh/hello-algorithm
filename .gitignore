@@ -1,1 +1,4 @@
 node_modules
+/_book/c*
+/_book/sort
+/_book/.idea

@@ -28,14 +28,14 @@
             "hostname": "http://zhaoda.net/"
         },
         "donate": {
-            "alipay": "/source/avatar.jpeg",
+            "alipay": "/img/avatar.jpeg",
             "title": "",
             "button": "刷题群",
             "alipayText": "扫码回复【进群】可进万人刷题群"
         },
         "theme-fexa": {
             "search-placeholder": "题目搜索...",
-            "logo": "./source/logo.png"
+            "logo": "./img/logo.png"
         },
         "tbfed-pagefooter": {
             "copyright": "<li>本文出现所有代码均在 leetcode 测试通过!</li><li>有兴趣可进下方刷题群一起交流！群里可BAT内推！</li>"

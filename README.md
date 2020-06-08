@@ -13,16 +13,63 @@
 > ###### 为了大家更好的交流，我创建了<font color="red"><b>万人刷题群</b>
 >
 > ###### 下方扫码回复<font color="red" size="5"><b>【刷题】</b></font> 即可（群里无广告，不套路，不推送）
-
 <br/>
 
-<div id="main" style="width:400px; height:600px;">
+<div id="main" style="width:400px; height:200px;">
 <div id="left" style="float:left ; width:50%; height:100%;">
-<img src="source/avatar.jpeg" alt="PNG" style="zoom: 67%;" width=300/></div>
+<img src="http://www.geekxh.com/img/avatar.jpeg" alt="JPEG" style="zoom: 67%;" width=300/></div>
 <div id="right" style="float:left ; width:50%; height:100%;">
-<img src="source/img1.jpeg" alt="PNG" style="zoom: 67%;" width=300/> </div>
+<img src="http://www.geekxh.com/img/suggest.jpeg" alt="JPEG" style="zoom: 67%;" width=300/> </div> 
 </div>
 
+* [开始学习](http://www.geekxh.com) 
+
+* [阅读指南](http://www.geekxh.com/c99/hello.html)
+
+* [1.数组]()
+    * [01.两个数组的交集(350)](http://www.geekxh.com/c0/001.html)
+    * [02.最长公共前缀(14)](http://www.geekxh.com/c0/002.html)
+    * [03.买卖股票的最佳时机(122)](http://www.geekxh.com/c0/003.html)
+    * [04.旋转数组(189)](http://www.geekxh.com/c0/004.html)
+    * [05.原地删除(27)](http://www.geekxh.com/c0/005.html)
+    * [06.加一(66)](http://www.geekxh.com/c0/006.html)
+    * [07.两数之和(1)](http://www.geekxh.com/c0/007.html)
 
 
+* [2.链表]()
+    * [01.删除链表倒数第N个节点(19)](http://www.geekxh.com/c1/101.html)
+    * [02.合并两个有序链表(21)](http://www.geekxh.com/c1/102.html)
+    * [03.环形链表(21)](http://www.geekxh.com/c1/103.html)
+    
 
+* [3.动态规划]()    
+    * [01.爬楼梯(70)](http://www.geekxh.com/c2/201.html)
+    * [02.最大子序和(53)](http://www.geekxh.com/c2/202.html)
+    * [03.最长上升子序列(300)](http://www.geekxh.com/c2/203.html)
+    * [04.三角形最小路径和(120)](http://www.geekxh.com/c2/204.html)
+    * [05.最小路径和(64)](http://www.geekxh.com/c2/205.html)
+    * [06.打家劫舍(198)](http://www.geekxh.com/c2/206.html)
+    
+
+* [4.字符串]()    
+    * [01.反转字符串(344)](http://www.geekxh.com/c3/301.html)
+    * [02.字符串中的第一个唯一字符(387)](http://www.geekxh.com/c3/302.html)
+
+
+* [5.二叉树]()    
+    * [01.最大深度与DFS(104)](http://www.geekxh.com/c4/401.html)
+    * [02.层次遍历与BFS(102)](chttp://www.geekxh.com/c4/402.html)
+
+
+* [其他：排序专栏]()
+   * [排序算法](http://www.geekxh.com/sort/0.readme.html)
+   * [冒泡排序](http://www.geekxh.com/sort/1.bubbleSort.html)
+   * [选择排序](http://www.geekxh.com/sort/2.selectionSort.html)
+   * [插入排序](http://www.geekxh.com/sort/3.insertionSort.html)
+   * [希尔排序](http://www.geekxh.com/sort/4.shellSort.html)
+   * [归并排序](http://www.geekxh.com/sort/5.mergeSort.html)
+   * [快速排序](http://www.geekxh.com/sort/6.quickSort.html)
+   * [堆排序](http://www.geekxh.com/sort/7.heapSort.html)
+   * [计数排序](http://www.geekxh.com/sort/8.countingSort.html)
+   * [桶排序](http://www.geekxh.com/sort/9.bucketSort.html)
+   * [基数排序](http://www.geekxh.com/sort/10.radixSort.html)
