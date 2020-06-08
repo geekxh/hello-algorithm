@@ -26,10 +26,7 @@
 <br/>
 
 >另外我想说下的是，目前小浩算法的网站已经开源放在了 github 上，<b>如果你看到这里，我想请你帮我给这个项目点一个star</b>，满足一下我的虚荣心。当然，我认为我的文章质量绝对值你一个star。我也会更加努力的进行创作。点击右边的项目源码就可以了。 ☞☞☞ [项目源码](https://github.com/geekxh/hello-algorithm)
-<br/>
-
 ***
-
 * [开始学习](http://www.geekxh.com) 
 
 * [阅读指南](http://www.geekxh.com/c99/hello.html)
