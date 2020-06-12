@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "author": "geek小浩",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vuepress dev learning",
+    "build": "vuepress build learning"
   },
   "devDependencies": {
     "algoliasearch": "^4.2.0",
