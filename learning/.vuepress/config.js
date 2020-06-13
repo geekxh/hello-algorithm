@@ -17,7 +17,7 @@ module.exports = {
         authorAvatar: '/avatar.png',
         startYear: '2019',
         valineConfig: {
-            appId: 'sINkW5sfpPxoqDyBqbpvTN79-gzGzoHs',
+            appId: 'sINkW5sfpPxoqDyBqbpvTN79-gzGzoHsz',
             appKey: '5tkDVulRNyjuAbCUekxU6zHW',
         }
     },
