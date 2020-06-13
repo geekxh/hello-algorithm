@@ -15,11 +15,10 @@ module.exports = {
         lastUpdated: '文章修订于',
         author: '程序员小浩',
         authorAvatar: '/avatar.png',
-        record: 'xxxx',
         startYear: '2019',
         valineConfig: {
-            appId: '',
-            appKey: '',
+            appId: 'sINkW5sfpPxoqDyBqbpvTN79-gzGzoHs',
+            appKey: '5tkDVulRNyjuAbCUekxU6zHW',
         }
     },
     markdown: {
