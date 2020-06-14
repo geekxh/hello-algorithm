@@ -7,7 +7,7 @@ module.exports = {
     themeConfig: {
         sidebar: "auto",
         nav: [
-            { text: 'GitHub', link: 'https://github.com/geekxh/hello-algorithm', icon: 'reco-github' },
+          { text: 'GitHub', link: 'https://github.com/geekxh/hello-algorithm', icon: 'reco-github' }
         ],
         type: 'blog',
         search: true,
