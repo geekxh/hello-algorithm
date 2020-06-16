@@ -19,7 +19,8 @@ module.exports = {
         valineConfig: {
             appId: 'sINkW5sfpPxoqDyBqbpvTN79-gzGzoHsz',
             appKey: '5tkDVulRNyjuAbCUekxU6zHW',
-        }
+        },
+        noFoundPageByTencent: false
     },
     markdown: {
         lineNumbers: true,
