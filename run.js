@@ -1,5 +1,5 @@
 const { exec } = require('child_process')
-exec('npm run dev',(error, stdout, stderr) => {
+exec('npm run build',(error, stdout, stderr) => {
   if(error){
     console.log(`exec error: ${error}`)
     return
