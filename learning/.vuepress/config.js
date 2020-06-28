@@ -1,8 +1,8 @@
 module.exports = {
     title: "小浩算法",
-    plugins: [require('../../lib/autobar.js')],
+    plugins: [require('../../lib/autobar.js'), require('../../lib/Notification.js')],
     description: '和小浩一起学算法',
-    root : "./hell-algorithm",
+    // root : "./hell-algorithm",
     theme: "reco",
     themeConfig: {
         sidebar: "auto",
