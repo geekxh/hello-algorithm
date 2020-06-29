@@ -23,8 +23,9 @@
       </i>
     </h4>
     <div class="notification-content">
-      <h5>扫码回复【进群】</h5>
-      <h5>加入每日刷题 🎉🎉🎉</h5>
+      <h5>🐳 扫码回复【进群】🐳 </h5>
+      <h5>🎉 加入每日刷题群 🎉</h5>
+      <h5>🍓 下载高清《图解算法》🍓</h5>
       </br>
       <img src="../img/avatar.jpeg" alt />
     </div>
