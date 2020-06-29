@@ -23,12 +23,14 @@
       </i>
     </h4>
     <div class="notification-content">
-      <h5>欢迎加入QQ交流群 🎉🎉🎉</h5>
-      <img src="../img/suggest.jpeg" alt />//todo 二维码
+      <h5>扫码回复【进群】</h5>
+      <h5>加入每日刷题 🎉🎉🎉</h5>
+      </br>
+      <img src="../img/avatar.jpeg" alt />
     </div>
     <div style="padding: 0px 16px;">
       <hr />
-      <a href="../learning/README.md" class="btn-donate">打赏</a>//todo 打赏链接
+      <a href="/0.0.学习须知/01.html" class="btn-donate"> 进群 </a>
     </div>
   </div>
 </template>
