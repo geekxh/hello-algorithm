@@ -14,7 +14,7 @@ module.exports = {
         searchMaxSuggestions: 10,
         lastUpdated: '文章修订于',
         author: '程序员小浩',
-        authorAvatar: '/avatar.png',
+        authorAvatar: '/code.png',
         startYear: '2019',
         valineConfig: {
             appId: 'sINkW5sfpPxoqDyBqbpvTN79-gzGzoHsz',

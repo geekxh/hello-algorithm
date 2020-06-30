@@ -27,7 +27,7 @@
       <h5>🎉 加入每日刷题群 🎉</h5>
       <h5>🍓 下载高清《图解算法》🍓</h5>
       </br>
-      <img src="../img/avatar.jpeg" alt />
+      <img src="/code.png" alt />
     </div>
     <div style="padding: 0px 16px;">
       <hr />

@@ -10,7 +10,7 @@
 
 为了大家更好的交流，我创建了万人刷题群。我承诺群里无广告，不套路，仅作算法交流学习使用！下方扫码回复 <font color="red"><b>【进群】</b></font> 即可
 
-<img src="https://www.geekxh.com/code.jpeg" alt="JPEG" style="zoom: 67%;"/>
+<img src="https://www.geekxh.com/code.png" alt="JPEG" style="zoom: 67%;"/>
 
 * [开始学习](http://www.geekxh.com) 
 
