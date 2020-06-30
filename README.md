@@ -8,9 +8,9 @@
 > 目前该教程<b>全部免费</b>，正因如此被一些不良商家拿去卖钱！ 所以我把全部的内容都同步到了 [github](https://github.com/geekxh/hello-algorithm
 )，<b>希望大家可以帮我点一个 star，防止有更多的人上当受骗！</b> 小浩感激不尽！
 
-为了大家更好的交流，我创建了万人刷题群。我承诺群里无广告，不套路，仅作算法交流学习使用！下方扫码回复 <font color="red"><b>【进群】</b></font> 即可
+为了大家更好的交流，我创建了万人刷题群。我承诺群里无广告，不套路，仅作算法交流学习使用！下方扫码回复 <font color="red"><b>【进群】</b></font> 即可\
 
-<img src="https://www.geekxh.com/code.jpeg" alt="JPEG" style="zoom: 67%;"/>
+> <img src="https://www.geekxh.com/code.jpeg" alt="JPEG" height="200" width="200"/>
 
 * [开始学习](http://www.geekxh.com) 
 
