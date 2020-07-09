@@ -6,6 +6,7 @@ module.exports = {
     theme: "reco",
     themeConfig: {
         sidebar: "auto",
+        searchPlaceholder: "搜索：KMP",
         nav: [
           { text: 'GitHub', link: 'https://github.com/geekxh/hello-algorithm', icon: 'reco-github' }
         ],
