@@ -10,6 +10,7 @@
 为了大家更好的交流，我创建了万人刷题群。我承诺群里无广告，不套路，仅作算法交流学习使用！下方扫码回复 <font color="red"><b>【进群】</b></font> 即可
 
 > <img src="https://www.geekxh.com/code.png" alt="小浩算法" height="200" width="200"/>
+[(如果图片无法展示，点击即可)](https://www.geekxh.com/code.png)
 
 * [开始学习](http://www.geekxh.com) 
 
