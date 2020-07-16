@@ -1,0 +1,95 @@
+javaScript 可以操纵html
+jsp(EL,<%>,标签库)可以动态嵌入到html,javaScript
+
+jsp -tomcat解释-> 静态存在与html中 -> javaScript与Html同时存在客户端->javaScript可动态操纵Html
+
+jsp九大内置对象、四种作用域
+
+JSP中九大内置对象为：
+　1、request            请求对象　            类型 javax.servlet.ServletRequest        作用域 Request
+　2、response          响应对象                   类型 javax.servlet.SrvletResponse       作用域  Page
+　3、pageContext    页面上下文对象       类型 javax.servlet.jsp.PageContext              作用域    Page
+　4、session            会话对象           类型 javax.servlet.http.HttpSession    作用域    Session
+　5、application       应用程序对象          类型 javax.servlet.ServletContext          作用域    Application
+   6、out                 输出对象                   类型 javax.servlet.jsp.JspWriter             作用域    Page
+　7、config              配置对象                  类型 javax.servlet.ServletConfig            作用域    Page
+　8、page               页面对象                  类型 javax.lang.Object                      作用域    Page
+　9、exception        例外对象                 类型 javax.lang.Throwable                     作用域    page
+
+page：当前页面，也就是只要跳到别的页面就失效了
+request：一次会话，简单的理解就是一次请求范围内有效
+session：浏览器进程，只要当前页面没有被关闭（没有被程序强制清除），不管怎么跳转都是有效的
+application：服务器，只要服务器没有重启（没有被程序强制清除），数据就有效
+
+
+JavaScript 参考手册
+本部分提供完整的 JavaScript 参考手册：
+JavaScript 本地对象和内置对象
+Browser 对象（BOM）
+HTML DOM 对象
+JavaScript 对象参考手册
+本参考手册描述每个对象的属性和方法，并提供实例。
+Array
+Boolean
+Date
+Math
+Number
+String
+RegExp
+Global
+Browser 对象参考手册
+本参考手册描述每个对象的属性和方法，并提供实例。
+Window
+Navigator
+Screen
+History
+Location
+HTML DOM 对象参考手册
+本参考手册描述每个对象的属性和方法，并提供实例。
+Document
+Anchor
+Area
+Base
+Body
+Button
+Canvas
+Event
+Form
+Frame
+Frameset
+IFrame
+Image
+Input Button
+Input Checkbox
+Input File
+Input Hidden
+Input Password
+Input Radio
+Input Reset
+Input Submit
+Input Text
+Link
+Meta
+Object
+Option
+Select
+Style
+Table
+TableCell
+TableRow
+Textarea
+相关页面
+如需更多有关 JavaScript 对象的知识，请阅读 JavaScript 高级教程中的相关内容：
+面向对象技术
+对象应用
+对象类型
+对象作用域
+定义类或对象
+修改对象
+如需更多有关 DOM 的知识，请访问 W3School 提供的 XML DOM 教程：
+XML DOM 教程
+XML DOM 参考手册
+如需更多有关 jQuery 的知识，请访问 W3School 提供的 jQuery 教程：
+jQuery 教程
+jQuery 参考手册
+注释：jQuery 是一个 JavaScript 库，它极大地简化了 JavaScript 编程。
