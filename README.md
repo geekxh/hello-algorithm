@@ -13,13 +13,14 @@
 2、目前我的内容除整理成一本 30w 字的电子书外，还会每天定期发布新的内容在公众号上。公众号中可以通过回复<font color="red"><b>【加群】
  </b></font> 进入万人刷题群，我们可以一起讨论问题。
 
-> <img src="https://www.geekxh.com/code.png" alt="小浩算法" height="200" width="200"/> [(如果图片无法展示，点击这里)](https://www.geekxh.com/code.png)
+
+> [![图片展示失败，点击查看](https://www.geekxh.com/code.png)](https://www.geekxh.com/code.png)
 
 3、为了大家更好的学习，我还将所有的内容同步到了我的网站上。如果 github 网速慢，可以 <b> 通过网站直接下载我写的这本书，以及所有导图</b>
 
 网站地址：https://www.geekxh.com
 
-## 内容截图
+## 内容展示
 
 我这里截取了思维导图以及算法题解的内容图片，可以先看一下效果：
 
@@ -27,17 +28,15 @@
 
 导图效果展示：[点击查看](https://www.geekxh.com/daotu-2.png)
 
-电子书效果展示:[点击查看]（https://www.geekxh.com/book.png）
+电子书效果展示: [点击查看](https://www.geekxh.com/book.png)
 
 网站效果：[点击查看](https://www.geekxh.com/demo.png)
 
-## 获取方式任选其一
+## 获取方式（任选其一）
 
-1、通过网站下载（推荐）：
+1、通过网站下载（推荐）：[下载地址](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html)
 
-[下载地址](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html)
-
-2、直接通过 github clone 项目。
+2、直接通过 github clone 项目。（因为资源较大，网速会比较慢）
 
 3、公众号扫码回复 999。
 
