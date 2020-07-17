@@ -1,16 +1,47 @@
-# 前言
+# 和小浩学算法
 
-小浩算法是我在疫情期间完成的一部图解算法题典！目前共完成 <font color="red"><b>105道</b></font> 
-高频面试算法题目，全部采用漫画图解的方式。该教程目前共有 <font color="red"><b>11w</b></font> 人阅读。 
-面向 <font color="red"><b>算法小白</b></font> 和 <font color="red"><b>初中阶读者</b></font>。所有代码均在 leetcode 上测试运行，可以直接右上角搜索题号。
+## 简介
 
-> 目前该教程<b>全部免费</b>，正因如此被一些不良商家拿去卖钱！ 所以我把全部的内容都同步到了 [github](https://github.com/geekxh/hello-algorithm
-)，<b>希望大家可以帮我点一个 star，防止有更多的人上当受骗！</b> 小浩感激不尽！
+小浩算法是我在疫情期间完成的一部图解算法题典！目前共完成 <font color="red"><b> 100+ </b></font> 
+道高频面试算法题目，全部采用漫画图解的方式，简单易懂，适合初中级读者。
 
-为了大家更好的交流，我创建了万人刷题群。我承诺群里无广告，不套路，仅作算法交流学习使用！下方扫码回复 <font color="red"><b>【进群】</b></font> 即可
+## 如何学习
 
-> <img src="https://www.geekxh.com/code.png" alt="小浩算法" height="200" width="200"/>
-[(如果图片无法展示，点击即可)](https://www.geekxh.com/code.png)
+1、因为本教程完全免费，但现在被一些不良商家拿去卖钱，所以我需要你先帮我点一个 <font color="red"><b> star
+ </b></font>，助力原创，也顺便满足我一下下。
+
+2、目前我的内容除整理成一本 30w 字的电子书外，还会每天定期发布新的内容在公众号上。公众号中可以通过回复<font color="red"><b>【加群】
+ </b></font> 进入万人刷题群，我们可以一起讨论问题。
+
+> <img src="https://www.geekxh.com/code.png" alt="小浩算法" height="200" width="200"/> [(如果图片无法展示，点击这里)](https://www.geekxh.com/code.png)
+
+3、为了大家更好的学习，我还将所有的内容同步到了我的网站上。如果 github 网速慢，可以 <b> 通过网站直接下载我写的这本书，以及所有导图</b>
+
+网站地址：https://www.geekxh.com
+
+## 内容截图
+
+我这里截取了思维导图以及算法题解的内容图片，可以先看一下效果：
+
+导图目录：[点击查看](https://www.geekxh.com/daotu-1.png)
+
+导图效果展示：[点击查看](https://www.geekxh.com/daotu-2.png)
+
+电子书效果展示:[点击查看]（https://www.geekxh.com/book.png）
+
+网站效果：[点击查看](https://www.geekxh.com/demo.png)
+
+## 获取方式任选其一
+
+1、通过网站下载（推荐）：
+
+[下载地址](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html)
+
+2、直接通过 github clone 项目。
+
+3、公众号扫码回复 999。
+
+## 题解目录
 
 * [开始学习](http://www.geekxh.com) 
 
