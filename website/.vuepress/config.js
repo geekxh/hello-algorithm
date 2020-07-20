@@ -10,6 +10,9 @@ module.exports = {
         nav: [
             {text: 'GitHub', link: 'https://github.com/geekxh/hello-algorithm', icon: 'reco-github'}
         ],
+        head:[
+            ['link',{rel:'shortcut icon',href:'/favicon.ico'}]
+        ],
         type: 'blog',
         search: true,
         searchMaxSuggestions: 10,
