@@ -8,7 +8,10 @@ module.exports = {
         sidebar: "auto",
         searchPlaceholder: "搜索：KMP",
         nav: [
-          { text: 'GitHub', link: 'https://github.com/geekxh/hello-algorithm', icon: 'reco-github' }
+            {text: 'GitHub', link: 'https://github.com/geekxh/hello-algorithm', icon: 'reco-github'}
+        ],
+        head:[
+            ['link',{rel:'shortcut icon',href:'/favicon.ico'}]
         ],
         type: 'blog',
         search: true,
@@ -18,6 +21,9 @@ module.exports = {
         authorAvatar: '/code.png',
         startYear: '2019',
         valineConfig: {
+            placeholder: "留下你的问题，或者你想要的资源...",
+            avatar: "wavatar",
+            requiredFields: ['nick'],
             appId: 'sINkW5sfpPxoqDyBqbpvTN79-gzGzoHsz',
             appKey: '5tkDVulRNyjuAbCUekxU6zHW',
         },
