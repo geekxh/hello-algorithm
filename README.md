@@ -1,5 +1,9 @@
 # 和小浩学算法
 
+> 本项目于 2020.7.22 位于 github 日总榜第一！特此留念！
+
+> [![图片展示失败，点击查看](https://www.geekxh.com/mark.png)](https://www.geekxh.com/mark.png)
+
 ## 简介
 
 > [![图片展示失败，点击查看](https://www.geekxh.com/book.png)](https://www.geekxh.com/book.png)
@@ -12,7 +16,7 @@
 
 2、如果你想直接下载我的这本电子书，[点击这里就行](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
 
-3、如果你还想加入我们的万人刷题群，和我们一起交流，遇见更优秀的人。请下方扫码回复【进群】
+3、如果你还想加入我们的<b>万人刷题群</b>，和我们一起交流，遇见更优秀的人。请下方扫码回复【进群】
 
 > [![图片展示失败，点击查看](https://www.geekxh.com/code.png)](https://www.geekxh.com/code.png)
 
