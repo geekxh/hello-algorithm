@@ -1,6 +1,6 @@
 # 和小浩学算法
 
-> 本项目于 2020.7.22 位于 github 日总榜第一！截图留念！
+> 本项目于 2020.7.22 位于 github 日总榜第一！截图留念！(还没有助力的，右上角快来个 star )
 
 > [![图片展示失败，点击查看](https://www.geekxh.com/mark.png)](https://www.geekxh.com/mark.png)
 
