@@ -14,8 +14,8 @@ Xiaohao algorithm is a graphic algorithm problem dictionary completed by me duri
 
 1、my_book（No translation yet.....）
 
-2、code_100
+2、showmecode_100（）
 
 3、interview_100
 
-4、mindMap_100（42 HD mind maps，No translation yet.....）
+4、mindMap_100（42 HD mind map...）
