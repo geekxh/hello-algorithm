@@ -5,9 +5,11 @@ module.exports = {
     // root : "./hell-algorithm",
     theme: "reco",
     themeConfig: {
+        logo: '/logo.jpeg',
         sidebar: "auto",
         searchPlaceholder: "搜索：KMP",
         nav: [
+            {text: '动态规划', link: '/1.2.动态规划系列' },
             {text: 'GitHub', link: 'https://github.com/geekxh/hello-algorithm', icon: 'reco-github'}
         ],
         head:[
@@ -21,6 +23,8 @@ module.exports = {
         authorAvatar: '/code.png',
         startYear: '2019',
         valineConfig: {
+            visitor:false,
+            enable: false,
             placeholder: "留下你的问题，或者你想要的资源...",
             avatar: "wavatar",
             requiredFields: ['nick'],
