@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      "vuepress-theme-reco@1.4.5",
+      "E:\\project\\hello-algorithm"
+    ]
+  ],
+  "_development": true,
+  "_from": "vuepress-theme-reco@1.4.5",
+  "_id": "vuepress-theme-reco@1.4.5",
+  "_inBundle": false,
+  "_integrity": "sha512-6PUIzDIzfs8ZCdnUiPdYuCc1IHpRDuNXvD0RuBCbw8N6LsBsPSJy7aiffcDebjDyOpFFkEzTBDNH1EtVGkbExg==",
+  "_location": "/vuepress-theme-reco",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "vuepress-theme-reco@1.4.5",
+    "name": "vuepress-theme-reco",
+    "escapedName": "vuepress-theme-reco",
+    "rawSpec": "1.4.5",
+    "saveSpec": null,
+    "fetchSpec": "1.4.5"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vuepress-theme-reco/-/vuepress-theme-reco-1.4.5.tgz",
+  "_spec": "1.4.5",
+  "_where": "E:\\project\\hello-algorithm",
+  "author": {
+    "name": "reco_luan"
+  },
+  "bugs": {
+    "url": "https://github.com/vuepress-reco/vuepress-theme-reco/issues"
+  },
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-back-to-top": "^1.4.0",
+    "@vuepress-reco/vuepress-plugin-comments": "^1.4.3",
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.4.0",
+    "@vuepress-reco/vuepress-plugin-pagation": "^1.4.0",
+    "@vuepress/plugin-blog": "1.9.2",
+    "@vuepress/plugin-medium-zoom": "1.4.1",
+    "docsearch.js": "2.6.3",
+    "md5": "2.2.1",
+    "valine": "1.4.4",
+    "vue-click-outside": "1.1.0"
+  },
+  "description": "A simple and beautiful vuepress Blog & Doc theme.",
+  "gitHead": "44f9d0eb140fed40ba3cce815213c978a06faee0",
+  "homepage": "https://vuepress-theme-reco.recoluan.com",
+  "keywords": [
+    "vuepress",
+    "vue",
+    "theme"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "vuepress-theme-reco",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress-reco/vuepress-theme-reco.git"
+  },
+  "version": "1.4.5"
+}

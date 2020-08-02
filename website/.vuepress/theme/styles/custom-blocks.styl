@@ -1,0 +1,51 @@
+.custom-block
+  .custom-block-title
+    font-weight 600
+    margin-bottom -0.4rem
+  &.tip, &.warning, &.danger
+    padding .1rem 1.5rem
+    border-left-width .5rem
+    border-left-style solid
+    margin 1rem 0
+  &.tip
+    background-color var(--code-color)
+    border-color #67cc86
+    .custom-block-title
+      color #67cc86
+  &.warning
+    background-color var(--code-color)
+    border-color #fb9b5f
+    .custom-block-title
+      color #fb9b5f
+  &.danger
+    background-color var(--code-color)
+    border-color #f26d6d
+    .custom-block-title
+      color #f26d6d
+  &.right
+    color transparentify($textColor, 0.4)
+    font-size 0.9rem
+    text-align right
+  &.theorem
+    margin 1rem 0
+    padding .1rem 1.5rem
+    border-radius 0.4rem
+    background-color var(--code-color)
+    .title
+      font-weight bold
+  &.details
+    display block
+    position relative
+    border-radius 2px
+    margin 1em 0
+    padding 1rem
+    background-color var(--code-color)
+    h4
+      margin-top 0
+    figure, p
+      &:last-child
+        margin-bottom 0
+        padding-bottom 0
+    summary
+      outline none
+      cursor pointer
