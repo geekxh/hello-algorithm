@@ -73,7 +73,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 * [2.链表]()
     * [01.删除链表倒数第N个节点(19)](http://www.geekxh.com/1.1.链表系列/101.html)
     * [02.合并两个有序链表(21)](http://www.geekxh.com/1.1.链表系列/102.html)
-    * [03.环形链表(21)](http://www.geekxh.com/1.1.链表系列/103.html)
+    * [03.环形链表(141)](http://www.geekxh.com/1.1.链表系列/103.html)
     * [04.两数相加(2)](http://www.geekxh.com/1.1.链表系列/104.html)
     
 * [3.动态规划]()    
