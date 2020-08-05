@@ -34,9 +34,9 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 很多人让我推荐算法视频，我就帮大家找了一个，是前 Facebook 工程师的一个算法视频，主要是应对<b>算法面试</b>。价格也比较便宜，只要 9.9
  元。<b>对于基础差的同学，看视频不失为一种效率更高的方法</b>，大家可以尝试学学看。[【点击获取】](https://u.geekbang.org/subject/prioralgorithm?gk_cus_user_wechat=university&utm_source=xiaohaosuanfaguanggao&utm_medium=0731&utm_term=xiaohaosuanfaguanggao0731)
 
-<img src="https://www.geekxh.com/geek-1.jpeg" width="620" height="259" align=center><br/>
+<img src="https://www.geekxh.com/geek-3.png"><br/>
 
-另外，我这里再推荐几本算法书籍，大家可以配合
+<b>另外，我这里再推荐几本算法书籍，大家可以尝试学习</b>
 
 《算法4》--- 主要是基础知识，对排序，查找，图，字符串讲解的图非常经典。适合初学者。
 
