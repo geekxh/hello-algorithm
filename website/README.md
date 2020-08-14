@@ -1,6 +1,6 @@
-# 这是你的主页
 
----
+title:  干就对了！奥利给
+
 home: true
 heroImage: /hero.png
 heroImageStyle: {
@@ -10,4 +10,3 @@ heroImageStyle: {
   borderRadius: '50%',
   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
----

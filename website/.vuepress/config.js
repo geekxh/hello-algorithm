@@ -1,34 +1,32 @@
+const sidebar = require('./lib/sidebar/')
+
 module.exports = {
-    title: "和小浩学编程",
+    title: "小浩算法",
     plugins: [
-        require('../../lib/autobar.js'),
-        require('../../lib/Notification.js')],
-    description: '编程是一件有趣的事情',
+        require('./lib/Notification.js'),
+        [require('./plugin/enhanced-search'), { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
+            thirdparty: [ // 可选，默认 []
+                {
+                    title: '在 <span style="color: blue; ">Baidu</span> &nbsp;&nbsp;中搜索 ',
+                    frontUrl: 'https://www.baidu.com/s?wd=',
+                },
+                {
+                    title: '在 <span style="color: red; ">Google</span> 中搜索 ',
+                    frontUrl: 'https://www.google.com/search?q=',
+                }
+            ]
+        }]
+    ],
+    description: '和小浩一起学算法',
     // root : "./hell-algorithm",
     theme: "reco",
     themeConfig: {
         logo: '/logo.png',
-        sidebar: "auto",
+        sidebar,
         searchPlaceholder: "搜索：KMP",
         nav: [
-            {
-                text: 'GitHub',
-                link: 'https://githubd.com/geekxh/hello-algorithm',
-                icon: 'reco-github'
-            },
-            {
-                text: 'TimeLine',
-                link: '/timeline/',
-                icon: 'reco-date'
-            }
+            {text: 'GitHub', link: 'https://github.com/geekxh/hello-algorithm', icon: 'reco-github'}
         ],
-        // 博客配置
-        blogConfig: {
-            tag: {
-                location: 3,     // 在导航栏菜单中所占的位置，默认3
-                text: 'Tag'      // 默认文案 “标签”
-            }
-        },
         head: [
             ['link', {rel: 'shortcut icon', href: '/favicon.ico'}]
         ],

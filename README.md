@@ -25,13 +25,26 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 4、当然，也许你就想加我的私人微信: [个人名片](https://www.geekxh.com/contact.jpeg)
 
-## 本项目除此之外，还包括（持续更新）：
+5、本项目还包括：a、100 张超清思维导图 b、100 篇大厂面试面经 c、100 本清晰版电子书 
 
-1、100 张超清思维导图
+注：<b>资料不要贪多，找到适合自己的才重要。</b>
 
-2、100 篇大厂面试面经
+## 资料推荐
 
-3、100 本清晰版电子书
+很多人让我推荐算法视频，我就帮大家找了一个，是前 Facebook 工程师的一个算法视频，主要是应对<b>算法面试</b>。该视频为付费视频。
+<b>对于基础差的同学，看视频不失为一种效率更高的方法</b>，大家可以尝试学学看。[【点击获取】](https://u.geekbang.org/subject/prioralgorithm?gk_cus_user_wechat=university&utm_source=xiaohaosuanfaguanggao&utm_medium=0731&utm_term=xiaohaosuanfaguanggao0731)
+
+<img src="https://www.geekxh.com/geek-3.png"><br/>
+
+<b>另外，我这里再推荐几本算法书籍，大家可以尝试学习</b>
+
+《算法4》--- 主要是基础知识，对排序，查找，图，字符串讲解的图非常经典。适合初学者。
+
+《剑指offer》--- 在有一定刷题经验后进行自我学习。初学者可以先看看上面的视频，掌握常见题目思路后再进行学习。
+
+《算法导论》--- 很有名很经典，但更多被用来当作资料查阅，不建议初学者通读。
+
+《算法引论》--- 从设计算法的角度思考问题，难度颇大，不适合初学者。
 
 ## 内容展示
 
@@ -73,7 +86,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 * [2.链表]()
     * [01.删除链表倒数第N个节点(19)](http://www.geekxh.com/1.1.链表系列/101.html)
     * [02.合并两个有序链表(21)](http://www.geekxh.com/1.1.链表系列/102.html)
-    * [03.环形链表(21)](http://www.geekxh.com/1.1.链表系列/103.html)
+    * [03.环形链表(141)](http://www.geekxh.com/1.1.链表系列/103.html)
     * [04.两数相加(2)](http://www.geekxh.com/1.1.链表系列/104.html)
     
 * [3.动态规划]()    
