@@ -43,7 +43,7 @@
     "@vuepress/plugin-medium-zoom": "1.4.1",
     "docsearch.js": "2.6.3",
     "md5": "2.2.1",
-    "valine": "1.4.4",
+    "valine": "1.4.7",
     "vue-click-outside": "1.1.0"
   },
   "description": "A simple and beautiful vuepress Blog & Doc theme.",

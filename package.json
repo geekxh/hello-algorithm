@@ -8,7 +8,8 @@
   },
   "devDependencies": {
     "algoliasearch": "^4.2.0",
-    "vuepress": "^1.4.1"
+    "vuepress": "^1.4.1",
+    "vuepress-theme-reco": "^1.4.5"
   },
   "description": "易懂的算法教程",
   "dependencies": {
