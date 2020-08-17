@@ -4,9 +4,8 @@
 >
 > [点击下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html)
 
-###### 最近发现我写的书被培训机构拿去卖钱了，右上角给个 star 支持一下，让更多人看到，助力原创！
-
 <div align="center">
+    <h6>最近发现我写的书被培训机构拿去卖钱了，右上角给个 star 支持一下，让更多人看到，助力原创！</h6>
     <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/logo_tmp_1.png" width="250px"></a>
 </div>
 
