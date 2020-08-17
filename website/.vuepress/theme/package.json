@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-back-to-top": "^1.4.0",
-    "@vuepress-reco/vuepress-plugin-comments": "^1.4.3",
+    "@vuepress-reco/vuepress-plugin-comments": "^1.4.7",
     "@vuepress-reco/vuepress-plugin-loading-page": "^1.4.0",
     "@vuepress-reco/vuepress-plugin-pagation": "^1.4.0",
     "@vuepress/plugin-blog": "1.9.2",
