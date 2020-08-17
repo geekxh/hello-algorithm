@@ -2,7 +2,9 @@
 
 > 小浩算法是我在疫情期间完成的一部图解算法题典！<b> 目前共完成 140+ 道高频面试算法题目，总计 40w 字，全部采用漫画图解的方式，简单易懂。拥有近 10w 读者！</b>
 >
-> [点击即可下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html)
+> [点击下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html)
+
+###### 最近发现我写的书被培训机构拿去卖钱了，右上角给个 star 支持一下，让更多人看到，助力原创！
 
 <div align="center">
     <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/logo_tmp_1.png" width="250px"></a>
