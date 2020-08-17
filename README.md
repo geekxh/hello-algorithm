@@ -3,6 +3,14 @@
 <div align="center">
     <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/logo_tmp.png" width="250px"></a>
 </div>
+
+<p align="center">
+  <a href="https://www.geekxh.com/"><img src="https://www.geekxh.com/blog_blue.svg" alt="css"></a>
+  <a href="https://www.geekxh.com/"><img src="https://www.geekxh.com/trending.svg?label=html" alt="html"></a>
+</p>
+<p align="center">
+    思考 - 动手 - 坚持  
+</p>
   
 ## 简介
 
