@@ -43,24 +43,31 @@
 5、本项目还包括：a、100 张超清思维导图 b、100 篇大厂面试面经 c、100 本清晰版电子书 
 
 注：<b>资料不要贪多，找到适合自己的才重要。</b> 
- 
 
-### 资料推荐
 
-很多人让我推荐算法视频，我就帮大家找了一个，是前 Facebook 工程师的一个算法视频，主要是应对<b>算法面试</b>。该视频为付费视频。
-<b>对于基础差的同学，看视频不失为一种效率更高的方法</b>，大家可以尝试学学看。[【点击获取】](https://u.geekbang.org/subject/prioralgorithm?gk_cus_user_wechat=university&utm_source=xiaohaosuanfaguanggao&utm_medium=0731&utm_term=xiaohaosuanfaguanggao0731)
+### 获取全部内容方式（任选其一）
+
+1、通过网站下载（推荐，网速快）：[下载地址](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
+
+2、直接通过 github clone 项目。（国内不推荐）
+
+3、[点击扫码回复【999】通过百度云盘下载](https://www.geekxh.com/code.png)
+
+### 算法资料推荐
+
+很多人让我推荐算法视频，我就帮大家找了一个，是前 Facebook 工程师的一个算法视频，主要是应对<b>算法面试</b>。**该视频为付费视频。**
+对于基础差的同学，看视频不失为一种效率更高的方法，大家可以尝试学学看。[【点击获取】](https://u.geekbang.org/subject/prioralgorithm?gk_cus_user_wechat=university&utm_source=xiaohaosuanfaguanggao&utm_medium=0731&utm_term=xiaohaosuanfaguanggao0731)
 
 <img src="https://www.geekxh.com/geek-3.png"><br/>
 
 <b>另外，我这里再推荐几本算法书籍，大家可以尝试学习</b>
 
-《算法4》--- 主要是基础知识，对排序，查找，图，字符串讲解的图非常经典。适合初学者。
-
-《剑指offer》--- 在有一定刷题经验后进行自我学习。初学者可以先看看上面的视频，掌握常见题目思路后再进行学习。
-
-《算法导论》--- 很有名很经典，但更多被用来当作资料查阅，不建议初学者通读。
-
-《算法引论》--- 从设计算法的角度思考问题，难度颇大，不适合初学者。
+| 书籍名 | 介绍 |
+|---|---|
+| 《算法4》 | 主要是基础知识，对排序，查找，图，字符串讲解的图非常经典。适合初学者。 |
+| 《剑指offer》 | 在有一定刷题经验后进行自我学习。初学者可以先看看上面的视频，掌握常见题目思路后再进行学习。 |
+| 《算法导论》 | 很有名很经典，但更多被用来当作资料查阅，不建议初学者通读。 |
+| 《算法引论》 | 从设计算法的角度思考问题，难度颇大，不适合初学者。 |
 
 ### 内容展示
 
@@ -73,14 +80,6 @@
 电子书效果展示: [点击查看](https://www.geekxh.com/book.png)
 
 网站效果：[点击查看](https://www.geekxh.com/demo.png)
-
-### 获取全部内容方式（任选其一）
-
-1、通过网站下载（推荐，网速快）：[下载地址](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
-
-2、直接通过 github clone 项目。（国内不推荐）
-
-3、公众号扫码回复 999。（直接通过百度云下载）
 
 ### 小浩算法图解题典
 
