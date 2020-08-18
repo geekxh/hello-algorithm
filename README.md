@@ -36,7 +36,9 @@
 
 3、如果你还想加入我们的<b>万人刷题群</b>，和我们一起交流，遇见更优秀的人。请下方扫码回复【进群】
 
-> [![图片展示失败，点击查看](https://www.geekxh.com/code.png)](https://www.geekxh.com/code.png)
+<div align="center">
+    <a href="https://www.geekxh.com/code.png" style="box-shadow: rgb(210, 210, 210) 0em 0em 0.5em 0px; font-size: 17px;"><img src="https://www.geekxh.com/code.png" width="250px"></a>
+</div>
 
 4、当然，也许你就想加我的私人微信: [个人名片](https://www.geekxh.com/contact.jpeg)
 
