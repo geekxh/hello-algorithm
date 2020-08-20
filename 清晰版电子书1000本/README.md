@@ -8,7 +8,9 @@
 
 提取码：请下方扫码回复【book】进行获取
 
-[![图片展示失败，点击查看](https://www.geekxh.com/code.png)](https://www.geekxh.com/code.png)
+<p align="center">
+ [![图片展示失败，点击查看](https://www.geekxh.com/code.png)](https://www.geekxh.com/code.png)
+</p>
 
 ![](./book_1000.png)
 
