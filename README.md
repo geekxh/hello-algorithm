@@ -25,9 +25,9 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 | 👀：[小浩算法图解题典](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd) |  |  |  |  
 | :---: | :---- | :--- | :--- |
 | 🚀：[大厂面经汇总指南](https://github.com/geekxh/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87) | [java](https://github.com/geekxh/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Java) | [python](https://github.com/geekxh/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/Python) | [前端](https://github.com/geekxh/hello-algorithm/tree/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E5%89%8D%E7%AB%AF) |
-| 💯：[剑指offer系列专栏](https://github.com/geekxh/hello-algorithm/tree/master/%E5%89%91%E6%8C%87Offer100%E5%A4%A9)|  |  |  |
 | 🐒：[超清思维导图集锦](https://github.com/geekxh/hello-algorithm/tree/master/%E8%B6%85%E6%B8%85%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE100%E5%BC%A0) |  |  |  |
-| 📚：[超清电子书一千本](https://github.com/geekxh/hello-algorithm/tree/master/%E6%B8%85%E6%99%B0%E7%89%88%E7%94%B5%E5%AD%90%E4%B9%A6100%E6%9C%AC) |  |  |  |
+| 📚：[超清电子书一千本](https://github.com/geekxh/hello-algorithm/tree/master/%E6%B8%85%E6%99%B0%E7%89%88%E7%94%B5%E5%AD%90%E4%B9%A61000%E6%9C%AC) |  |  |  |
+| 💯：[专栏：剑指offer系列](https://github.com/geekxh/hello-algorithm/tree/master/%E9%98%85%E8%AF%BB_%E5%89%91%E6%8C%87offer)|  |  |  |
 
 
 ### 使用指南
