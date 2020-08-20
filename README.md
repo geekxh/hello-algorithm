@@ -1,5 +1,7 @@
 ## 简介
 
+English version repo and Gitbook is on [english branch](https://github.com/geekxh/hello-algorithm/tree/english)
+
 > 小浩算法是我在疫情期间完成的一部图解算法题典！<b> 目前共完成 140+ 道高频面试算法题目，总计 40w 字，全部采用漫画图解的方式，简单易懂。拥有近 10w 读者！</b>
 >
 > [点击下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
