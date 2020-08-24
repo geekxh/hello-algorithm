@@ -30,7 +30,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 | 📺：[专栏：学习linux](https://github.com/geekxh/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/Linux)|  |  |  |
 | 👺：[专栏：学习os](https://github.com/geekxh/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)|  |  |  |
 | 📡：[专栏：学习网络](https://github.com/geekxh/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C)|  |  |  |
-| 🆎：[专栏：学习设计模式](https://github.com/geekxh/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C)|  |  |  |
+| 🆎：[专栏：学习设计模式](https://github.com/geekxh/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)|  |  |  |
 | 📝：[专栏：学习剑指offer](https://github.com/geekxh/hello-algorithm/tree/master/%E4%B8%93%E6%A0%8F/%E5%89%91%E6%8C%87offer)|  |  |  |
 
 
