@@ -273,3 +273,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 | 63、左旋转字符串 | [Left Rotate String](./专栏/剑指offer/58_02_LeftRotateString) |
 | 64、滑动窗口的最大值 | [Max In Sliding Window](./专栏/剑指offer/59_01_MaxInSlidingWindow) |
 | 65、扑克牌的顺子 | [Continous Cards](./专栏/剑指offer/61_ContinousCards) |
+
+### License
+
+本项目除部分引用开源技术文档的内容外，大部分为本人原创！欢迎任何以学习为目的的传播，但未授权任何平台进行转载！
