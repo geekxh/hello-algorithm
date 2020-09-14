@@ -38,10 +38,10 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 2、如果你想直接下载全部内容，[点击这里就行](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
 
-3、如果你还想加入我们的<b>万人刷题群</b>，和我们一起交流，遇见更优秀的人。请下方扫码回复【进群】
+3、如果你还想加入我们的<b>万人刷题群</b>，和我们一起交流，遇见更优秀的人。
 
 <div align="center">
-    <a href="https://www.geekxh.com/code.png" style="box-shadow: rgb(210, 210, 210) 0em 0em 0.5em 0px; font-size: 17px;"><img src="https://www.geekxh.com/code.png" width="250px"></a>
+    <a href="https://www.geekxh.com/code.png" style="box-shadow: rgb(210, 210, 210) 0em 0em 0.5em 0px; font-size: 17px;"><img src="https://www.geekxh.com/code.png" width="200px"></a>
 </div>
 
 4、当然，也许你就想加我的私人微信: [个人名片](https://www.geekxh.com/contact.jpeg)
@@ -51,7 +51,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 ### 其他资料推荐
 
 很多人让我推荐算法视频，我就帮大家找了一个，是前 Facebook 工程师的一个算法视频，主要是应对<b>算法面试</b>。**该视频虽为付费视频，但价格只要9块。**
-对于基础差的同学，看视频不失为一种效率更高的方法，大家可以尝试学学。[【点击获取】](https://u.geekbang.org/subject/prioralgorithm?gk_cus_user_wechat=university&utm_source=kolxiaohaosuanfagithub&utm_medium=0911&utm_term=kolxiaohaosuanfagithub0911)
+非常适合基础差的同学。[【点击获取】](https://u.geekbang.org/subject/prioralgorithm?gk_cus_user_wechat=university&utm_source=kolxiaohaosuanfagithub&utm_medium=0911&utm_term=kolxiaohaosuanfagithub0911)
 
 <img src="https://www.geekxh.com/geek-4.jpg" width="700px"><br/>
  
