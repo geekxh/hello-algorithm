@@ -59,14 +59,21 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 3、[点击扫码回复【999】通过百度云盘下载](https://www.geekxh.com/code.png)
 
-### 算法资料推荐
+### 其他资料推荐
 
 很多人让我推荐算法视频，我就帮大家找了一个，是前 Facebook 工程师的一个算法视频，主要是应对<b>算法面试</b>。**该视频为付费视频。**
 对于基础差的同学，看视频不失为一种效率更高的方法，大家可以尝试学学看。[【点击获取】](https://u.geekbang.org/subject/prioralgorithm?gk_cus_user_wechat=university&utm_source=kolxiaohaosuanfagithub&utm_medium=0911&utm_term=kolxiaohaosuanfagithub0911)
 
 <img src="https://www.geekxh.com/geek-4.jpg"><br/>
 
-<b>另外，我这里再推荐几本算法书籍，大家可以尝试学习</b>
+下面是另外两个资源：第一个是多线程专项提高，第二个是适合大学生的java就业课。
+
+<div>
+    <a href="http://s1.mashibing.com:8012/showimgcodeone?obj=g&pathId=7" style="float:left;width:50%"><img src="https://www.geekxh.com/ad-1.jpg" width="300px" /></a>
+    <a href="https://mp.weixin.qq.com/s/QMgxrVI1CS0gkMlqmG5C8Q" style="float:left;width:50%"><img src="https://www.geekxh.com/ad-2.jpg" width="300px" /></a>
+</div>
+
+<b>我这里再推荐几本算法书籍，大家可以尝试学习</b>
 
 | 书籍名 | 介绍 |
 |------|------|
