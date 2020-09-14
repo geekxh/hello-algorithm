@@ -2,12 +2,14 @@
 
 English version repo and Gitbook is on [english branch](https://github.com/geekxh/hello-algorithm/tree/english)
 
-> 小浩算法是我在疫情期间完成的一部图解算法题典！<b> 目前共完成 140+ 道高频面试算法题目，总计 40w 字，全部采用漫画图解的方式，简单易懂。拥有近 10w 读者！</b>
+> 小浩算法是我在疫情期间完成的一部图解算法题典！<b> 目前共完成 140+ 道高频面试算法题目，总计 40w 字，全部采用漫画图解的方式，简单易懂！</b> 
+>
+> <b> 最近发现我写的书被培训机构拿去卖钱了，右上角给个 star 支持一下，让更多人看到，助力原创！</b>
 >
 > [点击下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
 
 <div align="center">
-    <h6 style="background: azure; font-size: .85em;color: #000000;">最近发现我写的书被培训机构拿去卖钱了，右上角给个 star 支持一下，让更多人看到，助力原创！</h6>
+    <h6 style="background: azure; font-size: .85em;color: #000000;"> 给项目点个star，然后下方扫码回复【进群】即可加入我们的万人刷题群，群内可内推！</h6>
     <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/code3.png"></a>
 </div>
 
