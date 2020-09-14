@@ -36,7 +36,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 1、因为本教程完全免费，但现在被一些不良商家拿去卖钱，<b> 所以我需要你先帮我点一个 star </b>，助力原创，防止更多人上当受骗，也顺便支持我一下。
 
-2、如果你想直接下载我的这本电子书，[点击这里就行](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
+2、如果你想直接下载全部内容，[点击这里就行](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
 
 3、如果你还想加入我们的<b>万人刷题群</b>，和我们一起交流，遇见更优秀的人。请下方扫码回复【进群】
 
@@ -46,18 +46,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 4、当然，也许你就想加我的私人微信: [个人名片](https://www.geekxh.com/contact.jpeg)
 
-5、本项目还包括：a、100 张超清思维导图 b、100 篇大厂面试面经 c、100 本清晰版电子书 
-
 注：<b>资料不要贪多，找到适合自己的才重要。</b> 
-
-
-### 获取全部内容方式（任选其一）
-
-1、通过网站下载（推荐，网速快）：[下载地址](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
-
-2、直接通过 github clone 项目。（国内不推荐）
-
-3、[点击扫码回复【999】通过百度云盘下载](https://www.geekxh.com/code.png)
 
 ### 其他资料推荐
 
