@@ -61,10 +61,10 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 ### 其他资料推荐
 
-很多人让我推荐算法视频，我就帮大家找了一个，是前 Facebook 工程师的一个算法视频，主要是应对<b>算法面试</b>。**该视频为付费视频。**
-对于基础差的同学，看视频不失为一种效率更高的方法，大家可以尝试学学看。[【点击获取】](https://u.geekbang.org/subject/prioralgorithm?gk_cus_user_wechat=university&utm_source=kolxiaohaosuanfagithub&utm_medium=0911&utm_term=kolxiaohaosuanfagithub0911)
+很多人让我推荐算法视频，我就帮大家找了一个，是前 Facebook 工程师的一个算法视频，主要是应对<b>算法面试</b>。**该视频虽为付费视频，但价格只要9块。**
+对于基础差的同学，看视频不失为一种效率更高的方法，大家可以尝试学学。[【点击获取】](https://u.geekbang.org/subject/prioralgorithm?gk_cus_user_wechat=university&utm_source=kolxiaohaosuanfagithub&utm_medium=0911&utm_term=kolxiaohaosuanfagithub0911)
 
-<img src="https://www.geekxh.com/geek-4.jpg" width="600px"><br/>
+<img src="https://www.geekxh.com/geek-4.jpg" width="700px"><br/>
  
 下面是另外两个资源：第一个是多线程专项提高，第二个是适合大学生的java就业课。
 
