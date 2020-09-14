@@ -8,7 +8,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 <div align="center">
     <h6 style="background: azure; font-size: .85em;color: #000000;">最近发现我写的书被培训机构拿去卖钱了，右上角给个 star 支持一下，让更多人看到，助力原创！</h6>
-    <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/code3.png" width="250px"></a>
+    <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/code3.png"></a>
 </div>
 
 <p align="center">
