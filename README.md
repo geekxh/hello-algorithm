@@ -15,7 +15,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
     <h5 style="background: azure; font-size: .85em;color: #000000;"> 扫码回复【进群】可加入我们的万人刷题学习群；回复【999】可直接下载该项目全部资源</h6>
     <h5 style="background: azure; font-size: .85em;color: #000000;"> 包括：一千本开源电子书、各厂面经、百张思维导图、我写的图解算法题典 </h6>
     <h5 style="background: azure; font-size: .85em;color: #000000;"> 如果你愿意支持我，可以给项目点个star，我会很感激！</h6>
-    <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/code3.png"></a>
+    <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/readme/01.png"></a>
 </div>
 
 <p align="center">
