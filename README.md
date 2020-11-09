@@ -40,7 +40,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 3、如果你还想加入我们的<b>万人刷题群</b>，和我们一起交流，遇见更优秀的人。
 
 <div align="center">
-    <a href="https://www.geekxh.com/readme/04.png" style="box-shadow: rgb(210, 210, 210) 0em 0em 0.5em 0px; font-size: 17px;"><img src="https://www.geekxh.com/code.png" width="200px"></a>
+    <a href="https://www.geekxh.com/readme/04.png" style="box-shadow: rgb(210, 210, 210) 0em 0em 0.5em 0px; font-size: 17px;"><img src="https://www.geekxh.com/readme/04.png" width="200px"></a>
 </div>
 
 4、当然，也许你就想加我的私人微信: [个人名片](https://www.geekxh.com/contact.jpeg)
