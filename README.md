@@ -6,8 +6,8 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 >
 > 目前共包括以下几个步骤：
 > - 算法知识基础
-> - 算法刷题训练
-> - 算法知识进阶
+> - 算法刷题训练（图解算法）
+> - 算法知识扩展
 >
 > [目前已支持 PDF 下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
 
@@ -35,17 +35,19 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 1、因为本教程完全免费，但现在被一些不良商家拿去卖钱，<b> 所以我需要你先帮我点一个 star </b>，助力原创，防止更多人上当受骗，也顺便支持我一下。
 
-2、如果你想直接下载我写的算法刷题题典 ，[点击这里就行](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
+2、算法训练包括三部分：① 算法知识基础 ② 图解算法题典 ③ 算法知识扩展，其中图解算法题典可以[直接下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
 
-3、如果你还想加入我们的<b>万人刷题群</b>，和我们一起交流，遇见更优秀的人。
+3、如果是以面试为目的，可以直接对第二部分进行学习。如果基础薄弱，建议从第一部分进行学习。第三部分主要目的为开阔视野，提高思维。
+
+4、对于其中题目有疑惑，可以加入我们的<b>万人刷题群</b>，群里可内推 BAT。扫下面这只熊，回复【进群】即可。
 
 <div align="center">
     <a href="https://www.geekxh.com/readme/04.png" style="box-shadow: rgb(210, 210, 210) 0em 0em 0.5em 0px; font-size: 17px;"><img src="https://www.geekxh.com/readme/04.png" width="200px"></a>
 </div>
 
-4、当然，也许你就想加我的私人微信: [个人名片](https://www.geekxh.com/contact.jpeg)
+5、当然，也许你就想加我的私人微信: [个人名片](https://www.geekxh.com/contact.jpeg)
 
-注：<b>资料不要贪多，找到适合自己的才重要。</b> 
+6、该项目还包括了你在 IT 行业发展可以用到的大部分资料。但我希望大家不要当收藏党，找到适合自己的才重要。
 
 ### 内容展示
 
@@ -60,7 +62,13 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 网站效果：[点击查看](https://www.geekxh.com/demo.png)
 
 
-### 小浩算法图解题典
+## 小浩算法训练
+
+### 第一部分：算法知识基础
+
+### 第二部分：图解算法题典
+
+### 第三部分：算法知识扩展
 
 难度：A 基础  B 进阶
 
