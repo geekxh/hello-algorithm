@@ -2,26 +2,29 @@
 
 English version repo and Gitbook is on [english branch](https://github.com/geekxh/hello-algorithm/tree/english)
 
-> 小浩算法是一套针对小白的完整的算法训练流程！ 
+> #### 小浩算法是一套针对小白的完整的算法训练流程！ 
+> <a href="https://www.geekxh.com/"><img src="https://www.geekxh.com/blog_blue.svg" alt="css"></a>
+> <a href="https://www.geekxh.com/"><img src="https://www.geekxh.com/svg/0-1-blue.svg" alt="html"></a>
+> <a href="https://www.geekxh.com/"><img src="https://www.geekxh.com/svg/1-1-blue.svg" alt="html"></a>
+> <a href="https://github.com/haizlin/fe-interview/stargazers"><img src="https://img.shields.io/github/stars/geekxh/hello-algorithm.svg" alt="Statr"></a>
 >
 > 目前共包括以下几个步骤：
 > - 算法知识基础
-> - 算法刷题训练（图解算法）
-> - 算法知识扩展
+> - 大厂高频面试（图解）
+> - 算法视野扩展
 >
 > [目前已支持 PDF 下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
 
 <div align="center">
-    <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/readme/06.jpg"></a>
+    <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/readme/07.jpg"></a>
 </div>
 
+
+
 <p align="center">
-  <a href="https://www.geekxh.com/"><img src="https://www.geekxh.com/blog_blue.svg" alt="css"></a>
-  <a href="https://www.geekxh.com/"><img src="https://www.geekxh.com/trending.svg?label=html" alt="html"></a>
-  <a href="https://github.com/haizlin/fe-interview/stargazers"><img src="https://img.shields.io/github/stars/geekxh/hello-algorithm.svg" alt="Statr"></a>
-</p>
-<p align="center">
-    这也许是东半球最好的编程学习类项目！
+  
+  
+  
 </p>
 
 ### 本项目中你还可能感兴趣的
