@@ -19,12 +19,16 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
     <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/readme/05.jpg"></a>
 </div>
 
-### 你肯定会想要的资料
+#### 本项目还包括 I：
+
+> 千本开源电子书覆盖了你在IT行业发展可以用到的大部分资料，百张思维导图按照专题对各类计算机知识进行了整合。**由于文件过大，建议通过上方扫码，回复【999】获取**
 
 - 📚 [一千本开源电子书](https://github.com/geekxh/hello-algorithm/tree/master/%E6%B8%85%E6%99%B0%E7%89%88%E7%94%B5%E5%AD%90%E4%B9%A61000%E6%9C%AC)
 - 🐒 [百张思维导图集锦](https://github.com/geekxh/hello-algorithm/tree/master/%E8%B6%85%E6%B8%85%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE100%E5%BC%A0) 
 
-### 大厂面经汇总
+#### 本项目还包括 II：
+
+> 大厂面经汇总覆盖了阿里、京东、华为、字节、滴滴、百度、美团、腾讯 等公司的面试题，按照 公司/专题 两个维度对面试题进行了整合。**由于文件过大，建议通过上方扫码，回复【面经】获取**
 
 | 🚀 | 🚀 | 🚀 | 🚀 | 🚀 | 🚀 |  
 | :--- | :--- | :--- | :--- | :---| :--- |
