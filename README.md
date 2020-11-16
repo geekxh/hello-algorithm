@@ -10,7 +10,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 >
 > 目前共包括以下几个步骤：
 > - 算法基础知识
-> - 算法图解题典
+> - 高频面试题解（图解）
 > - 算法视野扩展
 >
 > [目前已支持 PDF 下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
@@ -18,7 +18,6 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 <div align="center">
     <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/readme/05.jpg"></a>
 </div>
-
 ### 本项目中你还可能感兴趣的
 
 - 📚 [开源电子书一千本](https://github.com/geekxh/hello-algorithm/tree/master/%E6%B8%85%E6%99%B0%E7%89%88%E7%94%B5%E5%AD%90%E4%B9%A61000%E6%9C%AC)
