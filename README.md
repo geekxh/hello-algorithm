@@ -16,7 +16,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 > [目前已支持 PDF 下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
 
 <div align="center">
-    <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/readme/09.jpg"></a>
+    <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/readme/10.jpg"></a>
 </div>
 
 #### 本项目还包括 I：
