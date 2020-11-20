@@ -19,6 +19,10 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
     <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/readme/10.jpg"></a>
 </div>
 
+##### [点击下载本项目全部内容 提取码：【8f8b】 包括：1、我写的图解算法题颠 2、千本开源电子书 3、百张思维导图 4、BAT/TMD 大厂面经](https://www.geekxh.com/github_click.html?6072)
+
+<img src="https://www.geekxh.com/readme/github_click_0.png"></a>
+
 #### 本项目还包括 I：
 
 > 千本开源电子书覆盖了你在IT行业发展可以用到的大部分资料，百张思维导图按照专题对各类计算机知识进行了整合。**由于文件过大，建议通过上方扫码，回复【999】获取**
