@@ -11,6 +11,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 > 目前共包括以下几个步骤：
 > - 算法基础知识
 > - 高频面试题解（图解）
+> - 大厂面经汇总
 > - 算法视野扩展
 >
 > [目前已支持 PDF 下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
@@ -30,23 +31,25 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 ##### [点击下载本项目全部内容 提取码：【8f8b】 包括：1、我写的图解算法题典 2、千本开源电子书 3、百张思维导图 4、BAT/TMD 大厂面经 （如果链接失效，上方扫码回复即可）](https://www.geekxh.com/github_click.html?6072)
 
-<img src="https://www.geekxh.com/readme/github_click_0.png"></a>
+<img src="https://www.geekxh.com/readme/github_click_0.png" width="700px"></a>
 
-#### 本项目还包括 I：
+#### 本项目还包括 I（支持下载）：
 
-> 千本开源电子书覆盖了你在IT行业发展可以用到的大部分资料，百张思维导图按照专题对各类计算机知识进行了整合。**由于文件过大，建议通过上方扫码，回复【999】获取**
+> 千本开源电子书覆盖了你在IT行业发展可以用到的大部分资料，百张思维导图按照专题对各类计算机知识进行了整合。**由于文件过大，建议通过下方扫码，回复【999】获取**
 
 - 📚 [一千本开源电子书](https://github.com/geekxh/hello-algorithm/tree/master/%E6%B8%85%E6%99%B0%E7%89%88%E7%94%B5%E5%AD%90%E4%B9%A61000%E6%9C%AC)
 - 🐒 [百张思维导图集锦](https://github.com/geekxh/hello-algorithm/tree/master/%E8%B6%85%E6%B8%85%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE100%E5%BC%A0) 
 
-#### 本项目还包括 II：
+#### 本项目还包括 II（支持下载）：
 
-> 大厂面经汇总覆盖了阿里、京东、华为、字节、滴滴、百度、美团、腾讯 等公司的面试题，按照 公司/专题 两个维度对面试题进行了整合。**由于文件过大，建议通过上方扫码，回复【面经】获取**
+> 大厂面经汇总覆盖了阿里、京东、华为、字节、滴滴、百度、美团、腾讯 等公司的面试题，按照 公司/专题 两个维度对面试题进行了整合。**由于文件过大，建议通过下方扫码，回复【面经】获取。**
 
-| 🚀 | 🚀 | 🚀 | 🚀 | 🚀 | 🚀 |  
-| :--- | :--- | :--- | :--- | :---| :--- |
-| [阿里篇](https://github.com/geekxh/hello-algorithm/blob/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E9%98%BF%E9%87%8C%E7%AF%87.zip) | [京东篇](https://github.com/geekxh/hello-algorithm/blob/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E4%BA%AC%E4%B8%9C%E7%AF%87.zip) | [华为篇](https://github.com/geekxh/hello-algorithm/blob/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E5%8D%8E%E4%B8%BA%E7%AF%87.zip) | [字节篇](https://github.com/geekxh/hello-algorithm/blob/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E5%A4%B4%E6%9D%A1%E7%AF%87.zip) | [滴滴篇](https://github.com/geekxh/hello-algorithm/blob/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E6%BB%B4%E6%BB%B4%E7%AF%87.zip) | [百度篇](https://github.com/geekxh/hello-algorithm/blob/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E7%99%BE%E5%BA%A6%E7%AF%87.zip) |
-| [百度篇](https://github.com/geekxh/hello-algorithm/blob/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E7%99%BE%E5%BA%A6%E7%AF%87.zip) | [美团篇](https://github.com/geekxh/hello-algorithm/blob/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E7%BE%8E%E5%9B%A2%E7%AF%87.zip) | [腾讯篇](https://github.com/geekxh/hello-algorithm/blob/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/%E8%85%BE%E8%AE%AF%E7%AF%87.zip) | [BAT汇总](https://github.com/geekxh/hello-algorithm/blob/master/%E5%A4%A7%E5%8E%82%E9%9D%A2%E7%BB%8F%E6%B1%87%E6%80%BB100%E7%AF%87/BAT%E9%9D%A2%E8%AF%95%E5%B8%B8%E9%97%AE80%E9%A2%98.zip)
+<br/>
+    <div align="center">
+        <a href="https://www.geekxh.com/readme/04.png" style="box-shadow: rgb(210, 210, 210) 0em 0em 0.5em 0px; font-size: 17px;"><img src="https://www.geekxh.com/readme/04.png" width="200px"></a>
+    </div>
+<br/>
+
 
 ### 使用指南
 
@@ -58,12 +61,6 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 4、对于其中题目有疑惑，可以加入我们的<b>万人刷题群</b>，群里可内推 BAT。扫下面这只熊，回复【进群】即可。
 
-<br/>
-    <div align="center">
-        <a href="https://www.geekxh.com/readme/04.png" style="box-shadow: rgb(210, 210, 210) 0em 0em 0.5em 0px; font-size: 17px;"><img src="https://www.geekxh.com/readme/04.png" width="200px"></a>
-    </div>
-<br/>
-
 5、当然，也许你就想加我的私人微信: [个人名片](https://www.geekxh.com/contact.jpeg)
 
 PS：该项目包括了你在 IT 行业发展可以用到的绝大部分资料。但我希望大家不要当收藏党，找到适合自己的才重要。
@@ -71,8 +68,6 @@ PS：该项目包括了你在 IT 行业发展可以用到的绝大部分资料�
 ### 正文
 
 ### PART I：算法知识基础
-
-
 
 ### PART II：图解算法题典
 
