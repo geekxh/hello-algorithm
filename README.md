@@ -59,7 +59,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 3、如果是以面试为目的，可以直接对第二部分进行学习。如果基础薄弱，建议从第一部分进行学习。第三部分为专题学习，包含大部分算法资料。
 
-4、对于其中题目有疑惑，可以加入我们的<b>万人刷题群</b>，群里可内推 BAT。扫下面这只熊，回复【进群】即可。
+4、对于其中题目有疑惑，可以加入我们的<b>万人刷题群</b>，群里可内推 BAT。扫上面那只熊，回复【进群】即可。
 
 5、当然，也许你就想加我的私人微信: [个人名片](https://www.geekxh.com/contact.jpeg)
 
