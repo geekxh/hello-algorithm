@@ -2,6 +2,9 @@
 
 English version repo and Gitbook is on [english branch](https://github.com/geekxh/hello-algorithm/tree/english)
 
+另外，介于大家下载 github 项目比较慢，可以尝试用这几个插件：https://www.cxyhub.com/?s=github
+都可以给 github 加速哈~（上面的这个插件网也是我自己搭建的哈）
+
 > ### **小浩算法是一套针对小白的完整的算法训练流程！** 
 >
 > <a href="https://www.geekxh.com/"><img src="https://www.geekxh.com/svg/0-1-blueviolet.svg" alt="css"></a>
