@@ -1,4 +1,4 @@
-## PART I 算法基础
+## PART_1_算法基础
 
 [下载 XMIND 完整版](https://www.cxyhub.com/all/programming/12460/)
 
