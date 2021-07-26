@@ -7,6 +7,7 @@
 [开始学习](./1_数据结构知识框架/README.md) 
 
 <img src="https://www.cxyhub.com/wp-content/uploads/2021/07/algorithm-c.png">
+<img src="https://www.cxyhub.com/wp-content/uploads/2021/07/WeChat-_20210726211948.png">
 
 <br/><br/>
 
