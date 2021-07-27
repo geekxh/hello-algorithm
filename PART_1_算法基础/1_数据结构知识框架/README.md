@@ -1,4 +1,4 @@
-[下载 XMIND 完整版](https://www.cxyhub.com/all/programming/12460/)
+[下载 XMIND + PDF 完整版](https://www.cxyhub.com/all/programming/12460/)
 
 知识框架梳理（下面的内容是直接导出的，前后顺序可能有点混乱，不妨碍学习。若想保证最好的学习效果，直接下载上方 xmind 体验会更好）：
 
