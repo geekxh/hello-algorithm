@@ -1,6 +1,6 @@
 ## PART_1_算法基础
 
-[下载 XMIND 完整版](https://www.cxyhub.com/all/programming/12460/)
+[下载 XMIND + PDF 完整版](https://www.cxyhub.com/all/programming/12460/)
 
 - ①：数据结构知识框架：为了大家更好的掌握数据结构和算法，我把基础知识整理成了一张思维导图，包括下面这些内容
 
