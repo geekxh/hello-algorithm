@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/03_01_DuplicationInArray" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/03_02_DuplicationInArrayNoEdit" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/04_FindInPartiallySortedMatrix" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/05_ReplaceSpaces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/06_PrintListInReversedOrder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/07_ConstructBinaryTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/08_NextNodeInBinaryTrees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/09_01_QueueWithTwoStacks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/09_02_StackWithTwoQueues" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/10_01_Fibonacci" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/10_02_JumpFloor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/10_03_JumpFloorII" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/10_04_RectCover" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/11_MinNumberInRotatedArray" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/12_StringPathInMatrix" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/13_RobotMove" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/14_CuttingRope" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/15_NumberOf1InBinary" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/16_Power" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/17_Print1ToMaxOfNDigits" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/18_01_DeleteNodeInList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/18_02_DeleteDuplicatedNode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/19_RegularExpressionsMatching" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/20_NumericStrings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/21_ReorderArray" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/22_KthNodeFromEnd" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/23_EntryNodeInListLoop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/24_ReverseList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/25_MergeSortedLists" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/26_SubstructureInTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/27_MirrorOfBinaryTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/28_SymmetricalBinaryTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/29_PrintMatrix" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/30_MinInStack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/31_StackPushPopOrder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/32_01_PrintTreeFromTopToBottom" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/32_02_PrintTreesInLines" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/32_03_PrintTreesInZigzag" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/33_SquenceOfBST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/34_PathInTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/35_CopyComplexList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/36_ConvertBinarySearchTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/37_SerializeBinaryTrees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/38_StringPermutation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/39_MoreThanHalfNumber" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/40_KLeastNumbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/41_StreamMedian" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/42_GreatestSumOfSubarrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/43_NumberOf1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/44_DigitsInSequence" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/45_SortArrayForMinNumber" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/46_TranslateNumbersToStrings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/47_MaxValueOfGifts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/48_LongestSubstringWithoutDup" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/49_UglyNumber" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/50_01_FirstNotRepeatingChar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/50_02_FristCharacterInStream" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/52_FirstCommonNodesInLists" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/53_01_NumberOfK" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/53_02_MissingNumber" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/53_03_IntegerIdenticalToIndex" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/54_KthNodeInBST" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/55_01_TreeDepth" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/55_02_BalancedBinaryTree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/56_01_NumbersAppearOnce" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/56_02_NumberAppearingOnce" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/57_01_TwoNumbersWithSum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/57_02_ContinuousSquenceWithSum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/58_01_ReverseWordsInSentence" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/58_02_LeftRotateString" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/59_01_MaxInSlidingWindow" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/专栏/剑指offer/61_ContinousCards" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
