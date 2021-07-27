@@ -39,30 +39,28 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 - a：数据结构知识框架：为了大家更好的掌握数据结构和算法，我把基础知识整理成了一张思维导图，包括下面这些知识点：
 
-> [开始学习]()
+> [开始学习](PART_1_算法基础/README.md)
 
-<img src="https://www.cxyhub.com/wp-content/uploads/2021/07/algorithm-c.png">
+<img height="600" src="https://www.cxyhub.com/wp-content/uploads/2021/07/algorithm-c.png">
 
 - b：对常用的数据结构知识进行总结：
 
-*  [链表](./2_基础知识/linked-list/README.md)
-*  [双向链表](./2_基础知识/doubly-linked-list/README.md)
-*  [队列](./2_基础知识/queue/README.md)
-*  [栈](./2_基础知识/stack/README.md)
-*  [哈希表(散列)](./2_基础知识/hash-table/README.md)
-*  [堆](./2_基础知识/heap/README.md)
-*  [优先队列](./2_基础知识/priority-queue/README.md)
-*  [字典树](./2_基础知识/trie/README.md)
-*  [树](./2_基础知识/tree/README.md)
-*  [图](./2_基础知识/graph/README.md) 
-
-为了大家更好的掌握数据结构和算法，我把基础知识整理成了一张思维导图，包括下面这些内容
+*  [链表](PART_1_算法基础/2_基础知识/linked-list/README.md)
+*  [双向链表](PART_1_算法基础/2_基础知识/doubly-linked-list/README.md)
+*  [队列](PART_1_算法基础/2_基础知识/queue/README.md)
+*  [栈](PART_1_算法基础/2_基础知识/stack/README.md)
+*  [哈希表(散列)](PART_1_算法基础/2_基础知识/hash-table/README.md)
+*  [堆](PART_1_算法基础/2_基础知识/heap/README.md)
+*  [优先队列](PART_1_算法基础/2_基础知识/priority-queue/README.md)
+*  [字典树](PART_1_算法基础/2_基础知识/trie/README.md)
+*  [树](PART_1_算法基础/2_基础知识/tree/README.md)
+*  [图](PART_1_算法基础/2_基础知识/graph/README.md) 
 
 ### PART_2_力扣图解
 
 <details><summary><a>显示更多</a></summary></br>
     
-> [小浩图解算法题典.PDF【完整版】下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
+> [小浩图解算法题典.PDF【完整版】下载](https://www.cxyhub.com/all/programming/7786/)
 
 - [开始学习](http://www.geekxh.com)
 - [阅读指南](http://www.geekxh.com/c99/hello.html)
