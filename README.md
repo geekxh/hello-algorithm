@@ -36,11 +36,36 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 ### 正文
 
-### PART I：算法知识基础
+### PART_1_算法基础
 
-### PART II：图解算法题典
+主要包括两部分：
 
-<details><summary>显示更多</summary>
+- a：数据结构知识框架：为了大家更好的掌握数据结构和算法，我把基础知识整理成了一张思维导图，包括下面这些知识点：
+
+> [开始学习]()
+
+<img src="https://www.cxyhub.com/wp-content/uploads/2021/07/algorithm-c.png">
+
+- b：对常用的数据结构知识进行总结：
+
+*  [链表](./2_基础知识/linked-list/README.md)
+*  [双向链表](./2_基础知识/doubly-linked-list/README.md)
+*  [队列](./2_基础知识/queue/README.md)
+*  [栈](./2_基础知识/stack/README.md)
+*  [哈希表(散列)](./2_基础知识/hash-table/README.md)
+*  [堆](./2_基础知识/heap/README.md)
+*  [优先队列](./2_基础知识/priority-queue/README.md)
+*  [字典树](./2_基础知识/trie/README.md)
+*  [树](./2_基础知识/tree/README.md)
+*  [图](./2_基础知识/graph/README.md) 
+
+为了大家更好的掌握数据结构和算法，我把基础知识整理成了一张思维导图，包括下面这些内容
+
+### PART_2_力扣图解
+
+<details><summary><a>显示更多</a></summary></br>
+    
+> [小浩图解算法题典.PDF【完整版】下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
 
 - [开始学习](http://www.geekxh.com)
 - [阅读指南](http://www.geekxh.com/c99/hello.html)
@@ -151,13 +176,24 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 </details>
 
-### PART III：算法视野扩展
+### PART_3_大厂面试（更新中）
 
-| 🙉 | 🙉 | 🙉 | 🙉 |
-| :--- | :--- | :--- | :--- |
-| [背包九讲](https://github.com/geekxh/hello-algorithm/blob/master/%E5%B0%8F%E6%B5%A9%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83/PART_3_%E7%AE%97%E6%B3%95%E8%A7%86%E9%87%8E%E6%89%A9%E5%B1%95/%E8%83%8C%E5%8C%85%E4%B9%9D%E8%AE%B2-2.0.zip) | [C语言经典算法100例](https://github.com/geekxh/hello-algorithm/blob/feature/1118/%E5%B0%8F%E6%B5%A9%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83/PART_3_%E7%AE%97%E6%B3%95%E8%A7%86%E9%87%8E%E6%89%A9%E5%B1%95/C%E8%AF%AD%E8%A8%80%E7%BB%8F%E5%85%B8%E7%AE%97%E6%B3%95100%E4%BE%8B.doc) | [决策树和随机森林](https://github.com/geekxh/hello-algorithm/blob/feature/1118/%E5%B0%8F%E6%B5%A9%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83/PART_3_%E7%AE%97%E6%B3%95%E8%A7%86%E9%87%8E%E6%89%A9%E5%B1%95/%E5%86%B3%E7%AD%96%E6%A0%91%E5%92%8C%E9%9A%8F%E6%9C%BA%E6%A3%AE%E6%9E%97.zip) | [常用推荐算法](https://github.com/geekxh/hello-algorithm/blob/feature/1118/%E5%B0%8F%E6%B5%A9%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83/PART_3_%E7%AE%97%E6%B3%95%E8%A7%86%E9%87%8E%E6%89%A9%E5%B1%95/%E5%B8%B8%E7%94%A8%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95.pdf) |
-| [微软面试100题系列](https://github.com/geekxh/hello-algorithm/blob/feature/1118/%E5%B0%8F%E6%B5%A9%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83/PART_3_%E7%AE%97%E6%B3%95%E8%A7%86%E9%87%8E%E6%89%A9%E5%B1%95/%E5%BE%AE%E8%BD%AF%E9%9D%A2%E8%AF%95100%E9%A2%98%E7%B3%BB%E5%88%97.zip) | [最小生成树算法讲解](https://github.com/geekxh/hello-algorithm/blob/feature/1118/%E5%B0%8F%E6%B5%A9%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83/PART_3_%E7%AE%97%E6%B3%95%E8%A7%86%E9%87%8E%E6%89%A9%E5%B1%95/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91%E7%AE%97%E6%B3%95%E8%AE%B2%E8%A7%A3.ppt) | [魔兽世界平衡算法](https://github.com/geekxh/hello-algorithm/blob/feature/1118/%E5%B0%8F%E6%B5%A9%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83/PART_3_%E7%AE%97%E6%B3%95%E8%A7%86%E9%87%8E%E6%89%A9%E5%B1%95/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C%E5%B9%B3%E8%A1%A1%E7%AE%97%E6%B3%95.zip) |  [Bresenham直线算法与画圆算法](https://github.com/geekxh/hello-algorithm/blob/feature/1118/%E5%B0%8F%E6%B5%A9%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83/PART_3_%E7%AE%97%E6%B3%95%E8%A7%86%E9%87%8E%E6%89%A9%E5%B1%95/Bresenham%E7%9B%B4%E7%BA%BF%E7%AE%97%E6%B3%95%E4%B8%8E%E7%94%BB%E5%9C%86%E7%AE%97%E6%B3%95.doc)
-| [数据结构算法笔试题汇总]() 
+<details><summary><a>显示更多</a></summary></br>
+
+考虑到现在网上面经实在太杂，很多都冠以 “BAT” 之名，重复率、错误率都非常高。所以我尽可能的挑选出了我认为比较好的 50 篇面经（基本不重复），并对内容做了分类。
+
+建议大家把这个页面收藏起来，防止后面需要的时候找不到了。（整理了近40个小时，跪求star~）
+
+- [系统设计-长文（非常建议读，我自己也看了）](https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md)
+- [后端-社招(两年): 蚂蚁 头条 PingCAP](https://github.com/aylei/interview)
+- [后端-京东-JAVA](https://www.cnblogs.com/wupeixuan/p/8908524.html#%E4%B8%80%E3%80%81java)
+- [后端-百度-高并发抢红包设计](https://github.com/xbox1994/Java-Interview/blob/master/MD/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1-%E9%AB%98%E5%B9%B6%E5%8F%91%E6%8A%A2%E7%BA%A2%E5%8C%85.md)
+- [NLP（机器学习）-百度](https://www.e-learn.cn/topic/95743)
+
+</details>
+
+
+### PART_4_CS_知识汇总(TODO)
 
 ### License
 
