@@ -14,7 +14,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 > - PART_3_大厂面试
 > - PART_4_CS知识汇总
 >
-> [目前已支持 PDF 下载](https://www.geekxh.com/0.0.%E5%AD%A6%E4%B9%A0%E9%A1%BB%E7%9F%A5/03.html?3pVd)
+> [目前已支持 PDF 下载](https://www.cxyhub.com/all/programming/7786/)
 
 <div align="center">
     <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/logo_tmp.png" width="250px"></a>
