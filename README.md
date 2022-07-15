@@ -29,21 +29,6 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
     <b>这也许是东半球最好的算法学习类项目！</b>
 </p>
 
----
-
-> **另外为大家介绍一款我们创业开发的替代 PostMan 的产品 —— ApiPost ！**
-> 
-> 简单来讲 ApiPost = Postman + Swagger + Mock，ApiPost 产生的初衷是为了提高研发团队各个角色的效率！产品的使用受众为由前端开发、后端开发和测试人员以及技术经理组成的整个研发技术团队。ApiPost 通过协作功能将研发团队的每个角色整合打通。
-> 
-> 下载地址：https://www.apipost.cn/download.html?fr=lxh
-> 
-> 创业不易，请大家多多支持！
-
-<p align="center">
-    <a href="https://www.apipost.cn/download.html?fr=lxh"><img src="https://www.apipost.cn/statics/images/global.png" width="600px"></a>
-</p>
-
----
 
 
 ### 正文
