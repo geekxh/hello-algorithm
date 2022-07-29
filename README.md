@@ -29,7 +29,13 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
     <b>这也许是东半球最好的算法学习类项目！</b>
 </p>
 
-
+> 我自己刷题都是在 lintcode 进行，也会在上面更新题解！下方可以直接进入~
+- [www.lintcode.com](https://www.lintcode.com/?utm_source=tf-github-xh2022)
+- [另外推荐一套算法课，北大FB双料大神的《九章算法班》，我之前上过，拿几个大厂 Offer 问题不大](https://www.jiuzhang.com/course/71/?utm_source=tf-github-xh2022)
+- 下方扫码，可以领取我准备的刷题模板
+<p align="center">
+    <img height="200" src="https://www.cxyhub.com/wp-content/uploads/2022/07/%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%BE%8E%E5%8C%96-3.png">
+</p>
 
 ### 正文
 
