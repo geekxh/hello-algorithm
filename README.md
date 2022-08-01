@@ -47,8 +47,6 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 
 > [开始学习](PART_1_算法基础/README.md)
 
-<img height="600" src="https://www.cxyhub.com/wp-content/uploads/2021/07/algorithm-c.png">
-
 - b：对常用的数据结构知识进行总结：
 
 *  [链表](PART_1_算法基础/2_基础知识/linked-list/README.md)
