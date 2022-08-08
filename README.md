@@ -35,7 +35,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 - [另外推荐一套算法课，北大FB双料大佬的，我之前上过，性价比很高](https://www.jiuzhang.com/course/71/?utm_source=tf-github-xh2022)
 - 最后，下方扫码可以领取我准备的刷题模板
 <p align="center">
-    <img height="200" src="https://www.cxyhub.com/wp-content/uploads/2022/07/%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%BE%8E%E5%8C%96-3.png">
+    <img height="200" src="https://www.cxyhub.com/wp-content/uploads/2022/08/f9e51121533b2c175bcb41ee8c05e62.jpg">
 </p>
 
 
