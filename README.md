@@ -30,12 +30,16 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 </p>
 </br>
 
-> 我自己刷题都是在 lintcode 进行，也会在上面更新题解！下方可以直接进入~
-- [www.lintcode.com](https://www.lintcode.com/?utm_source=tf-github-xh2022)
-- [另外推荐一套算法课，北大FB双料大佬的，我之前上过，性价比很高](https://www.jiuzhang.com/course/71/?utm_source=tf-github-xh2022)
-- 最后，下方扫码可以领取我准备的刷题模板
+> 最近 GPT 很火，有很多小伙伴想学习 AI，这里为大家分享一套免费的 AI 课程资料，大家扫码领取：
+- Python与数据科学课程资料
+- Pytorch与神经网络课程资料
+- 深度学习与花书深入讲解课程
+- 机器学习入门与实战训练课程
+- 人工智能必备数学基础课程
+- 零基础小白入门科研与论文课程
+- 最新全栈AI前沿论文带读与算法精讲，视频➕配套课件资料
 <p align="center">
-    <img height="200" src="https://www.cxyhub.com/wp-content/uploads/2022/08/f9e51121533b2c175bcb41ee8c05e62.jpg">
+    <img height="200" src="https://www.cxyhub.com/wp-content/uploads/2023/05/c0fa28a419cc62844795e2df41592ed.jpg">
 </p>
 
 
