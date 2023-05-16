@@ -17,7 +17,7 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
 > [目前已支持 PDF 下载](https://www.cxyhub.com/all/programming/7786/)
 
 <div align="center">
-    <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/logo_tmp.png" width="250px"></a>
+    <a href="https://www.geekxh.com"><img src="https://www.geekxh.com/logo_tmp.png" width="350px"></a>
 </div>
 
 <p align="center">
@@ -29,6 +29,19 @@ English version repo and Gitbook is on [english branch](https://github.com/geekx
     <b>这也许是东半球最好的算法学习类项目！</b>
 </p>
 </br>
+
+> 最近 GPT 很火，有很多小伙伴想学习 AI，这里为大家分享一套免费的 AI 课程资料，大家扫码领取：
+- Python与数据科学课程资料
+- Pytorch与神经网络课程资料
+- 深度学习与花书深入讲解课程
+- 机器学习入门与实战训练课程
+- 人工智能必备数学基础课程
+- 零基础小白入门科研与论文课程
+- 最新全栈AI前沿论文带读与算法精讲，视频➕配套课件资料
+<p align="center">
+    <img height="350" src="https://www.geekxh.com/e623533638c3184f53c317bd1bd1450c.jpeg">
+</p>
+
 
 ### 正文
 
